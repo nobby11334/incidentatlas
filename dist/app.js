@@ -20,7 +20,7 @@ function badge(d){const l=severity(d);return '<span class="badge level l'+l[0]+'
 function render(reset=false){
  if(reset===true)page=1;
  const q=$('q').value.trim().toLowerCase();
- filtered=data.filter(d=>selectedKind(d,kind)&&(!q||d.searchText.includes(q))&&(!$('type').value||d.type===$('type').value)&&(!$('sector').value||d.sector===$('sector').value)&&(!$('level').value||severity(d)[0]==$('level').value)&&(!$('year').value||($('basis').value==='event'?eventDate(d):d.published).startsWith($('year').value))&&(!$('cia').value||d.cia.includes($('cia').value))&&(!$('supplier').checked||d.scope.includes('委託'))&&(!$('status').value||({confirmed:d.confirmed!=null,potential:d.potential!=null,reported:d.reportedCount!=null,money:d.loss!=null,model:d.modelEstimate!=null}[$('status').value])));
+ filtered=data.filter(d=>selectedKind(d,kind)&&(!q||d.searchText.includes(q))&&(!$('type').value||d.type===$('type').value)&&(!$('sector').value||d.sector===$('sector').value)&&(!$('level').value||severity(d)[0]==$('level').value)&&(!$('year').value||($('basis').value==='event'?eventDate(d):d.published).startsWith($('year').value))&&(!$('month').value||d.published.startsWith($('month').value))&&(!$('cia').value||d.cia.includes($('cia').value))&&(!$('supplier').checked||d.scope.includes('委託'))&&(!$('status').value||({confirmed:d.confirmed!=null,potential:d.potential!=null,reported:d.reportedCount!=null,money:d.loss!=null,model:d.modelEstimate!=null,mechanical:!!d.collectionBatch&&d.verification==='一次資料の機械照合・詳細精査前',curated:!d.anonymous&&(!d.collectionBatch||d.verification==='一次資料を個別確認した項目あり')}[$('status').value])));
  const sort=$('sort').value;
  filtered.sort((a,b)=>sort==='old'?eventDate(a).localeCompare(eventDate(b)):sort==='level'?severity(b)[0]-severity(a)[0]:sort==='number'?(b.confirmed??-1)-(a.confirmed??-1):sort==='money'?(b.loss??-1)-(a.loss??-1):sort==='model'?(b.modelEstimate??-1)-(a.modelEstimate??-1):sort==='scale'?scale(b)-scale(a):b.published.localeCompare(a.published));
  const size=Number($('pagesize').value),pages=Math.max(1,Math.ceil(filtered.length/size));page=Math.min(page,pages);
@@ -40,9 +40,12 @@ function render(reset=false){
 function showModal(d,focus){lastFocus=focus;d.showModal()}
 function openDetail(d,b){
  current=d;const l=severity(d);
- const countLabel=d.reportedCount!=null?'調査資料の被害人数（確認状況は未分離）':'可能性・対象規模（確認済みと合算不可）';
+ const countLabel=d.reportedCount!=null?'原資料の対象規模（確認状況は未分離）':'可能性・対象規模（確認済みと合算不可）';
  const v=d.reportedCount??d.potential;
  $('detailcontent').innerHTML='<div class="eyebrow">INCIDENT RECORD / '+esc(d.id.toUpperCase())+'</div><h2>'+esc(d.org)+'</h2><p>'+esc(d.title)+'</p>'+badge(d)+' <span class="badge">'+esc(d.type)+'</span> <span class="badge">'+esc(d.scope)+'</span>'+(d.anonymous?'<div class="notice">組織名が原資料にない匿名個票です。実名事案との重複は未排除です。</div>':'')+'<div class="detailgrid"><div><small>確認済み漏えい</small><b>'+fmt(d.confirmed)+(d.confirmed!=null?' '+esc(d.unit):'')+'</b></div><div><small>'+countLabel+'</small><b>'+fmt(v)+(v!=null?' '+esc(d.unit):'')+'</b></div><div><small>'+esc(d.dateLabel||'発生・認知・公開開始日')+'</small><b>'+esc(d.date||'未特定')+'</b></div><div><small>'+esc(d.publicationKind||'初回公表日')+'</small><b>'+esc(d.published)+'</b></div></div><h3>手口・侵入経路</h3><p>'+esc(d.method)+' ／ '+esc(d.entry)+'</p><h3>情報の種類と業務影響</h3><p>'+esc(d.data)+'<br>'+esc(d.impact)+'</p><h3>実額・会社の費用見込額</h3><p><b>'+money(d.loss)+(d.loss!=null?'（'+esc(d.lossKind)+'）':'')+'</b><br>'+esc(d.lossNote||'本版では金額未収録。非公表またはゼロと断定するものではありません。')+'</p>'+(d.modelEstimate!=null?'<div class="modelbox"><h3>原資料のJNSAモデルによる想定損害賠償額</h3><strong>'+money(d.modelEstimate)+'</strong><p>JNSAが当時のモデルで試算した値です。実損・支払額・裁判の認容額ではありません。現在のリスク評価にはそのまま適用できません。</p></div>':'')+'<h3>暫定レベルの根拠</h3><p>'+esc(l[2])+'。影響の軸：'+esc(d.cia.join('・'))+'。当サイトの独自分類。モデル推計額はレベル判定に使いません。</p><div class="notice">'+esc(d.note)+'</div><h3>出典・収録根拠</h3><div class="sources">'+d.sources.map(s=>'<a href="'+esc(s[1])+'" target="_blank" rel="noopener noreferrer">'+esc(s[0])+' ↗</a>').join('')+'</div><div class="detailfoot">情報時点：'+esc(d.asof)+' ／ 資料確認：2026-11-07'+(d.sourceRow?'<br>原資料：No.'+d.sourceRow+' ／ PDF p.'+d.sourcePage:'')+'<br>公表資料時点の調査範囲・推計の限界があります。</div><p><button class="outline" id="usecalc">この事案の件数を試算に使う →</button> <button class="outline" id="copylink">詳細リンクを表示</button></p><p id="linktext"></p>';
+ if(d.verification)$('detailcontent').insertAdjacentHTML('afterbegin','<div class="notice">確認区分：'+esc(d.verification)+'</div>');
+ if(d.publicQuantities?.length)$('detailcontent').insertAdjacentHTML('beforeend','<h3>原資料の数量（範囲・内数は未分離、合算不可）</h3><div class="tablewrap"><table style="min-width:450px"><thead><tr><th>数量の種類</th><th>公表値</th><th>確認状況</th></tr></thead><tbody>'+d.publicQuantities.map(q=>'<tr><td>'+esc(q.label)+'</td><td>'+fmt(q.value)+' '+esc(q.unit)+'</td><td>'+esc(q.certainty)+'</td></tr>').join('')+'</tbody></table></div>');
+ if(d.relatedIncidentGroups?.length)$('detailcontent').insertAdjacentHTML('beforeend','<h3>関連する提供元・サービスのグループ</h3><p>'+d.relatedIncidentGroups.map(esc).join(' / ')+'。同一原因の影響先を別の公表記録として含む可能性があります。</p>');
  showModal($('detail'),b);
  $('usecalc').onclick=()=>{$('detail').close();switchView('calc');$('n').value=d.confirmed??d.potential??d.reportedCount??0;calculate();$('n').focus()};
  $('copylink').onclick=()=>{$('linktext').textContent=location.origin+location.pathname+'#incident='+encodeURIComponent(d.id)};
@@ -54,10 +57,11 @@ function switchView(v){
 }
 document.querySelectorAll('[data-view]').forEach(b=>b.onclick=()=>switchView(b.dataset.view));
 document.querySelectorAll('[data-kind]').forEach(b=>b.onclick=()=>{kind=b.dataset.kind;document.querySelectorAll('[data-kind]').forEach(x=>x.classList.toggle('selected',x===b));render(true)});
-for(const id of ['q','type','sector','level','year','basis','cia','supplier','status','sort','pagesize'])$(id).addEventListener(id==='q'?'input':'change',()=>render(true));
+for(const id of ['q','type','sector','level','year','month','basis','cia','supplier','status','sort','pagesize'])$(id).addEventListener(id==='q'?'input':'change',()=>render(true));
 $('prev').onclick=()=>{page--;render()};$('next').onclick=()=>{page++;render()};
 $('more').onclick=()=>{$('extra').hidden=!$('extra').hidden;$('more').textContent=$('extra').hidden?'詳細条件 ＋':'詳細条件 −'};
-$('reset').onclick=()=>{for(const id of ['q','type','sector','level','year','cia','status'])$(id).value='';$('supplier').checked=false;$('sort').value='new';$('basis').value='published';kind='all';document.querySelectorAll('[data-kind]').forEach(x=>x.classList.toggle('selected',x.dataset.kind==='all'));render(true)};
+$('reset').onclick=()=>{for(const id of ['q','type','sector','level','year','month','cia','status'])$(id).value='';$('supplier').checked=false;$('sort').value='new';$('basis').value='published';kind='all';document.querySelectorAll('[data-kind]').forEach(x=>x.classList.toggle('selected',x.dataset.kind==='all'));render(true)};
+$('lastmonth').onclick=()=>{$('reset').click();$('month').value='2026-10';$('extra').hidden=false;render(true)};
 $('about').onclick=()=>showModal($('method'),$('about'));
 document.querySelectorAll('dialog').forEach(d=>{
  d.querySelector('.close').onclick=()=>d.close();
@@ -72,9 +76,9 @@ function calculate(){
 }
 for(const id of ['n','unitcost','fixed','days','daily','other','recovery'])$(id).oninput=calculate;
 $('csv').onclick=()=>{
- const fields=['id','org','title','anonymous','published','publicationKind','date','dateLabel','asof','sector','type','originalCause','method','entry','scope','cia','confirmed','potential','reportedCount','unit','status','loss','lossKind','lossNote','modelEstimate','sourceRow','sourcePage','note','sources'];
+ const fields=['id','org','title','anonymous','published','publicationKind','date','dateLabel','asof','sector','type','originalCause','method','entry','scope','cia','confirmed','potential','reportedCount','unit','status','loss','lossKind','lossNote','modelEstimate','sourceRow','sourcePage','verification','relatedIncidentGroups','publicQuantities','note','sources'];
  const escape=v=>{let s=String(v??'');if(/^[=+@-]/.test(s))s="'"+s;return '"'+s.replaceAll('"','""')+'"'};
- const csv='\ufeff'+fields.join(',')+'\r\n'+filtered.map(d=>fields.map(k=>escape(k==='sources'?d.sources.map(s=>s.join(': ')).join(' | '):Array.isArray(d[k])?d[k].join(' / '):d[k])).join(',')).join('\r\n');
+ const csv='\ufeff'+fields.join(',')+'\r\n'+filtered.map(d=>fields.map(k=>escape(k==='sources'?d.sources.map(s=>s.join(': ')).join(' | '):k==='publicQuantities'?JSON.stringify(d[k]||[]):Array.isArray(d[k])?d[k].join(' / '):d[k])).join(',')).join('\r\n');
  const a=document.createElement('a'),url=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8;'}));a.href=url;a.download='incident-atlas-20261107.csv';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
 };
 function bars(id,values,total){
@@ -124,6 +128,11 @@ async function initialize(){
  data.forEach(d=>{d.searchText=[d.id,d.org,d.title,d.sector,d.type,d.method,d.entry,d.data,d.note].join(' ').toLowerCase()});
  $('navtotal').textContent=fmt(data.length);$('total').textContent=fmt(data.length);
  const n=data.filter(d=>!d.anonymous).length,anon=data.length-n;
+ const months=[...new Set(data.map(d=>d.published.slice(0,7)).filter(m=>/^\d{4}-\d{2}$/.test(m)))].sort().reverse();
+ months.forEach(m=>{const o=document.createElement('option');o.value=m;o.textContent=m; $('month').append(o)});
+ const octCount=data.filter(d=>d.published.startsWith('2026-10')).length;
+ $('monthcoverage').textContent=fmt(octCount)+'件の公表記録（続報・関連先の重複未統合）';
+ get('october-2026-audit.json').then(a=>{$('monthaudittext').textContent='探索した索引記録 '+fmt(a.discoveryRecords)+'件、組織・出典URLを照合した候補 '+fmt(a.discoveryGroupsAfterUrlOrgMatch)+'件。当事者本文を取得して登録 '+fmt(a.addedRecords)+'件、既存記録への出典統合 '+a.mergedIntoExisting.length+'件、確認待ち '+fmt(a.pendingGroups)+'件。資料確認：'+a.checked+'。本文取得・機械照合は全項目の精査完了を意味しません。';$('pendingmonth').innerHTML=a.records.filter(r=>['本文確認待ち','組織と原文の照合待ち'].includes(r.result)).map(r=>'<tr><td>'+esc(r.organization)+'</td><td>'+esc(r.result)+'</td><td>'+r.primaryUrls.map(u=>'<a href="'+esc(u)+'" target="_blank" rel="noopener noreferrer">当事者資料 ↗</a>').join('<br>')+'</td></tr>').join('')}).catch(()=>{$('monthaudittext').textContent='照合結果を読み込めませんでした。JSONで確認できます。'});
  $('kindcounts').innerHTML=n+' <em>/</em> '+fmt(anon);
  $('yearcounts').innerHTML=coverage.historical.length+'<span>年分</span>';
  $('moneycounts').innerHTML=data.filter(d=>d.loss!=null).length+' <em>/</em> '+fmt(data.filter(d=>d.modelEstimate!=null).length);
