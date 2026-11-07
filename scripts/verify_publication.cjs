@@ -8,6 +8,8 @@ assert.equal(Q.state({title:'情報漏えいは確認されていません',conf
 assert.equal(Q.state({id:'x',confirmed:100,collectionBatch:'import'}),'被害有無・範囲は精査前');
 assert.equal(Q.state({id:'x',reviewStage:'curated',confirmed:0}),'被害有無・範囲は原資料参照','Zero does not establish no incident');
 assert.equal(Q.followup({title:'不正アクセスについて（第２報）'}),true);
+assert(Q.matches({anonymous:false,id:'pending'},'named'));
+assert(!Q.matches({anonymous:true},'named'));
 assert.equal(Q.followup({title:'初報・調査開始'}),false);
 assert.equal(Q.followup({title:'第１信',publicationKind:'公表索引日（初報・続報の別は未分離）'}),false);
 assert(Q.needsReview({publicationStatus:'denied',confirmed:1000000,reviewStage:'curated'}));
@@ -24,7 +26,7 @@ for(const d of data){
 }
 const app=fs.readFileSync('dist/app.js','utf8'),html=fs.readFileSync('dist/index.html','utf8');
 assert(html.indexOf('src="review.js"')<html.indexOf('src="app.js"'));
-assert(html.includes('data-review="curated" aria-pressed="true"'));
+assert(html.includes('data-review="named" aria-pressed="true"'));
 assert(html.includes('GitHubへのログインが必要'));
 assert(html.includes('全項目の精査は未完了'));
 assert(!app.includes('d.date||d.published'),'Disclosure must not substitute for occurrence');

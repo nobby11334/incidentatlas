@@ -12,7 +12,7 @@ checked=datetime.datetime.now(datetime.timezone.utc).date().isoformat()
 read=lambda p:json.loads(p.read_text())
 items=read(CACHE/'inventory.json');details={d['key']:d for d in read(CACHE/'details.json')}
 # Per-URL files are atomic cache checkpoints and may be newer than the progress manifest.
-statuses={}
+statuses={u:{"url":u,**s} for u,s in read(ROOT/"dist/primary-evidence.json").get("urls",{}).items()} if (ROOT/"dist/primary-evidence.json").exists() else {}
 for p in PRIMARY.glob('*.json'):
  try:
   s=read(p);statuses[s['url']]=s
@@ -30,7 +30,7 @@ for item in sorted(items,key=lambda d:d['key']):
  own=[]
  for u in urls:
   st=statuses.get(u,{})
-  if st.get('status')!='retrieved':continue
+  if st.get('status')!='retrieved' or not st.get('textFile'):continue
   txt=PRIMARY/st['textFile']
   if not txt.exists():continue
   body=txt.read_text();identity=st.get('title','')+' '+body;binary=PRIMARY/st['textFile'].replace('.txt','.bin')
@@ -42,6 +42,11 @@ for item in sorted(items,key=lambda d:d['key']):
   if len(key)>=3 and key in identity:own.append((u,body,st))
  if not own:a['result']='組織・一次資料本文の確認待ち';audit.append(a);continue
  body='\n'.join(x[1] for x in own)
+ headings=' '.join(x[2].get('title','') for x in own)
+ generic=re.search('プライバシー|個人情報保護方針|個人情報の取り扱い|漏えい防止|漏洩防止|セミナー|利用規約',headings)
+ statement=re.search(r'(?:不正アクセス|サイバー攻撃|ランサムウェア|誤送信|紛失|漏えい|漏洩).{0,80}(?:発生|判明|確認|受け|可能性|おそれ|お詫び|お知らせ|ご報告)|(?:発生|判明|確認|お詫び|お知らせ).{0,80}(?:不正アクセス|誤送信|紛失|漏えい|漏洩)',norm(headings+' '+body[:12000]))
+ if generic or not statement:
+  a['result']='原資料の事案性の精査待ち';audit.append(a);continue
  # Keep announcements denying compromise and generic notices in the review queue.
  if re.search(r'(?:不正アクセス|情報漏[え洩]い).{0,15}(?:はありません|確認されていません|事実はない)',norm(body)) and not re.search('漏えいした|漏洩した|流出した|誤送信し|紛失し',norm(body)):
   a['result']='被害有無・否定表現の精査待ち';audit.append(a);continue

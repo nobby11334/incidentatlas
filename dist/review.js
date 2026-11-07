@@ -9,7 +9,7 @@ const ReviewEvidence={
   return 'mechanical';
  },
  label(d){return {curated:'個別整理・項目ごとに確認',mechanical:'機械照合・詳細精査前',anonymous:'匿名・歴史資料'}[this.quality(d)]},
- matches(d,mode){return mode==='all'||this.quality(d)===mode},
+ matches(d,mode){return mode==='all'||(mode==='named'?!d.anonymous:this.quality(d)===mode)},
  followup(d){return /続報|第[2-9２-９二三四五六七八九十]+[報信]|追加報告|経過報告/.test((d.title||'')+' '+(/未分離|未特定|不明/.test(d.publicationKind||'')?'':d.publicationKind||''))},
  state(d){
   const text=(d.title||'')+' '+(d.status||'');

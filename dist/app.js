@@ -1,5 +1,5 @@
 'use strict';
-let data=[],filtered=[],coverage=null,current=null,lastFocus=null,page=1,kind='all',review='curated';
+let data=[],filtered=[],coverage=null,current=null,lastFocus=null,page=1,kind='all',review='named';
 const $=id=>document.getElementById(id);
 const esc=x=>String(x??'').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'","&#39;");
 const fmt=n=>n==null?'未収録':n.toLocaleString('ja-JP');
@@ -38,7 +38,7 @@ function render(reset=false){
  return '<tr><td>'+badge(d)+'</td><td><button class="org" data-id="'+esc(d.id)+'">'+esc(d.org)+'</button><div class="reviewbadges">'+reviewBadges(d)+'</div><div class="title">'+esc(d.title)+'</div><time class="date">'+esc(d.published.replaceAll('-','.'))+' '+esc(d.publicationKind||'公表')+(d.anonymous?' · 匿名個票':'')+'</time></td><td><span class="badge">'+esc(preliminary?'分類は精査前':d.type)+'</span><span class="sub">'+esc(preliminary?'原資料で確認してください':d.method)+'</span></td><td><div class="number">'+(n!=null?fmt(n)+' '+esc(d.unit):'—')+'</div><span class="sub">'+esc(preliminary?'数量の意味・被害有無は未精査':d.status)+(d.confirmed!=null&&d.potential!=null?'<br>おそれ '+fmt(d.potential)+' '+esc(d.unit):'')+'</span></td><td><div class="'+(d.loss!=null||d.modelEstimate!=null?'number':'sub')+'">'+amount+'</div><span class="sub '+(d.modelEstimate!=null?'modeltag':'')+'">'+esc(amountLabel)+'</span></td><td><button class="cellbtn" data-id="'+esc(d.id)+'" aria-label="'+esc(d.org)+'の詳細">↗</button></td></tr>';
  }).join('');
  document.querySelectorAll('[data-id]').forEach(b=>b.onclick=()=>openDetail(data.find(d=>d.id===b.dataset.id),b));
- $('reviewsummary').textContent={curated:'原資料を個別参照した実名公表記録です。全項目の精査完了や被害の確定を意味しません。',mechanical:'探索用の精査前記録です。攻撃分類・レベルは付与せず、数量は原資料で確認してください。',anonymous:'匿名調査個票と歴史資料です。実名記録との重複は未排除。',all:'確認段階の異なる全記録を表示しています。独立事故数として合計できません。'}[review];
+ $('reviewsummary').textContent={named:'実名公表記録を確認段階にかかわらず表示しています。精査前の記録はラベルで区別し、分類や数量を確定値として扱いません。',curated:'原資料を個別参照した実名公表記録です。全項目の精査完了や被害の確定を意味しません。',mechanical:'探索用の精査前記録です。攻撃分類・レベルは付与せず、数量は原資料で確認してください。',anonymous:'匿名調査個票と歴史資料です。実名記録との重複は未排除。',all:'確認段階の異なる全記録を表示しています。独立事故数として合計できません。'}[review];
  $('csv').textContent='↓ 条件に合う全'+fmt(filtered.length)+'件をCSV出力';
 }
 function reviewBadges(d){return '<span class="badge quality '+ReviewEvidence.quality(d)+'">'+esc(ReviewEvidence.label(d))+'</span><span class="badge evidence">'+esc(ReviewEvidence.state(d))+'</span>'+(ReviewEvidence.followup(d)?'<span class="badge">続報表記あり</span>':'')}
@@ -68,7 +68,7 @@ document.querySelectorAll('[data-review]').forEach(b=>b.onclick=()=>{setReview(b
 for(const id of ['q','type','sector','level','cia','supplier','status','sort','pagesize'])$(id).addEventListener(id==='q'?'input':'change',()=>render(true));
 $('prev').onclick=()=>{page--;render()};$('next').onclick=()=>{page++;render()};
 $('more').onclick=()=>{$('extra').hidden=!$('extra').hidden;$('more').textContent=$('extra').hidden?'詳細条件 ＋':'詳細条件 −'};
-$('reset').onclick=()=>{for(const id of ['q','type','sector','level','year','month','cia','status'])$(id).value='';$('supplier').checked=false;$('sort').value='new';$('basis').value='published';synchronizePeriod();kind='all';setReview('curated');render(true)};
+$('reset').onclick=()=>{for(const id of ['q','type','sector','level','year','month','cia','status'])$(id).value='';$('supplier').checked=false;$('sort').value='new';$('basis').value='published';synchronizePeriod();kind='all';setReview('named');render(true)};
 function synchronizePeriod(changed){
  const chosen=$('month').value;
  if(changed==='month'&&chosen)$('year').value=chosen.slice(0,4);

@@ -1,8 +1,9 @@
 """Fetch public primary statements; retry failed URLs on the next run date."""
-import pathlib,json,re,hashlib,urllib.request,urllib.parse,concurrent.futures,threading,time,subprocess,datetime
+import os,pathlib,json,re,hashlib,urllib.request,urllib.parse,concurrent.futures,threading,time,subprocess,datetime
 from lxml import html
 BASE=pathlib.Path(__file__).resolve().parents[1]/'source-cache/all-cache';P=BASE/'primary';P.mkdir(parents=True,exist_ok=True)
 CHECKED=datetime.datetime.now(datetime.timezone.utc).date().isoformat()
+ALLOWLIST=set(json.loads(pathlib.Path(os.environ['INCIDENT_FETCH_URLS']).read_text())) if os.environ.get('INCIDENT_FETCH_URLS') else None
 locks={};lock=threading.Lock(); results={};pending={};queued={}
 def fetch(url):
  key=hashlib.sha256(url.encode()).hexdigest()[:24];meta=P/(key+'.json');body=P/(key+'.bin');txt=P/(key+'.txt')
@@ -36,7 +37,7 @@ with concurrent.futures.ThreadPoolExecutor(max_workers=32) as pool:
   except json.JSONDecodeError:details=[]
   for d in details:
    for u in d.get('primaryUrls',[]):
-    if u not in results and u not in pending:queued[u]=None
+    if (ALLOWLIST is None or u in ALLOWLIST) and u not in results and u not in pending:queued[u]=None
   active={}
   for u in pending:
    h=urllib.parse.urlsplit(u).hostname;active[h]=active.get(h,0)+1
@@ -51,5 +52,5 @@ with concurrent.futures.ThreadPoolExecutor(max_workers=32) as pool:
    (BASE/'primary-status.json').write_text(json.dumps(results,ensure_ascii=False,indent=2));print('primary',len(results),'verified',sum(r['status']=='retrieved' for r in results.values()),'pending',len(pending),'detailPages',len(details),flush=True)
   complete=BASE/'details-complete.json'
   if complete.exists() and len(details)==json.loads(complete.read_text())['expected'] and not pending and not queued:break
-  time.sleep(2)
+  time.sleep(0.2)
 print('primary complete',len(results),flush=True)
