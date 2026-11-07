@@ -1,0 +1,14 @@
+[
+  {
+    "canonicalId": "pub-dae55a110d1d60c3",
+    "duplicateIds": ["pub-8f8d553c1fa191be"],
+    "organization": "東京海上ダイレクト損害保険株式会社",
+    "published": "2026-11-05",
+    "checked": "2026-11-07",
+    "reason": "会社ニュースとドコモの自動車保険向け案内で、同じ11月4日の検知・対象74件・対応内容を再掲していることを本文で確認。問い合わせ電話番号のみ窓口別。",
+    "evidence": [
+      "https://www.e-design.net/company/news/2026/2026_11_05.html",
+      "https://www.e-design.net/docomo/information/2026/2026_11_05.html"
+    ]
+  }
+]

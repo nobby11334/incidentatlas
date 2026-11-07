@@ -4,6 +4,7 @@ Only identity-matched primary publications are added; existing editorial records
 import pathlib,json,subprocess,os,hashlib
 ROOT=pathlib.Path(__file__).resolve().parents[1];P=ROOT/'source-cache/all-cache';P.mkdir(parents=True,exist_ok=True)
 read=lambda p:json.loads(p.read_text())
+subprocess.run(['python','scripts/merge_publications.py'],cwd=ROOT,check=True)
 subprocess.run(['python','scripts/discover_more.py'],cwd=ROOT,check=True)
 ledger=read(ROOT/'dist/reconciliation.json')['records'];items=[]
 for r in ledger:

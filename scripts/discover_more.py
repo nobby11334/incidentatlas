@@ -67,16 +67,21 @@ def tables(source,page,doc):
   rows=table.xpath('.//tr');heads=[]
   for row in rows:
    cells=row.xpath('./th|./td');texts=[clean(c.text_content()) for c in cells]
-   if any(re.search('法人|団体名|組織名|企業・事件|企業名|会社名|事業者',t) for t in texts):heads=texts;continue
+   if any(re.search('法人|団体名|組織名|企業・事件|企業・事故|企業名|会社名|事業者|^事案$',t) for t in texts):heads=texts;continue
    if not heads or len(cells)<2:continue
    find=lambda pat:next((i for i,t in enumerate(heads) if re.search(pat,t)),None)
-   oi=find('法人|団体名|組織名|企業・事件|企業名|会社名|事業者');di=find('日付|公表日|発表日|発生日');qi=find('件数|人数');ci=find('原因|手口')
+   oi=find('法人|団体名|組織名|企業・事件|企業・事故|企業名|会社名|事業者|^事案$');di=find('日付|公表日|発表日|発生日');qi=find('件数|人数');ci=find('原因|手口')
    if oi is None or oi>=len(cells):continue
    oc=cells[oi];org=clean(oc.text_content())
    # Combined incident columns often have a separate first organization element.
-   if '企業・事件' in heads[oi]:
-    children=oc.xpath('./a/*[1]|./a[1]|./strong[1]|./div[1]')
-    if children:org=clean(children[0].text_content())
+   if heads[oi] in ('企業・事件','企業・事故','事案'):
+    full=clean(oc.text_content());links=oc.xpath('.//a')
+    if links:
+     headline=clean(links[0].text_content());rest=clean(full.replace(headline,'',1))
+     if rest:org=re.split(r'\s*[·・]\s*',rest)[0]
+     else:
+      children=links[0].xpath('./*[1]')
+      org=clean(children[0].text_content()) if children else '組織未特定（索引記事との照合待ち）'
    day=date(texts[di]) if di is not None and di<len(texts) else ''
    if not day and not SIGNAL.search(' '.join(texts)):continue
    r=add(source,page,org,day,cause=texts[ci] if ci is not None and ci<len(texts) else '',quantity=texts[qi] if qi is not None and qi<len(texts) else '')
@@ -89,6 +94,7 @@ def articles(source,page,doc):
  for a in doc.xpath('//a[@href]'):
   title=clean(a.text_content());u=urllib.parse.urljoin(page,a.get('href'))
   if u in seen or not SIGNAL.search(title) or len(title)<8:continue
+  if re.search('とは|対策|防止|解説|選び方|セミナー|おすすめ|相談窓口',title):continue
   if urllib.parse.urlsplit(u).hostname!=urllib.parse.urlsplit(page).hostname:continue
   if re.search(r'/category/|/tag/|/page/|#|\?s=',u):continue
   node=a
@@ -130,7 +136,7 @@ def scan(source):
     for a in doc.xpath('//a[@href]'):
      dest=urllib.parse.urljoin(u,a.get('href')).split('#')[0]
      if urllib.parse.urlsplit(dest).hostname!=urllib.parse.urlsplit(source['url']).hostname:continue
-     if re.search(r'/page/\d+/?(?:\?.*)?$|[?&](?:page|paged)=\d+',dest) and dest not in done:queue.append(dest)
+     if source.get('adapter')!='security-next' and re.search(r'/page/\d+/?(?:\?.*)?$|[?&](?:page|paged)=\d+',dest) and dest not in done:queue.append(dest)
     if source.get('adapter')=='security-next':
      m=re.search(r'全\s*([\d,]+)\s*ページ',doc.text_content())
      if m:
