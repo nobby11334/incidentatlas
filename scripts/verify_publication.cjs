@@ -1,0 +1,33 @@
+const assert=require('node:assert/strict'),fs=require('node:fs');
+const Q=require('../dist/review.js');
+const data=JSON.parse(fs.readFileSync('dist/data.json','utf8'));
+assert.equal(Q.quality({id:'future-unreviewed',anonymous:false}),'mechanical','Unknown new records must not be promoted');
+assert.equal(Q.quality({id:'x',collectionBatch:'import',verification:'一次資料を個別確認した項目あり'}),'curated');
+assert.equal(Q.quality({id:'x',anonymous:true,reviewStage:'curated'}),'anonymous');
+assert.equal(Q.state({title:'情報漏えいは確認されていません',confirmed:100}),'否定表現あり・個別確認が必要','Negation must take priority over a number');
+assert.equal(Q.state({id:'x',confirmed:100,collectionBatch:'import'}),'被害有無・範囲は精査前');
+assert.equal(Q.state({id:'x',reviewStage:'curated',confirmed:0}),'被害有無・範囲は原資料参照','Zero does not establish no incident');
+assert.equal(Q.followup({title:'不正アクセスについて（第２報）'}),true);
+assert.equal(Q.followup({title:'初報・調査開始'}),false);
+assert.equal(Q.followup({title:'第１信',publicationKind:'公表索引日（初報・続報の別は未分離）'}),false);
+assert(Q.needsReview({publicationStatus:'denied',confirmed:1000000,reviewStage:'curated'}));
+assert.equal(Q.occurrence({published:'2026-11-01'}),'');
+assert.equal(Q.occurrence({date:'2026-11-01',dateLabel:'認知日'}),'');
+assert.equal(Q.exportValue({id:'unknown',type:'外部攻撃'},'type'),'未精査');
+assert.equal(Q.exportValue({id:'unknown',confirmed:100},'confirmed'),null);
+assert.equal(Q.exportValue({id:'known',reviewStage:'curated',confirmed:100},'confirmed'),100);
+const counts={};for(const d of data)counts[Q.quality(d)]=(counts[Q.quality(d)]||0)+1;
+assert(counts.mechanical>=1024);assert(counts.curated>=54);
+for(const d of data){
+ assert.equal(['curated','mechanical','anonymous'].filter(k=>Q.matches(d,k)).length,1);
+ const url=new URL(Q.correction(d));assert.equal(url.origin,'https://github.com');assert(url.searchParams.get('body').includes(d.id));assert(url.searchParams.get('title').includes(d.id));
+}
+const app=fs.readFileSync('dist/app.js','utf8'),html=fs.readFileSync('dist/index.html','utf8');
+assert(html.indexOf('src="review.js"')<html.indexOf('src="app.js"'));
+assert(html.includes('data-review="curated" aria-pressed="true"'));
+assert(html.includes('GitHubへのログインが必要'));
+assert(html.includes('全項目の精査は未完了'));
+assert(!app.includes('d.date||d.published'),'Disclosure must not substitute for occurrence');
+assert(app.includes("if(ReviewEvidence.needsReview(d))return [0,'精査前'"));
+assert(app.includes("$('usecalc').disabled=preliminary"));
+console.log('Publication guards passed:',counts);
