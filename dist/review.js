@@ -32,7 +32,7 @@ const ReviewEvidence={
  },
  correction(d){
   const title='[訂正依頼] '+(d?d.id:'記録・表示について');
-  const body='対象レコードID: '+(d?d.id:'')+'\n対象ページ: '+(d?'https://incident-atlas-jp.mixedflint1.chatgpt.site/#incident='+encodeURIComponent(d.id):'https://incident-atlas-jp.mixedflint1.chatgpt.site/')+'\n誤りと思われる箇所:\n修正内容:\n根拠となる公開一次資料URL:\n資料の公表日・更新日:\n\n個人情報・漏えいデータそのもの・認証情報は記載しないでください。';
+  const body='対象レコードID: '+(d?d.id:'')+'\n対象ページ: '+(d?'https://nobby11334.github.io/incidentatlas/#incident='+encodeURIComponent(d.id):'https://nobby11334.github.io/incidentatlas/')+'\n誤りと思われる箇所:\n修正内容:\n根拠となる公開一次資料URL:\n資料の公表日・更新日:\n\n個人情報・漏えいデータそのもの・認証情報は記載しないでください。';
   return 'https://github.com/nobby11334/incidentatlas/issues/new?title='+encodeURIComponent(title)+'&body='+encodeURIComponent(body);
  }
 };

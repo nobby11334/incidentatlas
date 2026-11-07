@@ -4,7 +4,7 @@
 
 ## 収録範囲
 
-- 実名公表記録735件、公的歴史事例1件、JNSA匿名個票15,320行、合計16,056レコード。2026年10月の公表記録は697件。
+- 実名公表記録1,078件、公的歴史事例1件、JNSA匿名個票15,320行、合計16,399レコード。2026年10月の公表記録は697件。
 - JNSA個票は2002～2014年および2016年の14年分。組織名は原資料にないため推定しない。
 - 最古の関連日付は1971-02-18の和解日（1983年警察白書収録）。事故発生日ではない。
 - 全事故の網羅は未完了。非公表事故は捕捉不可。実名と匿名の重複同定は未完了。合計を独立事故数としない。
@@ -42,7 +42,7 @@ node scripts/verify_yearly.cjs
 
 ## 配置先・更新
 
-正本リポジトリ：https://github.com/nobby11334/incidentatlas 。既存サイト：https://incident-atlas-jp.mixedflint1.chatgpt.site （ChatGPTログインが必要）。このリポジトリだけでGitHub Pagesの有効化を意味しない。dist/ を静的配信する構成。毎朝8時頃（Asia/Tokyo）に定期タスクが一次資料を調べ、実質的な変更がある場合に更新する。取得済みの古い報告書を再抽出するだけの処理ではない。実行の失敗や接続切れがあるため、更新成功は各回の結果で確認する。
+正本リポジトリ：https://github.com/nobby11334/incidentatlas 。公開先は GitHub Pages https://nobby11334.github.io/incidentatlas/ 。`.github/workflows/pages.yml` がmainへの更新を検証し、`dist/`を配信します。初回のみSettings → Pages → SourceをGitHub Actionsに設定します。毎朝8時頃（Asia/Tokyo）の定期タスクが新規公表・続報・訂正・過去資料を調査し、実質的な変更があればmainへ反映します。初回の有効化・実行成功を確認するまで公開済みとは扱いません。
 
 ## 2026年10月の再点検
 
@@ -59,3 +59,10 @@ node scripts/verify_yearly.cjs
 初期画面は個別整理した実名公表記録を表示します。「精査前」「匿名・歴史資料」「すべて」は独立した選択肢です。個別整理は全項目の確認完了を意味しません。精査前の記録は被害有無・分類・数量の意味を未精査として表示し、攻撃分類・レベルの確定表示や数量の試算転記を抑止します。年別グラフも確認段階を選択でき、発生日が不明な場合に公表日で埋めません。
 
 訂正窓口は [GitHub Issues](https://github.com/nobby11334/incidentatlas/issues/new)。対象ID・公開一次資料・修正箇所を記載してください。投稿は公開されるため、漏えいデータや認証情報、個人情報は投稿しないでください。告知では「公開資料を整理する継続更新中のβ版」と説明し、収録レコード数を国内の事故総数と表現しないでください。
+
+
+## GitHub Pagesへの初回公開と日次反映
+
+公開元：`main`の`dist/`。Settings → Pages → Build and deployment → Sourceで **GitHub Actions** を選択してください。workflowは用意済みです。mainへの更新またはActions画面のRun workflowで検証・公開が実行されます。初回設定前の失敗実行はRe-run failed jobsで再開できます。
+
+日々の情報収集は既存のChatGPT定期タスクが担当し、新規・続報・訂正を検証してmainへ反映。Pages workflowはそのpushを受けてサイトを更新します。公開時に生成する `deployment.json` のsourceCommitとデータハッシュで配信内容を確認できます。収録情報に変化がない日は日付だけを変更しません。
