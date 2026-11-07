@@ -1,0 +1,95 @@
+[
+  {
+    "id": "pub-82604349d54a2405",
+    "org": "姫路市",
+    "title": "「姫路市オンライン手続きポータルサイト」の委託先における不正アクセスに伴う個人情報漏えいの可能性と一部サービスの停止について",
+    "published": "2026-11-02",
+    "publicationKind": "公表索引日（初報・続報は未分離）",
+    "date": null,
+    "asof": "2026-11-04",
+    "checked": "2026-11-08",
+    "sector": "自治体",
+    "type": "外部攻撃",
+    "method": "不正アクセス",
+    "entry": "侵入経路・原因の詳細は未精査",
+    "scope": "オンライン手続ポータルに加え、マイナンバーカード交付予約・管理システム",
+    "cia": [],
+    "confirmed": null,
+    "potential": null,
+    "reportedCount": null,
+    "unit": "件",
+    "status": "本文取得・数量と被害有無は精査前",
+    "data": "第2報では漏えい可能性の対象はメールアドレスのみ。氏名・住所・クレジットカード情報の漏えいはないと委託先から報告。",
+    "impact": "アララの配信基盤への不正アクセスに伴うメール送信停止。",
+    "note": "発見資料の要約は転載せず原資料本文を取得。日付は公表索引の記録で発生日ではありません。続報・関連公表・被害否定を含む可能性があり、独立事故数・確認済み漏えい件数には読み替えられません。分類は本文の語句による暫定値です。 2026-11-08に第2報を参照し対象外情報と影響システムを追記。",
+    "sources": [
+      [
+        "当事者公表資料",
+        "https://www.city.himeji.lg.jp/shisei/0000034645.html"
+      ],
+      [
+        "姫路市 第2報（2026-11-04）",
+        "https://www.city.himeji.lg.jp/shisei/0000034662.html"
+      ]
+    ],
+    "anonymous": false,
+    "recordKind": "当事者公表記録",
+    "collectionBatch": "full-source-reconciliation",
+    "verification": "一次資料の機械照合・詳細精査前",
+    "publicQuantities": [],
+    "discoverySources": [
+      "https://radineer.asia/cyber/cases/b7bd036506e2e0aae1b2/"
+    ],
+    "relatedOrganizations": [
+      "株式会社TKC",
+      "アララ株式会社"
+    ]
+  },
+  {
+    "id": "signal-talk-marujan-20261107",
+    "org": "株式会社シグナルトーク",
+    "title": "Maru-Janへの不正アクセスによる会員情報の流出",
+    "published": "2026-11-07",
+    "publicationKind": "当事者初報",
+    "date": "2026-11-04",
+    "asof": "2026-11-07",
+    "checked": "2026-11-08",
+    "sector": "IT・Webサービス",
+    "type": "外部攻撃",
+    "method": "管理システムの機能悪用による不正アクセス",
+    "entry": "管理システムの機能悪用（侵入経路の詳細は非公表）",
+    "scope": "全会員を対象とする会員情報",
+    "cia": [
+      "C",
+      "A"
+    ],
+    "confirmed": 1855578,
+    "potential": null,
+    "reportedCount": null,
+    "unit": "人",
+    "status": "会員情報流出を当事者が確認",
+    "data": "メールアドレス・パスワード。メールアドレスは登録済みの場合が対象。クレジットカード番号は保有せず対象外。",
+    "impact": "緊急メンテナンスでゲームとWeb会員ページを停止。11月7日16時に再開。",
+    "note": "人数は当事者公表の会員数。メールアドレスの実際の登録数とは区別する。被害額の公表値は本資料で確認できない。",
+    "sources": [
+      [
+        "当事者公表",
+        "https://www.maru-jan.com/uwp/2026information.html"
+      ],
+      [
+        "当事者プレスリリース",
+        "https://prtimes.jp/main/html/rd/p/000000136.000009867.html"
+      ]
+    ],
+    "anonymous": false,
+    "recordKind": "当事者公表記録",
+    "collectionBatch": "daily-primary-20261108",
+    "verification": "一次資料を個別確認した項目あり",
+    "publicQuantities": [],
+    "discoverySources": [
+      "https://incident-radar.com/archive/2026/"
+    ],
+    "dateLabel": "当事者がデータの外部ダウンロードを確認した日",
+    "reviewStage": "curated"
+  }
+]

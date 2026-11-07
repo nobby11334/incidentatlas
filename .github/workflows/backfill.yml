@@ -7,12 +7,14 @@ on:
       - scripts/backfill_known.py
       - scripts/discover_more.py
       - sources/**
+      - scripts/merge_publications.py
+      - scripts/publication_identity.py
   workflow_dispatch:
   schedule:
     - cron: "30 22 * * *" # 07:30 Asia/Tokyo; new-source discovery runs separately at 08:00
 
 concurrency:
-  group: github-pages
+  group: incidentatlas-discovery-v2
   cancel-in-progress: false
 
 jobs:
@@ -21,11 +23,8 @@ jobs:
     timeout-minutes: 60
     permissions:
       contents: write
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+    outputs:
+      sha: ${{ steps.source.outputs.sha }}
     steps:
       - name: Check out current main
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
@@ -42,6 +41,7 @@ jobs:
         run: python3 scripts/backfill_known.py
       - name: Validate merged data and publication safeguards
         run: |
+          python3 scripts/verify_duplicates.py
           python3 scripts/verify_data.py
           python3 scripts/verify_october.py
           python3 scripts/verify_sources.py
@@ -54,20 +54,41 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
-          git add dist/data.json dist/source-manifest.json dist/reconciliation.json dist/primary-evidence.json dist/search-coverage.json
+          git add dist/data.json dist/source-manifest.json dist/reconciliation.json dist/primary-evidence.json dist/search-coverage.json dist/duplicate-audit.json
           if ! git diff --cached --quiet; then
             git commit -m 'Backfill identity-matched primary publications from unresolved sources'
             git push origin HEAD:main
           fi
           echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+  publish:
+    needs: backfill
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    concurrency:
+      group: incidentatlas-publish-v2
+      cancel-in-progress: false
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check out collected source commit
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          ref: ${{ needs.backfill.outputs.sha }}
+          persist-credentials: false
       - name: Record actual deployed source and data hashes
         env:
-          SOURCE_COMMIT: ${{ steps.source.outputs.sha }}
+          SOURCE_COMMIT: ${{ needs.backfill.outputs.sha }}
         run: |
           python3 - <<'PY'
           import hashlib, json, os, pathlib
           root = pathlib.Path('dist')
-          files = ['data.json', 'historical.json', 'source-manifest.json', 'review.js', 'app.js']
+          files = ['data.json', 'historical.json', 'source-manifest.json', 'review.js', 'app.js', 'reconciliation.json', 'duplicate-audit.json']
           manifest = {'sourceCommit': os.environ['SOURCE_COMMIT'], 'runId': os.environ['GITHUB_RUN_ID'], 'sha256': {name: hashlib.sha256((root / name).read_bytes()).hexdigest() for name in files}}
           (root / 'deployment.json').write_text(json.dumps(manifest, ensure_ascii=False))
           PY
@@ -87,5 +108,5 @@ jobs:
       - name: Verify public content against the actual data commit
         env:
           PAGE_URL: ${{ steps.deployment.outputs.page_url }}
-          SOURCE_COMMIT: ${{ steps.source.outputs.sha }}
+          SOURCE_COMMIT: ${{ needs.backfill.outputs.sha }}
         run: python3 scripts/verify_live.py "$PAGE_URL" "$SOURCE_COMMIT"

@@ -6,10 +6,10 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
-  group: github-pages
+  group: incidentatlas-publish-v2
   cancel-in-progress: false
 
 jobs:
@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     permissions:
-      contents: read
+      contents: write
       pages: write
       id-token: write
     environment:
@@ -27,9 +27,12 @@ jobs:
       - name: Check out source
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
-          persist-credentials: false
+          persist-credentials: true
       - name: Validate data and publication safeguards
         run: |
+          python3 scripts/apply_reviewed_updates.py
+          python3 scripts/merge_publications.py
+          python3 scripts/verify_duplicates.py
           python3 scripts/verify_data.py
           python3 scripts/verify_october.py
           python3 scripts/verify_sources.py
@@ -39,14 +42,27 @@ jobs:
           node --check dist/app.js
           node --check dist/review.js
           node --check dist/yearly.js
+      - name: Save reviewed maintenance data
+        id: source
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add dist/data.json dist/reconciliation.json dist/source-manifest.json dist/duplicate-audit.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Apply reviewed updates and canonical publication identities'
+            git push origin HEAD:main
+          fi
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
       - name: Record deployed source and data hashes
+        env:
+          SOURCE_COMMIT: ${{ steps.source.outputs.sha }}
         run: |
           python3 - <<'PY'
           import hashlib, json, os, pathlib
           root = pathlib.Path('dist')
-          files = ['data.json', 'historical.json', 'source-manifest.json', 'review.js', 'app.js']
+          files = ['data.json', 'historical.json', 'source-manifest.json', 'review.js', 'app.js', 'reconciliation.json', 'duplicate-audit.json']
           manifest = {
-              'sourceCommit': os.environ['GITHUB_SHA'],
+              'sourceCommit': os.environ['SOURCE_COMMIT'],
               'runId': os.environ['GITHUB_RUN_ID'],
               'sha256': {name: hashlib.sha256((root / name).read_bytes()).hexdigest() for name in files}
           }
@@ -54,9 +70,11 @@ jobs:
           PY
       - name: Skip outdated publication when main has advanced
         id: latest
+        env:
+          SOURCE_COMMIT: ${{ steps.source.outputs.sha }}
         run: |
           LATEST_SOURCE_SHA=$(git ls-remote origin refs/heads/main | cut -f1)
-          if [ "$LATEST_SOURCE_SHA" = "$GITHUB_SHA" ]; then
+          if [ "$LATEST_SOURCE_SHA" = "$SOURCE_COMMIT" ]; then
             echo "publish=true" >> "$GITHUB_OUTPUT"
           else
             echo "publish=false" >> "$GITHUB_OUTPUT"
@@ -83,4 +101,5 @@ jobs:
         if: steps.latest.outputs.publish == 'true'
         env:
           PAGE_URL: ${{ steps.deployment.outputs.page_url }}
-        run: python3 scripts/verify_live.py "$PAGE_URL" "$GITHUB_SHA"
+          SOURCE_COMMIT: ${{ steps.source.outputs.sha }}
+        run: python3 scripts/verify_live.py "$PAGE_URL" "$SOURCE_COMMIT"

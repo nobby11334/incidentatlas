@@ -15,7 +15,7 @@ html=(SOURCE/'index.html').read_text()
 html=re.sub(r'((?:src|href)=["\'])([^"\']+)(["\'])',lambda m:m[1]+assets.get(m[2],m[2])+m[3],html)
 html=html.replace('<script ', '<script src="'+bootname+'"></script><script ',1)
 commit=subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip()
-manifest=json.loads((SOURCE/'deployment.json').read_text()) if (SOURCE/'deployment.json').exists() else {'sourceCommit':commit,'sha256':{n:digest((SOURCE/n).read_bytes()) for n in ['data.json','historical.json','source-manifest.json','review.js','app.js']}}
+manifest=json.loads((SOURCE/'deployment.json').read_text()) if (SOURCE/'deployment.json').exists() else {'sourceCommit':commit,'sha256':{n:digest((SOURCE/n).read_bytes()) for n in ['data.json','historical.json','source-manifest.json','review.js','app.js','reconciliation.json','duplicate-audit.json']}}
 manifest['assets']=assets;manifest['bootstrap']=bootname;manifest['indexSha256']=digest(html.encode())
 html=html.replace('</head>','<meta name="incident-atlas-release" content="'+manifest['sourceCommit']+'"></head>')
 manifest['indexSha256']=digest(html.encode());(OUT/'index.html').write_text(html)

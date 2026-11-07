@@ -11,6 +11,6 @@ boot=(site/m['bootstrap']).read_text();assert 'IncidentAtlasAssets' in boot
 for k,v in m['assets'].items():assert json.dumps(k)+':'+json.dumps(v) in boot
 app=(root/'dist/app.js').read_text();assert "review='all'" in app and "setReview('all')" in app
 assert "fetch(ASSET_URLS[u]||u,{cache:'no-store'})" in app
-assert "ledger.records.filter(r=>!r.recordIds?.length).map" in app
+assert "ledger.records.filter(r=>!r.recordIds?.length&&!r.duplicateOfKey).map" in app
 r=json.loads((site/m['assets']['reconciliation.json']).read_text())['records'];records=json.loads((site/m['assets']['data.json']).read_text());h=json.loads((site/m['assets']['historical.json']).read_text())
-print('One-version asset snapshot verified. Initial all-record view:',len(records)+len(h['rows'])+sum(not d.get('recordIds') for d in r),'records, including',sum(not d.get('recordIds') for d in r),'explicitly unverified discovery candidates.')
+print('One-version asset snapshot verified. Initial all-record view:',len(records)+len(h['rows'])+sum(not d.get('recordIds') and not d.get('duplicateOfKey') for d in r),'records, including',sum(not d.get('recordIds') and not d.get('duplicateOfKey') for d in r),'explicitly unverified discovery candidates.')

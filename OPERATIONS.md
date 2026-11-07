@@ -85,3 +85,7 @@ ChatGPTの定期タスクで毎朝8時頃（日本時間）に実行する設定
 GitHub Pagesにはscripts/package_pages.pyが作る_site/を公開する。HTMLから参照するJS/CSS/JSONと起動用マップは内容ハッシュを含むファイル名にし、古いapp.jsが新しいHTMLと混在しないようにする。公開後はverify_live.pyでHTMLとハッシュ付き配信ファイルまで検証する。
 
 初期表示とリセット後はall（全収録記録）。索引の確認待ち資料はreconciliation.jsonから探索候補として一覧・検索・CSVへ含める。discoveryOnly=trueと明示し、一次資料未確認という状態を保持する。事故確定や漏えい数・金額・分類を推測しない。探索候補を公表記録・独立事故数と混ぜてグラフに集計しない。精査済み54件などへ既定を限定しない。全国の公表情報を網羅済みとは表現しない。
+
+## 取り込み時の重複防止
+
+収集前にrefresh_indexes.pyで元の3索引を更新し、既存台帳へ追加・URLの和集合だけを反映する。手動訂正を巻き戻さない。収集後とPagesビルド時にmerge_publications.pyとverify_duplicates.pyを実行する。同一組織・日付・見出しだけで別事案を統合しない。正規化URL、同一PDFのSHA-256、個別本文照合したsources/publication-merges.jsonの対応を使う。統合元はmergedPublicationsと出典に保持。未精査の索引のコピーはduplicateOfKeyを使い表示を重複させず、台帳行は残す。匿名個票の同定は対象外。収集と公開の待ち行列を分け、修正公開を長時間の収集で塞がない。

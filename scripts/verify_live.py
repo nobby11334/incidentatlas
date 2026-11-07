@@ -3,7 +3,7 @@ import sys,os,pathlib,urllib.request,urllib.parse,json,hashlib,time
 base,commit=sys.argv[1:3]
 assert base=='https://nobby11334.github.io/incidentatlas/',base
 root=pathlib.Path(__file__).resolve().parents[1]/'dist'
-files=['data.json','historical.json','source-manifest.json','review.js','app.js']
+files=['data.json','historical.json','source-manifest.json','review.js','app.js','reconciliation.json','duplicate-audit.json']
 def get(name,versioned=False):
  url=urllib.parse.urljoin(base,name)+(('' if versioned else '?source='+urllib.parse.quote(commit,safe='')))
  req=urllib.request.Request(url,headers={'Cache-Control':'no-cache','User-Agent':'IncidentAtlas-deployment-verification'})
@@ -27,6 +27,13 @@ for attempt in range(6):
    assert assets[name] != name
    assert hashlib.sha256(get(assets[name],True)).hexdigest()==manifest['sha256'][name],(name,'fingerprinted public bytes differ')
   for name in ['app.js','review.js','style.css']:assert assets[name] in index
+  public=json.loads(get(assets['data.json'],True))
+  ids={r['id'] for r in public};rules=json.loads((root.parent/'sources/publication-merges.json').read_text())
+  for rule in rules:
+   assert not set(rule['duplicateIds'])&ids,('Duplicate reappeared',rule['organization'])
+   canonical=next(r for r in public if r['id']==rule['canonicalId'])
+   assert set(rule['evidence']).issubset({u for _,u in canonical['sources']})
+  print('Reviewed duplicate IDs absent and all original source URLs retained in public data.')
   print('Version-consistent public release verified, including fingerprinted JS, JSON and index HTML.')
   print('Public GitHub Pages HTTP 200, source commit and all five data/JS hashes verified:',commit)
   break

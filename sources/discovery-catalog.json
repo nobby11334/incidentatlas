@@ -113,5 +113,10 @@
     "name": "@IT Winny 2006",
     "url": "https://atmarkit.itmedia.co.jp/news/200603/15/winny.html",
     "adapter": "tables-and-dated-articles"
+  },
+  {
+    "name": "JPCERT/CC 歴史年表",
+    "url": "https://www.jpcert.or.jp/magazine/chronology/",
+    "adapter": "tables-and-dated-articles"
   }
 ]

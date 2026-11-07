@@ -8,6 +8,7 @@ CACHE=pathlib.Path(sys.argv[1]) if len(sys.argv)>1 else ROOT/'source-cache/all-c
 PRIMARY=pathlib.Path(sys.argv[2]) if len(sys.argv)>2 else CACHE/'primary'
 ns={"__file__":str(ROOT/"scripts/import_october.py")};exec((ROOT/'scripts/import_october.py').read_text().split('raw=json.loads')[0],ns)
 norm,orgkey,urlkey,sector,type_of=[ns[x] for x in ['norm','orgkey','urlkey','sector','type_of']]
+from publication_identity import urlkey
 checked=datetime.datetime.now(datetime.timezone.utc).date().isoformat()
 read=lambda p:json.loads(p.read_text())
 items=read(CACHE/'inventory.json');details={d['key']:d for d in read(CACHE/'details.json')}

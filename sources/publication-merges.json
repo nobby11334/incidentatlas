@@ -1,7 +1,9 @@
 [
   {
     "canonicalId": "pub-dae55a110d1d60c3",
-    "duplicateIds": ["pub-8f8d553c1fa191be"],
+    "duplicateIds": [
+      "pub-8f8d553c1fa191be"
+    ],
     "organization": "東京海上ダイレクト損害保険株式会社",
     "published": "2026-11-05",
     "checked": "2026-11-07",
@@ -9,6 +11,65 @@
     "evidence": [
       "https://www.e-design.net/company/news/2026/2026_11_05.html",
       "https://www.e-design.net/docomo/information/2026/2026_11_05.html"
+    ]
+  },
+  {
+    "canonicalId": "oct26-9626ce11d8bd",
+    "duplicateIds": [
+      "pub-e8cd244dd83e95e3"
+    ],
+    "organization": "株式会社両備システムズ",
+    "published": "2026-10-30",
+    "checked": "2026-11-07",
+    "reason": "原資料URLの転送先が一致（20261030から202061030へリダイレクト）。",
+    "evidence": [
+      "https://www.ryobi.co.jp/news/2026/20261030",
+      "https://www.ryobi.co.jp/news/2026/202061030"
+    ]
+  },
+  {
+    "canonicalId": "pub-82f6ba7734fd9ea4",
+    "duplicateIds": [
+      "pub-92b35d48d59d0a8c"
+    ],
+    "organization": "全日空商事株式会社",
+    "published": "2026-08-24",
+    "checked": "2026-11-07",
+    "reason": "会社サイトと選べるe-GIFTサイトで同じ第1報を再掲。続報URLも保持。",
+    "evidence": [
+      "https://www.anatc.com/pressroom/20260824_01/",
+      "https://www.anatc.com/pressroom/20260904_01/",
+      "https://www.anatc.com/pressroom/20261016_01/",
+      "https://www.anatc-gift.com/news/biz-20260824/"
+    ]
+  },
+  {
+    "canonicalId": "pub-16a9fe1adb9e3d99",
+    "duplicateIds": [
+      "pub-cbb647fed2db59fc"
+    ],
+    "organization": "海外貨物検査株式会社",
+    "published": "2026-07-14",
+    "checked": "2026-11-07",
+    "reason": "旧カテゴリURLがNEWSの同一記事に転送。本文ハッシュも一致。",
+    "evidence": [
+      "https://omicnet.com/uncategorized/%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E6%BC%8F%E6%B4%A9%E3%81%AE%E3%81%8A%E3%81%9D%E3%82%8C%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%E3%81%A8%E3%81%8A%E8%A9%AB%E3%81%B3/",
+      "https://omicnet.com/news/%e5%80%8b%e4%ba%ba%e6%83%85%e5%a0%b1%e6%bc%8f%e6%b4%a9%e3%81%ae%e3%81%8a%e3%81%9d%e3%82%8c%e3%81%ab%e9%96%a2%e3%81%99%e3%82%8b%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b%e3%81%a8%e3%81%8a%e8%a9%ab%e3%81%b3/"
+    ]
+  },
+  {
+    "canonicalId": "pub-69b4fb72bd156cc2",
+    "duplicateIds": [
+      "pub-ca858dd23e457d49"
+    ],
+    "organization": "モビリティプラットフォーム株式会社",
+    "published": "2026-04-14",
+    "checked": "2026-11-07",
+    "reason": "MaaS Carと運営会社サイトで同じ2026年4月14日付公表を再掲。本文の事象・経緯・対象期間を照合。",
+    "evidence": [
+      "https://mobilityplatform.jp/information/20260414/",
+      "https://mobilityplatform.jp/information/20260527/",
+      "https://maascar.jp/news-cat/20260414/"
     ]
   }
 ]
