@@ -4,9 +4,10 @@ Only identity-matched primary publications are added; existing editorial records
 import pathlib,json,subprocess,os,hashlib
 ROOT=pathlib.Path(__file__).resolve().parents[1];P=ROOT/'source-cache/all-cache';P.mkdir(parents=True,exist_ok=True)
 read=lambda p:json.loads(p.read_text())
+subprocess.run(['python','scripts/discover_more.py'],cwd=ROOT,check=True)
 ledger=read(ROOT/'dist/reconciliation.json')['records'];items=[]
 for r in ledger:
- items.append(dict(key=r['key'],org=r['organization'],published=r['published'],inventory=r['inventory'],discovery=r['discovery'],primaryUrls=r.get('primaryUrls',[])))
+ items.append(dict(key=r['key'],org=r['organization'],published=r['published'],inventory=r['inventory'],discovery=r['discovery'],primaryUrls=r.get('primaryUrls',[]),**{k:r[k] for k in ['dateBasis','identityBasis','indexCause','indexQuantity'] if k in r}))
 assert len(items)==len({x['key'] for x in items})
 for name,value in [('inventory.json',items),('details.json',items),('details-complete.json',{'expected':len(items),'processed':len(items)})]:(P/name).write_text(json.dumps(value,ensure_ascii=False))
 manifest=read(ROOT/'dist/source-manifest.json')

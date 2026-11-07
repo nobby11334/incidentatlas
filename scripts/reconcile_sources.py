@@ -23,7 +23,7 @@ for d in records:
  for label,u in d['sources']:byurl[urlkey(u)].append(d)
 audit=[];added=0
 for item in sorted(items,key=lambda d:d['key']):
- d=details.get(item['key'],item);org=d['org'];urls=d.get('primaryUrls',[]);a=dict(key=d['key'],organization=org,published=d.get('published',''),inventory=d['inventory'],discovery=d['discovery'],primaryUrls=urls)
+ d=details.get(item['key'],item);org=d['org'];urls=d.get('primaryUrls',[]);a=dict(key=d['key'],organization=org,published=d.get('published',''),inventory=d['inventory'],discovery=d['discovery'],primaryUrls=urls,**{k:d[k] for k in ['dateBasis','identityBasis','indexCause','indexQuantity'] if k in d})
  matches={r['id'] for u in urls for r in byurl[urlkey(u)] if orgkey(org)==orgkey(r['org'])}
  if matches:a.update(result='既存公表記録と照合',recordIds=sorted(matches));audit.append(a);continue
  if not d.get('published') or not re.fullmatch(r'\d{4}-\d{2}(?:-\d{2})?',d['published']):a['result']='公表日確認待ち';audit.append(a);continue
@@ -65,11 +65,11 @@ counts=collections.Counter(a['result'] for a in audit);linked=sum(bool(a.get('re
 sources=[]
 for name in sorted({d['inventory'] for d in items}):
  aa=[a for a in audit if a['inventory']==name];dates=[a['published'] for a in aa if a['published']]
- sources.append(dict(name=name,discovered=len(aa),accounted=len(aa),linked=sum(bool(a.get('recordIds')) for a in aa),pending=sum(not a.get('recordIds') for a in aa),first=min(dates),last=max(dates)))
+ sources.append(dict(name=name,discovered=len(aa),accounted=len(aa),linked=sum(bool(a.get('recordIds')) for a in aa),pending=sum(not a.get('recordIds') for a in aa),first=min(dates) if dates else None,last=max(dates) if dates else None))
 months=[]
 for month in sorted({a['published'][:7] or '日付未特定' for a in audit}):
  aa=[a for a in audit if (a['published'][:7] or '日付未特定')==month];months.append(dict(month=month,discovered=len(aa),linked=sum(bool(a.get('recordIds')) for a in aa),pending=sum(not a.get('recordIds') for a in aa)))
-manifest=dict(checked=checked,complete=False,completeness='国内の公表全体は母集団不明。下記3情報源の取得済み一覧内の照合状況。独立事故の網羅率ではありません。',discovered=len(items),accounted=len(audit),linked=linked,pending=len(audit)-linked,resultCounts=dict(counts),sources=sources,months=months,primaryRetrieval=dict(collections.Counter(statuses.get(u,{'status':'not_attempted'})['status'] for u in {u for d in details.values() for u in d.get('primaryUrls',[])})),sourceSnapshots=read(CACHE/'source-snapshots.json') if (CACHE/'source-snapshots.json').exists() else {'archiveSnapshot':'cc3cc93c1f191d7bc85a96883452ca176af6e705','checked':'2026-11-07','seoryDataVersion':'2026-11-07T02:20:01.255Z-296518a6404f'})
+manifest=dict(checked=checked,complete=False,completeness='国内の公表全体は母集団不明。下記の情報源の取得済み一覧内の照合状況。独立事故の網羅率ではありません。',discovered=len(items),accounted=len(audit),linked=linked,pending=len(audit)-linked,resultCounts=dict(counts),sources=sources,months=months,primaryRetrieval=dict(collections.Counter(statuses.get(u,{'status':'not_attempted'})['status'] for u in {u for d in details.values() for u in d.get('primaryUrls',[])})),sourceSnapshots=read(CACHE/'source-snapshots.json') if (CACHE/'source-snapshots.json').exists() else {'archiveSnapshot':'cc3cc93c1f191d7bc85a96883452ca176af6e705','checked':'2026-11-07','seoryDataVersion':'2026-11-07T02:20:01.255Z-296518a6404f'})
 evidence={u:{k:v for k,v in statuses.get(u,{'status':'not_attempted'}).items() if k in ['status','sha256','checked','finalUrl','contentType','characters','error']} for u in sorted({u for d in details.values() for u in d.get('primaryUrls',[])})}
 for name,value in [('primary-evidence.json',dict(checked=checked,urls=evidence)),('data.json',records),('source-manifest.json',manifest),('reconciliation.json',dict(checked=checked,records=audit))]:
  (ROOT/'dist'/name).write_text(json.dumps(value,ensure_ascii=False,separators=(',',':')))

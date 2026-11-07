@@ -1,0 +1,117 @@
+[
+  {
+    "name": "Cybersecurity.com 2000年代",
+    "url": "https://cybersecurity-jp.com/leakage-of-personal-information/2000-2009",
+    "adapter": "tables-and-dated-articles"
+  },
+  {
+    "name": "Cybersecurity.com 2010年代",
+    "url": "https://cybersecurity-jp.com/leakage-of-personal-information/2010-2019",
+    "adapter": "tables-and-dated-articles"
+  },
+  {
+    "name": "Cybersecurity.com 2020年代",
+    "url": "https://cybersecurity-jp.com/leakage-of-personal-information",
+    "adapter": "tables-and-dated-articles"
+  },
+  {
+    "name": "Incident Radar",
+    "url": "https://incident-radar.com/incidents/",
+    "adapter": "tables-and-dated-articles"
+  },
+  {
+    "name": "Security NEXT 個人情報漏洩事件",
+    "url": "https://www.security-next.com/category/cat25",
+    "adapter": "security-next"
+  },
+  {
+    "name": "Entamec",
+    "url": "https://security.entamec.com/data-breach/",
+    "adapter": "tables-and-dated-articles"
+  },
+  {
+    "name": "Security Yoho",
+    "url": "https://security-yoho.com/incidents/",
+    "adapter": "tables-and-dated-articles"
+  },
+  {
+    "name": "Secumiru",
+    "url": "https://secumiru.works-app.jp/",
+    "adapter": "tables-and-dated-articles"
+  },
+  {
+    "name": "デジタル社会の事件簿",
+    "url": "https://www.c-a-c.jp/about/case_files.html",
+    "adapter": "tables-and-dated-articles"
+  },
+  {
+    "name": "X-SI",
+    "url": "https://x-si.jp/",
+    "adapter": "tables-and-dated-articles"
+  },
+  {
+    "name": "Shindan3",
+    "url": "https://shindan3.com/incidents/",
+    "adapter": "tables-and-dated-articles"
+  },
+  {
+    "name": "Incident News",
+    "url": "https://incidentnews.jp/incidents/",
+    "adapter": "tables-and-dated-articles"
+  },
+  {
+    "name": "情報漏洩ランキング",
+    "url": "https://jouhou-rouei-ranking.com/",
+    "adapter": "tables-and-dated-articles"
+  },
+  {
+    "name": "Japan Hacked",
+    "url": "https://japanhacked.jp/incidents",
+    "adapter": "tables-and-dated-articles"
+  },
+  {
+    "name": "情報漏洩速報ガイド",
+    "url": "https://personal-leak.sokuho-guide.com/",
+    "adapter": "tables-and-dated-articles"
+  },
+  {
+    "name": "Security Mado",
+    "url": "https://security-mado.com/incidents/",
+    "adapter": "tables-and-dated-articles"
+  },
+  {
+    "name": "Moreta",
+    "url": "https://moreta.jp/",
+    "adapter": "tables-and-dated-articles"
+  },
+  {
+    "name": "Integral",
+    "url": "https://integral-inc.dev/security-report/",
+    "adapter": "tables-and-dated-articles"
+  },
+  {
+    "name": "Sukukai",
+    "url": "https://sukukai.com/rouei/about",
+    "adapter": "tables-and-dated-articles"
+  },
+  {
+    "name": "Web改竄記録",
+    "url": "https://w-def.svxvs.com/index.php?id=list",
+    "adapter": "tables-and-dated-articles"
+  },
+  {
+    "name": "Legal Agent",
+    "url": "https://legalagent.co.jp/legal-lab/security-incidents/",
+    "adapter": "tables-and-dated-articles"
+  },
+  {
+    "name": "Catorce",
+    "url": "https://catorce.jp/st/knowledge-security-incident-db",
+    "adapter": "tables-and-dated-articles"
+  },
+  {
+    "name": "@IT Winny 2006",
+    "url": "https://atmarkit.itmedia.co.jp/news/200603/15/winny.html",
+    "adapter": "tables-and-dated-articles"
+  }
+]
