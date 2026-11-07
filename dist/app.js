@@ -7,6 +7,7 @@ const money=n=>n==null?'本版未収録':n>=1e8?(n/1e8).toLocaleString('ja-JP',{
 const causes={'置き忘れ':'紛失','情報持ち出し':'持ち出し違反','内部犯罪':'内部不正','不正アクセス':'外部攻撃','ワーム・ウイルス':'マルウェア感染','内部犯罪・内部不正行為':'内部不正','不正な情報持ち出し':'持ち出し違反','誤操作':'操作ミス','設定ミス':'設定ミス','管理ミス':'管理ミス','紛失・置忘れ':'紛失','盗難':'盗難','バグ・セキュリティホール':'ソフトウェア不備','目的外使用':'目的外利用','その他':'その他','不明':'不明'};
 const scale=d=>Math.max(d.confirmed??0,d.potential??0,d.reportedCount??0);
 const eventDate=d=>d.date||d.published;
+const periodDate=d=>$('basis').value==='event'?eventDate(d):d.published;
 const selectedKind=(d,k)=>k==='all'||(k==='anonymous'?d.anonymous:!d.anonymous);
 function severity(d){
  if(d.cia.includes('可用性')||d.loss>=1e9)return [4,'甚大',d.cia.includes('可用性')?'業務停止・可用性影響':'公表実額・会社見込額10億円以上'];
@@ -20,7 +21,7 @@ function badge(d){const l=severity(d);return '<span class="badge level l'+l[0]+'
 function render(reset=false){
  if(reset===true)page=1;
  const q=$('q').value.trim().toLowerCase();
- filtered=data.filter(d=>selectedKind(d,kind)&&(!q||d.searchText.includes(q))&&(!$('type').value||d.type===$('type').value)&&(!$('sector').value||d.sector===$('sector').value)&&(!$('level').value||severity(d)[0]==$('level').value)&&(!$('year').value||($('basis').value==='event'?eventDate(d):d.published).startsWith($('year').value))&&(!$('month').value||d.published.startsWith($('month').value))&&(!$('cia').value||d.cia.includes($('cia').value))&&(!$('supplier').checked||d.scope.includes('委託'))&&(!$('status').value||({confirmed:d.confirmed!=null,potential:d.potential!=null,reported:d.reportedCount!=null,money:d.loss!=null,model:d.modelEstimate!=null,mechanical:!!d.collectionBatch&&d.verification==='一次資料の機械照合・詳細精査前',curated:!d.anonymous&&(!d.collectionBatch||d.verification==='一次資料を個別確認した項目あり')}[$('status').value])));
+ filtered=data.filter(d=>selectedKind(d,kind)&&(!q||d.searchText.includes(q))&&(!$('type').value||d.type===$('type').value)&&(!$('sector').value||d.sector===$('sector').value)&&(!$('level').value||severity(d)[0]==$('level').value)&&(!$('year').value||periodDate(d).startsWith($('year').value))&&(!$('month').value||periodDate(d).startsWith($('month').value))&&(!$('cia').value||d.cia.includes($('cia').value))&&(!$('supplier').checked||d.scope.includes('委託'))&&(!$('status').value||({confirmed:d.confirmed!=null,potential:d.potential!=null,reported:d.reportedCount!=null,money:d.loss!=null,model:d.modelEstimate!=null,mechanical:!!d.collectionBatch&&d.verification==='一次資料の機械照合・詳細精査前',curated:!d.anonymous&&(!d.collectionBatch||d.verification==='一次資料を個別確認した項目あり')}[$('status').value])));
  const sort=$('sort').value;
  filtered.sort((a,b)=>sort==='old'?eventDate(a).localeCompare(eventDate(b)):sort==='level'?severity(b)[0]-severity(a)[0]:sort==='number'?(b.confirmed??-1)-(a.confirmed??-1):sort==='money'?(b.loss??-1)-(a.loss??-1):sort==='model'?(b.modelEstimate??-1)-(a.modelEstimate??-1):sort==='scale'?scale(b)-scale(a):b.published.localeCompare(a.published));
  const size=Number($('pagesize').value),pages=Math.max(1,Math.ceil(filtered.length/size));page=Math.min(page,pages);
@@ -57,11 +58,23 @@ function switchView(v){
 }
 document.querySelectorAll('[data-view]').forEach(b=>b.onclick=()=>switchView(b.dataset.view));
 document.querySelectorAll('[data-kind]').forEach(b=>b.onclick=()=>{kind=b.dataset.kind;document.querySelectorAll('[data-kind]').forEach(x=>x.classList.toggle('selected',x===b));render(true)});
-for(const id of ['q','type','sector','level','year','month','basis','cia','supplier','status','sort','pagesize'])$(id).addEventListener(id==='q'?'input':'change',()=>render(true));
+for(const id of ['q','type','sector','level','cia','supplier','status','sort','pagesize'])$(id).addEventListener(id==='q'?'input':'change',()=>render(true));
 $('prev').onclick=()=>{page--;render()};$('next').onclick=()=>{page++;render()};
 $('more').onclick=()=>{$('extra').hidden=!$('extra').hidden;$('more').textContent=$('extra').hidden?'詳細条件 ＋':'詳細条件 −'};
-$('reset').onclick=()=>{for(const id of ['q','type','sector','level','year','month','cia','status'])$(id).value='';$('supplier').checked=false;$('sort').value='new';$('basis').value='published';kind='all';document.querySelectorAll('[data-kind]').forEach(x=>x.classList.toggle('selected',x.dataset.kind==='all'));render(true)};
-$('lastmonth').onclick=()=>{$('reset').click();$('month').value='2026-10';$('extra').hidden=false;render(true)};
+$('reset').onclick=()=>{for(const id of ['q','type','sector','level','year','month','cia','status'])$(id).value='';$('supplier').checked=false;$('sort').value='new';$('basis').value='published';synchronizePeriod();kind='all';document.querySelectorAll('[data-kind]').forEach(x=>x.classList.toggle('selected',x.dataset.kind==='all'));render(true)};
+function synchronizePeriod(changed){
+ const chosen=$('month').value;
+ if(changed==='month'&&chosen)$('year').value=chosen.slice(0,4);
+ const year=$('year').value;
+ const months=[...new Set(data.map(periodDate).map(s=>s.slice(0,7)).filter(m=>/^\d{4}-\d{2}$/.test(m)&&(!year||m.startsWith(year))))].sort().reverse();
+ $('month').innerHTML='<option value="">すべての月</option>'+months.map(m=>'<option value="'+m+'">'+m+'</option>').join('');
+ if(months.includes(chosen))$('month').value=chosen;
+ const dateLabel=$('basis').value==='event'?'発生・関連日':'公表・資料日';
+ $('periodsummary').textContent=dateLabel+'：'+($('month').value||year||'全期間')+($('basis').value==='event'?'（関連日未特定の記録は公表・資料日で補完。認知・和解等の日付も含みます）':'。年月の選択肢は収録データに合わせて更新します。');
+}
+for(const id of ['year','month','basis'])$(id).onchange=()=>{synchronizePeriod(id);render(true)};
+$('latestperiod').onclick=()=>{const latest=data.map(periodDate).map(s=>s.slice(0,7)).filter(m=>/^\d{4}-\d{2}$/.test(m)).sort().at(-1);if(latest){$('year').value='';synchronizePeriod();$('month').value=latest;synchronizePeriod('month');render(true)}};
+$('allperiod').onclick=()=>{$('year').value='';$('month').value='';synchronizePeriod();render(true)};
 $('about').onclick=()=>showModal($('method'),$('about'));
 document.querySelectorAll('dialog').forEach(d=>{
  d.querySelector('.close').onclick=()=>d.close();
@@ -128,10 +141,6 @@ async function initialize(){
  data.forEach(d=>{d.searchText=[d.id,d.org,d.title,d.sector,d.type,d.method,d.entry,d.data,d.note].join(' ').toLowerCase()});
  $('navtotal').textContent=fmt(data.length);$('total').textContent=fmt(data.length);
  const n=data.filter(d=>!d.anonymous).length,anon=data.length-n;
- const months=[...new Set(data.map(d=>d.published.slice(0,7)).filter(m=>/^\d{4}-\d{2}$/.test(m)))].sort().reverse();
- months.forEach(m=>{const o=document.createElement('option');o.value=m;o.textContent=m; $('month').append(o)});
- const octCount=data.filter(d=>d.published.startsWith('2026-10')).length;
- $('monthcoverage').textContent=fmt(octCount)+'件の公表記録（続報・関連先の重複未統合）';
  get('october-2026-audit.json').then(a=>{$('monthaudittext').textContent='探索した索引記録 '+fmt(a.discoveryRecords)+'件、組織・出典URLを照合した候補 '+fmt(a.discoveryGroupsAfterUrlOrgMatch)+'件。当事者本文を取得して登録 '+fmt(a.addedRecords)+'件、既存記録への出典統合 '+a.mergedIntoExisting.length+'件、確認待ち '+fmt(a.pendingGroups)+'件。資料確認：'+a.checked+'。本文取得・機械照合は全項目の精査完了を意味しません。';$('pendingmonth').innerHTML=a.records.filter(r=>['本文確認待ち','組織と原文の照合待ち'].includes(r.result)).map(r=>'<tr><td>'+esc(r.organization)+'</td><td>'+esc(r.result)+'</td><td>'+r.primaryUrls.map(u=>'<a href="'+esc(u)+'" target="_blank" rel="noopener noreferrer">当事者資料 ↗</a>').join('<br>')+'</td></tr>').join('')}).catch(()=>{$('monthaudittext').textContent='照合結果を読み込めませんでした。JSONで確認できます。'});
  $('kindcounts').innerHTML=n+' <em>/</em> '+fmt(anon);
  $('yearcounts').innerHTML=coverage.historical.length+'<span>年分</span>';
@@ -141,7 +150,7 @@ async function initialize(){
  vals.sort((a,b)=>id==='year'?b.localeCompare(a):a.localeCompare(b,'ja')).forEach(v=>{let o=document.createElement('option');o.value=v;o.textContent=v;$(id).append(o)});
  }
  $('coveragebody').innerHTML=coverage.historical.sort((a,b)=>a.year-b.year).map(d=>'<tr><td>'+d.year+'年</td><td>'+fmt(d.rows)+'</td><td>'+(d.continuous?'1～'+d.maxRow+'を照合':'1～'+d.maxRow+'（原資料の1216は欠番）')+'</td><td><a href="'+esc(d.source)+'" target="_blank" rel="noopener noreferrer">報告書掲載ページ ↗</a></td></tr>').join('');
- render();calculate();
+ synchronizePeriod();render();calculate();
  if(location.hash==='#analysis')switchView('analysis');
  const match=location.hash.match(/^#incident=(.+)$/);
  if(match){const d=data.find(x=>x.id===decodeURIComponent(match[1]));if(d)openDetail(d,null)}
