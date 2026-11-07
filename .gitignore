@@ -2,3 +2,7 @@
 source-cache/
 
 __pycache__/
+
+/_site/
+/.openai/
+/dist/deployment.json

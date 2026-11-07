@@ -1,6 +1,10 @@
 const assert=require('node:assert/strict'),fs=require('node:fs');
 const Q=require('../dist/review.js');
 const data=JSON.parse(fs.readFileSync('dist/data.json','utf8'));
+assert.equal(Q.quality({discoveryOnly:true}),'discovery');
+assert(Q.needsReview({discoveryOnly:true}));
+assert(Q.matches({discoveryOnly:true},'all'));
+assert(!Q.matches({discoveryOnly:true},'named'));
 assert.equal(Q.quality({id:'future-unreviewed',anonymous:false}),'mechanical','Unknown new records must not be promoted');
 assert.equal(Q.quality({id:'x',collectionBatch:'import',verification:'一次資料を個別確認した項目あり'}),'curated');
 assert.equal(Q.quality({id:'x',anonymous:true,reviewStage:'curated'}),'anonymous');
@@ -26,7 +30,7 @@ for(const d of data){
 }
 const app=fs.readFileSync('dist/app.js','utf8'),html=fs.readFileSync('dist/index.html','utf8');
 assert(html.indexOf('src="review.js"')<html.indexOf('src="app.js"'));
-assert(html.includes('data-review="named" aria-pressed="true"'));
+assert(html.includes('data-review="all" aria-pressed="true"'));
 assert(html.includes('GitHubへのログインが必要'));
 assert(html.includes('全項目の精査は未完了'));
 assert(!app.includes('d.date||d.published'),'Disclosure must not substitute for occurrence');

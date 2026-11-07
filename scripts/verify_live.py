@@ -4,8 +4,8 @@ base,commit=sys.argv[1:3]
 assert base=='https://nobby11334.github.io/incidentatlas/',base
 root=pathlib.Path(__file__).resolve().parents[1]/'dist'
 files=['data.json','historical.json','source-manifest.json','review.js','app.js']
-def get(name):
- url=urllib.parse.urljoin(base,name)+'?source='+urllib.parse.quote(commit,safe='')
+def get(name,versioned=False):
+ url=urllib.parse.urljoin(base,name)+(('' if versioned else '?source='+urllib.parse.quote(commit,safe='')))
  req=urllib.request.Request(url,headers={'Cache-Control':'no-cache','User-Agent':'IncidentAtlas-deployment-verification'})
  with urllib.request.urlopen(req,timeout=20) as r:
   assert r.status==200,(name,r.status)
@@ -18,7 +18,16 @@ for attempt in range(6):
    expected=hashlib.sha256((root/name).read_bytes()).hexdigest()
    assert manifest['sha256'][name]==expected,(name,'manifest differs from checked-out source')
    assert hashlib.sha256(get(name)).hexdigest()==expected,(name,'public bytes differ from source')
-  assert '継続更新中のβ版' in get('').decode('utf-8')
+  index=get('').decode('utf-8')
+  assert '継続更新中のβ版' in index
+  assert hashlib.sha256(index.encode()).hexdigest()==manifest['indexSha256']
+  assets=manifest['assets']
+  assert manifest['bootstrap'] in index
+  for name in files:
+   assert assets[name] != name
+   assert hashlib.sha256(get(assets[name],True)).hexdigest()==manifest['sha256'][name],(name,'fingerprinted public bytes differ')
+  for name in ['app.js','review.js','style.css']:assert assets[name] in index
+  print('Version-consistent public release verified, including fingerprinted JS, JSON and index HTML.')
   print('Public GitHub Pages HTTP 200, source commit and all five data/JS hashes verified:',commit)
   break
  except Exception as e:
