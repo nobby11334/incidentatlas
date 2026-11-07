@@ -5,8 +5,9 @@ on:
     branches: [main]
     paths:
       - scripts/backfill_known.py
-      - .github/workflows/backfill.yml
   workflow_dispatch:
+  schedule:
+    - cron: "30 22 * * *" # 07:30 Asia/Tokyo; new-source discovery runs separately at 08:00
 
 concurrency:
   group: github-pages
