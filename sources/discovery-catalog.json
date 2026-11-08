@@ -118,5 +118,15 @@
     "name": "JPCERT/CC 歴史年表",
     "url": "https://www.jpcert.or.jp/magazine/chronology/",
     "adapter": "tables-and-dated-articles"
+  },
+  {
+    "name": "BreachcheckJP",
+    "url": "https://breachcheckjp.com/incidents/",
+    "adapter": "tables-and-dated-articles"
+  },
+  {
+    "name": "IncidentLog",
+    "url": "https://incidentlog.jp/incidents/",
+    "adapter": "tables-and-dated-articles"
   }
 ]

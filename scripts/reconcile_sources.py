@@ -30,6 +30,7 @@ for item in sorted(items,key=lambda d:d['key']):
  if not d.get('published') or not re.fullmatch(r'\d{4}-\d{2}(?:-\d{2})?',d['published']):a['result']='公表日確認待ち';audit.append(a);continue
  own=[]
  for u in urls:
+  if 'github.com/piyokango/SecurityIncidentArchive/' in u:continue # discovery archive is not a primary statement
   st=statuses.get(u,{})
   if st.get('status')!='retrieved' or not st.get('textFile'):continue
   txt=PRIMARY/st['textFile']

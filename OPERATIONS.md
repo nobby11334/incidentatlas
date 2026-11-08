@@ -89,3 +89,5 @@ GitHub Pagesにはscripts/package_pages.pyが作る_site/を公開する。HTML�
 ## 取り込み時の重複防止
 
 収集前にrefresh_indexes.pyで元の3索引を更新し、既存台帳へ追加・URLの和集合だけを反映する。手動訂正を巻き戻さない。収集後とPagesビルド時にmerge_publications.pyとverify_duplicates.pyを実行する。同一組織・日付・見出しだけで別事案を統合しない。正規化URL、同一PDFのSHA-256、個別本文照合したsources/publication-merges.jsonの対応を使う。統合元はmergedPublicationsと出典に保持。未精査の索引のコピーはduplicateOfKeyを使い表示を重複させず、台帳行は残す。匿名個票の同定は対象外。収集と公開の待ち行列を分け、修正公開を長時間の収集で塞がない。
+
+原資料の変更検出では確認待ちURLだけに取得を限定しない。掲載済みURLも取得対象にし、旧ハッシュと新ハッシュが異なる資料はdist/source-changes.jsonへ精査待ちとして残す。本文変更だけから既存の個別確認値を自動上書きしない。発見用アーカイブを当事者発表と扱わない。
