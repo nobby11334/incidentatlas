@@ -18,12 +18,13 @@ if state in active or state=='not_found':
  try:
   with urllib.request.urlopen(urllib.request.Request(base+'/cancel',headers=headers,method='POST'),timeout=20) as r:assert r.status==204
  except urllib.error.HTTPError as e:
-  if e.code!=404:raise
-  print('Known deployment is also absent from cancellation endpoint.',flush=True)
+  if e.code not in (400,404):raise
+  print('Cancellation endpoint returned HTTP',e.code,'; actual deployment will verify whether the blocker remains.',flush=True)
  for _ in range(10):
   state=status()
   if state not in active:break
   time.sleep(3)
  assert state not in active,'Orphaned deployment cancellation still pending'
- print('Orphaned deployment cleared:',state,flush=True)
+ if state=='not_found':time.sleep(20) # cancellation acceptance can precede queue-lock cleanup
+ print('Recovery request completed; status lookup:',state,flush=True)
 else:print('No active orphaned deployment to cancel.',flush=True)
