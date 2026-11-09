@@ -14,8 +14,12 @@ def status():
   if e.code==404:return 'not_found'
   raise
 state=status();print('Known orphaned deployment state:',state,flush=True)
-if state in active:
- with urllib.request.urlopen(urllib.request.Request(base+'/cancel',headers=headers,method='POST'),timeout=20) as r:assert r.status==204
+if state in active or state=='not_found':
+ try:
+  with urllib.request.urlopen(urllib.request.Request(base+'/cancel',headers=headers,method='POST'),timeout=20) as r:assert r.status==204
+ except urllib.error.HTTPError as e:
+  if e.code!=404:raise
+  print('Known deployment is also absent from cancellation endpoint.',flush=True)
  for _ in range(10):
   state=status()
   if state not in active:break
