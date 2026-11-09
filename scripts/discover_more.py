@@ -89,6 +89,24 @@ def tables(source,page,doc):
     r['primaryUrls']=sorted(set(r['primaryUrls']+source_links(row,page)));n+=1
  return n
 
+def structured_indexes(source,page,doc):
+ n=0
+ for node in doc.xpath('//*[contains(concat(" ",normalize-space(@class)," ")," lx-inc__item ")]'):
+  orgs=node.xpath('.//*[contains(concat(" ",normalize-space(@class)," ")," lx-inc__org ")]/text()')
+  dates=node.xpath('.//time/@datetime');causes=node.xpath('.//*[contains(concat(" ",normalize-space(@class)," ")," lx-inc__type ")]/text()');counts=node.xpath('.//*[contains(concat(" ",normalize-space(@class)," ")," lx-inc__scale ")]/text()')
+  if not orgs:continue
+  r=add(source,page,clean(' '.join(orgs)),dates[0] if dates else '',article=page+'#'+node.get('id',''),cause=' '.join(causes),quantity=' '.join(counts))
+  if r:r['primaryUrls']=sorted(set(r['primaryUrls']+source_links(node,page)));n+=1
+ for block in doc.xpath('//dl[contains(concat(" ",normalize-space(@class)," ")," timeline ")]'):
+  years=block.xpath('./dt/text()');year=next((x.strip() for x in years if re.fullmatch(r'\d{4}',x.strip())),'')
+  if not year:continue
+  for i,node in enumerate(block.xpath('./dd')):
+   if not SIGNAL.search(node.text_content()):continue
+   months=node.xpath('.//span[@class="line-date"]/text()');month=re.search(r'(\d{1,2})月',' '.join(months));day=year+('-'+month[1].zfill(2) if month else '')
+   r=add(source,page,'組織未特定（歴史索引との照合待ち）',day,article=page+'#year-'+year+'-row-'+str(i),cause='・'.join(node.xpath('.//div[@class="line-wrap"]/span/text()')),basis='歴史索引の記載年月・公表日と発生日は未確認',identity='当事者名の特定待ち')
+   if r:n+=1
+ return n
+
 def articles(source,page,doc):
  n=0;seen=set()
  for a in doc.xpath('//a[@href]'):
@@ -130,7 +148,8 @@ def scan(source):
     try:doc=future.result();report['pagesRetrieved']+=1
     except Exception as e:
      report['errors'].append(dict(url=u,error=str(e)[:250]));continue
-    got=tables(source,u,doc)
+    got=structured_indexes(source,u,doc)
+    if not got:got=tables(source,u,doc)
     if not got:got=articles(source,u,doc)
     report['rowsParsed']+=got
     for a in doc.xpath('//a[@href]'):

@@ -1,0 +1,5030 @@
+[
+  {
+    "key": "search-fc9d2a186ba33115b138627e",
+    "organization": "ニトリホールディングス",
+    "published": "2026-11-09",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#nitori-customer-system-202611",
+    "primaryUrls": [
+      "https://www.nitorihd.co.jp/news/items/99443f42169f13af7d13c38e3f879a48.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "最大37,620,000件"
+  },
+  {
+    "key": "search-d68872bf4165d49771926eec",
+    "organization": "ファンくる",
+    "published": "2026-11-09",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#fancrew-monitor-portal-202611",
+    "primaryUrls": [
+      "https://www.fancrew.co.jp/news/news-press-release/26114_maintenance.html",
+      "https://www.fancrew.co.jp/news/news-press-release/26119_news.html",
+      "https://www.fancrew.co.jp/news/news-press-release/2611_maintenance.html",
+      "https://www.pointtown.com/information/433"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "会員情報4,217,663件（直接会員・パートナー連携会員の合計）"
+  },
+  {
+    "key": "search-662ce247f06280c2f60fc1a7",
+    "organization": "プレステージ・インターナショナル（プレステージ・コアソリューション）",
+    "published": "2026-11-09",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#prestige-roadservice-system-202611",
+    "primaryUrls": [
+      "https://www.ms-ins.com/news/fy2026/pdf/1109_1.pdf",
+      "https://www.nipponrentacar.co.jp/info/202611.html",
+      "https://www.release.tdnet.info/inbs/140120261102563007.pdf",
+      "https://www.release.tdnet.info/inbs/140120261106566814.pdf",
+      "https://www.sompo-japan.co.jp/-/media/SJNK/files/news/2026/20261105_1.pdf?la=ja-JP"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "最大約550万件（重複を含む）"
+  },
+  {
+    "key": "search-fdee64eef92f4a77f813ef4b",
+    "organization": "良品計画",
+    "published": "2026-11-09",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#ryohin-muji-app-202610",
+    "primaryUrls": [
+      "https://files.microcms-assets.io/assets/1abbce69114443b0af3672230990db72/159d52f4d3424eda93d9c030438ae419/261030_MUJI_App.pdf",
+      "https://www.release.tdnet.info/inbs/140120261104564546.pdf",
+      "https://www.ryohin-keikaku.jp/news/articles/2026_1030_01",
+      "https://www.ryohin-keikaku.jp/news/articles/2026_1104_02",
+      "https://www.ryohin-keikaku.jp/news/articles/2026_1106_01",
+      "https://www.ryohin-keikaku.jp/news/articles/2026_1109_01",
+      "https://www.saisoncard.co.jp/customer-support/information/20261104/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "最大約2,726万件／MUJI Card約109万件ほか"
+  },
+  {
+    "key": "search-5b5e61ae726fe345ec0d8474",
+    "organization": "アララ",
+    "published": "2026-11-09",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#arara-message-202610",
+    "primaryUrls": [
+      "https://am.arara.com/info/news/",
+      "https://fanplus.co.jp/static/fanplus/information/arara_notice_20261106.pdf",
+      "https://jo1.jp/news/detail/6497",
+      "https://prtimes.jp/main/html/rd/p/000000326.000019259.html",
+      "https://www.arara.com/dcms_media/other/arara_20261102__.pdf",
+      "https://www.arara.com/dcms_media/other/arara_20261106_.pdf",
+      "https://www.arara.com/news/info/20261029_arara",
+      "https://www.asoview.co.jp/news/articles/AyTdT_tX",
+      "https://www.city.himeji.lg.jp/shisei/0000034645.html",
+      "https://www.city.kashiwazaki.lg.jp/daijinaoshirase/50458.html",
+      "https://www.city.niigata.lg.jp/shisei/seisaku/it/keikaku/e-niigata-info202611.html",
+      "https://www.city.osaka.lg.jp/hodoshiryo/ictsenryakushitsu/0000690751.html",
+      "https://www.city.yokohama.lg.jp/city-info/gyosei-kansa/yokohamadx/notice/notice20261106.html",
+      "https://www.fitdish.jp/news/3ccb218ce63bcb240d990522939b83e69c96b268.html",
+      "https://www.jrkyushu.co.jp/common/inc/news/newtopics/__icsFiles/afieldfile/2026/11/04/20261104_info_data_breach.pdf",
+      "https://www.kagome.co.jp/s3-contents/notification/20261105040010.pdf",
+      "https://www.kojima.net/corporation/ir/pdf/release20261102_3.pdf",
+      "https://www.konaka.co.jp/ir/assets/2026/11/261105.pdf",
+      "https://www.medica.co.jp/news/information/3854/",
+      "https://www.mitsuifudosan.co.jp/corporate/news/2026/1105/download/sonota/20261105.pdf",
+      "https://www.odakyu-travel.co.jp/web/info_20261106.html",
+      "https://www.pref.saitama.lg.jp/a0806/news/page/news2026110601.html",
+      "https://www.pref.saitama.lg.jp/a1105/news/page/news2026110601.html",
+      "https://www.pref.toyama.jp/1705/kensei/kouhou/houdou/2026/1030_shoene.html",
+      "https://www.release.tdnet.info/inbs/140120261029558961.pdf",
+      "https://www.release.tdnet.info/inbs/140120261102562067.pdf",
+      "https://www.release.tdnet.info/inbs/140120261103563387.pdf",
+      "https://www.release.tdnet.info/inbs/140120261105566324.pdf",
+      "https://www.release.tdnet.info/inbs/140120261106568259.pdf",
+      "https://www.sega.co.jp/release/261109_1.html",
+      "https://www.setsunan.ac.jp/news/detail/8880",
+      "https://www.shogakukan.co.jp/news/477708",
+      "https://www.tkc.jp/news/2026/20261106_1/",
+      "https://www.yamada-denki.jp/information/pdf/261105_01.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "メールアドレス81,329,467件（重複除外）"
+  },
+  {
+    "key": "search-061b4b223f042db68def9390",
+    "organization": "ラクスライトクラウド",
+    "published": "2026-11-09",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#rakus-blastmail-202610",
+    "primaryUrls": [
+      "https://artnewsjapan.com/article/90648",
+      "https://giftee.co.jp/press/news/info20261023/",
+      "https://hjweb.jp/news/2867395/",
+      "https://info.blastmail.jp/information_20261021.html",
+      "https://info.blastmail.jp/information_joint_report.html",
+      "https://news.azone-int.co.jp/archives/71862",
+      "https://news.nhk-book.co.jp/archives/35516",
+      "https://www.bunka-toyama.jp/news/info_detail.php?im_id=1900",
+      "https://www.city.hiroshima.lg.jp/shisei/kouhou/1004010/1045546/1053867/1054693.html",
+      "https://www.city.kagoshima.lg.jp/san-sousyutu/shisetsu/sangyo/san-sou-oshirase20261026.html",
+      "https://www.city.kagoshima.lg.jp/soumu/soumu/soumu/documents/roueikouhyou32_1.pdf",
+      "https://www.city.shimonoseki.lg.jp/site/kisya/140361.html",
+      "https://www.city.shimonoseki.lg.jp/site/kisya/164876.html",
+      "https://www.ddtown.jp/maintenance/notification.pdf",
+      "https://www.env.go.jp/press/press_05784.html",
+      "https://www.fujicco.co.jp/upload/pr_261027.pdf",
+      "https://www.horai-kk.co.jp/topics/info_20261023_news.pdf",
+      "https://www.japex.co.jp/news/detail/20261021_01/",
+      "https://www.jrc.or.jp/chapter/tokyo/news/2026/1023_056631.html",
+      "https://www.meigin.com/news/files/20261023_oshirase_2.pdf",
+      "https://www.metro.tokyo.lg.jp/information/press/2026/10/2026102317",
+      "https://www.niigata-nippo.co.jp/articles/-/929743",
+      "https://www.pref.nagano.lg.jp/jisedai/happyou/20261023press.html",
+      "https://www.pref.saitama.lg.jp/a0816/news/page/news2026103001.html",
+      "https://www.pref.toyama.jp/130331/20261023sumarabo.html",
+      "https://www.pref.yamanashi.jp/release/koucho/0810/koucho1023.html",
+      "https://www.projectdesign.jp/articles/news/df304f2c-22fc-4ae1-b40e-7a17d9e63959",
+      "https://www.tamiya.com/japan/newstopics/news_1982",
+      "https://www.tohohd.co.jp/news/files/261023.pdf",
+      "https://www.tokyometro.jp/info/files/6513f70923e6d8ab6291661bd18add01.pdf",
+      "https://www2.sannichi.co.jp/GUIDANCE/2028/info/cd/90001/seq/12",
+      "https://www2.sannichi.co.jp/KYUJIN/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "契約者情報全件／契約者情報以外の漏えいは421契約"
+  },
+  {
+    "key": "search-2ac3da51101262a3d0107d47",
+    "organization": "トラストバンク",
+    "published": "2026-11-09",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#trustbank-furusatochoice-202610",
+    "primaryUrls": [
+      "https://www.trustbank.co.jp/newsroom/news/faq20261026/",
+      "https://www.trustbank.co.jp/newsroom/news/news261019/",
+      "https://www.trustbank.co.jp/newsroom/newsrelease/new20261026/",
+      "https://www.trustbank.co.jp/newsroom/newsrelease/news20261023/",
+      "https://www.trustbank.co.jp/newsroom/newsrelease/news20261028/",
+      "https://www.trustbank.co.jp/newsroom/newsrelease/news20261105/",
+      "https://www.trustbank.co.jp/newsroom/newsrelease/news20261109/",
+      "https://www.trustbank.co.jp/newsroom/newsrelease/news261020/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "4,454,097件"
+  },
+  {
+    "key": "search-d28f3810b7e1802e66790092",
+    "organization": "ユミルリンク",
+    "published": "2026-11-09",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#ymirlink-internal-systems-202610",
+    "primaryUrls": [
+      "https://oshirase.living.jp/news/20261102.html",
+      "https://www.bandainamcoid.com/portal/info?id=1221&mode=detail",
+      "https://www.istyle.co.jp/news/info/2026/11/1109-2.html",
+      "https://www.jrkyushu.co.jp/common/inc/news/newtopics/__icsFiles/afieldfile/2026/11/05/261105_info_ex-service_data_breach_2.pdf",
+      "https://www.lifecard.co.jp/info/important-notice.html",
+      "https://www.pointtown.com/information/434",
+      "https://www.release.tdnet.info/inbs/140120261019553124.pdf",
+      "https://www.resona-gr.co.jp/holdings/news/newsrelease_c/2026/files/20261027_1t.pdf",
+      "https://www.sourcenext.com/support/i/2026/1105_info/",
+      "https://ymir.co.jp/info/ymir-information20261027.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "FC延べ51,628,280件／BASE契約者情報190件"
+  },
+  {
+    "key": "search-6759d8d04c09338e6f5fef6b",
+    "organization": "IDCフロンティア（IDCFクラウド）",
+    "published": "2026-11-09",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#idcf-202610",
+    "primaryUrls": [
+      "https://www.cyber-u.ac.jp/information/y261008_02.html",
+      "https://www.fibergate.co.jp/news/32970/",
+      "https://www.future-shop.jp/news/2026/10/09.html",
+      "https://www.idcf.jp/news/topics/20261007001?bid=gtop",
+      "https://www.idcf.jp/news/topics/20261008001",
+      "https://www.idcf.jp/news/topics/20261009001",
+      "https://www.idcf.jp/news/topics/20261014001",
+      "https://www.idcf.jp/news/topics/20261018001",
+      "https://www.idcf.jp/news/topics/20261027001",
+      "https://www.jreast.co.jp/card/news/pdf/20261009.pdf",
+      "https://www.jreast.co.jp/press/2026/20261009_ho02.pdf",
+      "https://www.jrkyushu.co.jp/common/inc/news/newtopics/__icsFiles/afieldfile/2026/10/09/202691009_mail_address_access_1.pdf",
+      "https://www.jtua.or.jp/jtua_news/44237/",
+      "https://www.nissui-logistics.jp/assets_newsrelease/images/20261009/newsrelease_20261009.pdf",
+      "https://www.tokyoshusui.com/2026/10/09/news20261009/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "ランサムウェア",
+    "indexQuantity": "個人名・メールアドレス等最大31件／停止495組織"
+  },
+  {
+    "key": "search-70815d309b9e1e18190c3197",
+    "organization": "良品計画（ネットストアへの別の不正ログイン）",
+    "published": "2026-11-09",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#ryohin-online-store-credential-stuffing-202611",
+    "primaryUrls": [
+      "https://www.ryohin-keikaku.jp/news/articles/2026_1109_01"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "約27万件（既掲載の最大約2,726万件の内数）"
+  },
+  {
+    "key": "search-13a6a5ee0f0333ed43f1cb37",
+    "organization": "三井住友海上火災保険",
+    "published": "2026-11-09",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#ms-ins-compass-202611",
+    "primaryUrls": [
+      "https://www.ms-ins.com/news/fy2026/pdf/1109_2.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "約2.3万件"
+  },
+  {
+    "key": "search-b7f1e3b96c250691d90e3686",
+    "organization": "栄光",
+    "published": "2026-11-09",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#eikoh-time-management-202610",
+    "primaryUrls": [
+      "https://www.eikoh.co.jp/news/news-2/p222696/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "95アカウント（実在する個人90件・テストID等5件）"
+  },
+  {
+    "key": "search-affecc3bc16a693160d0c59d",
+    "organization": "早稲田大学",
+    "published": "2026-11-09",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#waseda-user-system-202611",
+    "primaryUrls": [
+      "https://www.waseda.jp/top/news/topic/124183"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "延べ3,342件"
+  },
+  {
+    "key": "search-792a85c77e8aa5b850ca4a49",
+    "organization": "ラクスル",
+    "published": "2026-11-09",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#raksul-upload-system-202611",
+    "primaryUrls": [
+      "https://corp.raksul.com/news/press/261109_unauthorized-access/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "対象件数は調査中"
+  },
+  {
+    "key": "search-2e0d611883542aecc9378633",
+    "organization": "三井住友海上火災保険",
+    "published": "2026-11-09",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#ms-ins-contractor-pages-202611",
+    "primaryUrls": [
+      "https://www.ms-ins.com/information/2026/information_1103_1.pdf",
+      "https://www.ms-ins.com/news/fy2026/pdf/1106_1.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "約37,000件"
+  },
+  {
+    "key": "search-4e8350d3d3d38833d8ec2e5b",
+    "organization": "Z会",
+    "published": "2026-11-09",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#zkai-zid-202610",
+    "primaryUrls": [
+      "https://www.zkai.co.jp/post-120678/",
+      "https://www.zkai.co.jp/post-121607/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "13アカウント"
+  },
+  {
+    "key": "search-1b5a667f9db409961b74085d",
+    "organization": "キングプリンターズ",
+    "published": "2026-11-09",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#kingprinters-202609",
+    "primaryUrls": [
+      "https://kingprinters.com/news/2026/oshirase_20260914-2",
+      "https://kingprinters.com/news/2026/oshirase_20260925",
+      "https://kingprinters.com/news/2026/oshirase_20261109"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "件数の公表なし"
+  },
+  {
+    "key": "search-21b31a8b5b4fa3f72c818036",
+    "organization": "teket",
+    "published": "2026-11-08",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#teket-ticket-system-202611",
+    "primaryUrls": [
+      "https://corporate.teket.jp/news/privacy_261108"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "全会員の氏名・メールアドレス（人数は精査中）"
+  },
+  {
+    "key": "search-9892a178ad4cc72b4e1e5ae0",
+    "organization": "NTTドコモ",
+    "published": "2026-11-08",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#docomo-online-shop-mydocomo-202611",
+    "primaryUrls": [
+      "https://www.docomo.ne.jp/info/notice/page/261105_02_m.html",
+      "https://www.docomo.ne.jp/info/notice/page/261105_03_m.html",
+      "https://www.docomo.ne.jp/info/notice/page/261106_00_m.html",
+      "https://www.docomo.ne.jp/info/notice/page/261108_00_m.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "最大約30万件"
+  },
+  {
+    "key": "search-5f24bcf559e272af3bee8d7f",
+    "organization": "シグナルトーク",
+    "published": "2026-11-07",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#signaltalk-marujan-members-202611",
+    "primaryUrls": [
+      "https://www.signaltalk.com/press/20261107.php"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "全会員1,855,578人"
+  },
+  {
+    "key": "search-38bc4fb8970a5deb1fea98a7",
+    "organization": "クラブツーリズム",
+    "published": "2026-11-07",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#club-tourism-member-202610",
+    "primaryUrls": [
+      "https://www.club-tourism.co.jp/jpn/news/2026/1031/",
+      "https://www.club-tourism.co.jp/jpn/news/2026/1106_1/",
+      "https://www.tx-direct.co.jp/pdf/20261107.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "約432万件"
+  },
+  {
+    "key": "search-2e33a96854abf0df3987576d",
+    "organization": "使えるねっと",
+    "published": "2026-11-07",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#tsukaeru-portal-server-202611",
+    "primaryUrls": [
+      "https://www.tsukaeru.net/news/20261107/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "漏えい件数は調査中"
+  },
+  {
+    "key": "search-7cdf1f88c8c52213ef21abb0",
+    "organization": "第一興商",
+    "published": "2026-11-06",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#daiichikosho-202610",
+    "primaryUrls": [
+      "https://www.dkkaraoke.co.jp/news/newsletter/261008_2.html",
+      "https://www.dkkaraoke.co.jp/news/newsletter/261106_1.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "約8,724,000件"
+  },
+  {
+    "key": "search-967e608b123ab38911c9e76e",
+    "organization": "ロート製薬",
+    "published": "2026-11-06",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#rohto-202609",
+    "primaryUrls": [
+      "https://www.rohto.co.jp/news/whatsnew/2026/0915_01",
+      "https://www.rohto.co.jp/news/whatsnew/2026/1106_01/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "顧客管理情報2,797,545人／カード情報を含む通話音声9,715人"
+  },
+  {
+    "key": "search-d29a202d42e1b0aef30c98a1",
+    "organization": "パシフィックリーグマーケティング・千葉ロッテマリーンズ",
+    "published": "2026-11-06",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#plm-marines-website-202611",
+    "primaryUrls": [
+      "https://prtimes.jp/main/html/rd/p/000000326.000019259.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "メールアドレス11,875件／ニックネーム37,070件"
+  },
+  {
+    "key": "search-393373d3ef2e48d6367c7680",
+    "organization": "全国自治宝くじ事務協議会",
+    "published": "2026-11-06",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#takarakuji-official-login-202611",
+    "primaryUrls": [
+      "https://sorry.takarakuji-official.jp/Sorry-PlannedMaintenance.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "対象件数未公表"
+  },
+  {
+    "key": "search-c5f6d8be60afbe71ce51dcb8",
+    "organization": "日本ネットワークセキュリティ協会",
+    "published": "2026-11-06",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#jnsa-security-check-202611",
+    "primaryUrls": [
+      "https://www.jnsa.org/dl/annual/20261106.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "最大15,128件"
+  },
+  {
+    "key": "search-98f81aa721642a50e2e71451",
+    "organization": "ミツカン",
+    "published": "2026-11-06",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#mizkan-365-202611",
+    "primaryUrls": [
+      "https://www.mizkan.co.jp/file.jsp?id=2021_Renewal/files/pdf/emg/news/oshirase18.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "アカウント改ざん487件／情報漏えい29名"
+  },
+  {
+    "key": "search-6a3cd68a8217cb1b3853f634",
+    "organization": "ドトールコーヒー",
+    "published": "2026-11-06",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#doutor-online-shop-202611",
+    "primaryUrls": [
+      "https://www.doutor.co.jp/news/newsrelease/detail/20261106150715.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "会員情報24,762件／配送先情報9件"
+  },
+  {
+    "key": "search-84182b4cea62c83f0fa7a520",
+    "organization": "SMBCコンシューマーファイナンス",
+    "published": "2026-11-06",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#smbc-cf-guarantee-system-202611",
+    "primaryUrls": [
+      "https://www.hokuyobank.co.jp/announcement/pdf/20261105_076991.pdf",
+      "https://www.resona-gr.co.jp/holdings/news/newsrelease_c/2026/files/20261106_1k.pdf",
+      "https://www.smbc-cf.com/news/data/2026/11/news_20261105.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "最大320,118名"
+  },
+  {
+    "key": "search-79f65c3f6b7515cf401e3648",
+    "organization": "野村インベスター・リレーションズ",
+    "published": "2026-11-06",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#nomura-ir-kikan-navi-202611",
+    "primaryUrls": [
+      "https://www.nomura-ir.co.jp/ja/news/news/news20261102_01.html",
+      "https://www.nomura-ir.co.jp/ja/news/news/news20261104/main/00/link/20261104.pdf",
+      "https://www.nomura-ir.co.jp/ja/news/news/news20261106/main/00/link/20261106.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "機関投資家・アナリスト約2,000名／元従業員約250名ほか"
+  },
+  {
+    "key": "search-9f590bf349b160bfb2af299d",
+    "organization": "あいおいニッセイ同和損害保険",
+    "published": "2026-11-06",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#aioi-nissay-contractor-pages-202611",
+    "primaryUrls": [
+      "https://www.aioinissaydowa.co.jp/corporate/about/news/pdf/2026/news_2026110601531.pdf",
+      "https://www.aioinissaydowa.co.jp/info/notice_dtl.aspx?notice_id=2026110300001"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "約444,000件"
+  },
+  {
+    "key": "search-70213f823aa1a81ecfc5b4f4",
+    "organization": "テレビ東京ダイレクト",
+    "published": "2026-11-06",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#tvtokyo-direct-mart-202611",
+    "primaryUrls": [
+      "https://www.tx-direct.co.jp/pdf/20261102.pdf",
+      "https://www.tx-direct.co.jp/pdf/20261106.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "個人情報の漏えいは現時点で確認されていない"
+  },
+  {
+    "key": "search-7b3cca75a03254744f8b6349",
+    "organization": "GMOインターネット",
+    "published": "2026-11-06",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#onamae-desktop-cloud-202610",
+    "primaryUrls": [
+      "https://group.gmo/info/alert/20261023/",
+      "https://group.gmo/info/alert/2026102703/",
+      "https://group.gmo/info/alert/20261028/",
+      "https://group.gmo/info/alert/2026102802/",
+      "https://group.gmo/info/alert/20261029/",
+      "https://group.gmo/info/alert/2026102902/",
+      "https://group.gmo/info/alert/20261030/",
+      "https://group.gmo/info/alert/20261106/",
+      "https://group.gmo/ir_news/article/898/",
+      "https://www.onamae.com/news/article/11584",
+      "https://www.onamae.com/news/article/11610"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "影響のおそれのあるサーバー26,739件（情報件数は未公表）"
+  },
+  {
+    "key": "search-4c5343ac00a856d0beaad154",
+    "organization": "日本貿易振興機構（ジェトロ）",
+    "published": "2026-11-06",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#jetro-website-202610",
+    "primaryUrls": [
+      "https://www.jetro.go.jp/",
+      "https://www.jetro.go.jp/news/announcement/2026/1e5d9962ca1cec2f.html",
+      "https://www.jetro.go.jp/news/announcement/2026/d475b9fab8ba23e5.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "既報743件／追加142件・9,252件・19件"
+  },
+  {
+    "key": "search-f3ff464f9957cd2bd8a05c33",
+    "organization": "ワサビ（10月16～17日事案）",
+    "published": "2026-11-06",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#wasabi-switch-account-202610",
+    "primaryUrls": [
+      "https://incident-support.wasabi-inc.biz/news/14",
+      "https://wasabi-inc.biz/help/news/20261016-01/",
+      "https://wasabi-inc.biz/help/news/20261017-03/",
+      "https://wasabi-inc.biz/help/news/20261018-01/",
+      "https://wasabi-inc.biz/help/news/20261018-02/",
+      "https://wasabi-inc.biz/help/news/20261020-01/",
+      "https://wasabi-inc.biz/help/news/20261102-01/",
+      "https://wasabi-inc.biz/help/news/20261105-01/",
+      "https://wasabi-inc.biz/help/news/20261106-01/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "件数は調査中"
+  },
+  {
+    "key": "search-3a088b650c12c02fbc8d7a79",
+    "organization": "アルカディア",
+    "published": "2026-11-06",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#arcadia-speecan-202610",
+    "primaryUrls": [
+      "https://raiden.site.ktaiwork.jp/archives/4597",
+      "https://raiden.site.ktaiwork.jp/wp-content/uploads/sites/2/2026/10/2026_10_19AccessIncident.pdf",
+      "https://www.arcadia.co.jp/info/4076",
+      "https://www.city.karatsu.lg.jp/page/52939.html",
+      "https://www.city.kinokawa.lg.jp/003/mailhaishin.html",
+      "https://www.city.shimonoseki.lg.jp/site/fire/164883.html",
+      "https://www.city.yokosuka.kanagawa.jp/0525/nagekomi/20261013_roueinoosore.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "RAIDEN約313万6,000メール、NET119 9,020件、119RAIDEN約9万7,000メール"
+  },
+  {
+    "key": "search-5cc12bd5f33362859fe07699",
+    "organization": "日本郵政グループ労働組合（JP労組）",
+    "published": "2026-11-06",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#jp-union-mailmag-202610",
+    "primaryUrls": [
+      "https://www.jprouso.or.jp/system/servlet/yusei.UserMain?method=show_detail&clause_id=18457"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "委託先・取引先での事故",
+    "indexQuantity": "27,139名"
+  },
+  {
+    "key": "search-5bffcf4c0ce760eff179e57b",
+    "organization": "ドトールコーヒー",
+    "published": "2026-11-06",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#doutor-employees-202610",
+    "primaryUrls": [
+      "https://www.doutor.co.jp/news/newsrelease/detail/20261026144748.html",
+      "https://www.doutor.co.jp/news/newsrelease/detail/20261106100836.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "従業員・退職者計951名"
+  },
+  {
+    "key": "search-0db6058ef590315415678fbe",
+    "organization": "アイリスプラザ（アイリスオーヤマ公式通販）",
+    "published": "2026-11-05",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#irisplaza-ec-202610",
+    "primaryUrls": [
+      "https://www.irisohyama.co.jp/news/2026/?date=1029",
+      "https://www.irisohyama.co.jp/news/2026/?date=1105"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "約770万人分（会員約580万人・非会員約190万人）"
+  },
+  {
+    "key": "search-4dd5d29c4a20ef451d0a0a4c",
+    "organization": "Helpfeel",
+    "published": "2026-11-05",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#gyazo-202609",
+    "primaryUrls": [
+      "https://corp.helpfeel.com/news/news-20260916-1",
+      "https://corp.helpfeel.com/news/news-20260925-01",
+      "https://corp.helpfeel.com/news/news-20260927-01",
+      "https://corp.helpfeel.com/news/news-20261021"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "ユーザー情報約2,362万件・画像メタデータ約6億6,640万件・画像432件"
+  },
+  {
+    "key": "search-d175f4708407858fa0e542eb",
+    "organization": "九州電力送配電",
+    "published": "2026-11-05",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#kyuden-td-power-usage-202611",
+    "primaryUrls": [
+      "https://www.kyuden.co.jp/td/press/2026/261105.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "電力量情報4,139件"
+  },
+  {
+    "key": "search-8eb02fabc285a4d2cbedcd40",
+    "organization": "モイ",
+    "published": "2026-11-05",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#moi-twitcasting-202610",
+    "primaryUrls": [
+      "https://www.release.tdnet.info/inbs/140120261028558252.pdf",
+      "https://www.release.tdnet.info/inbs/140120261029559851.pdf",
+      "https://www.release.tdnet.info/inbs/140120261105565350.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "個人情報7件（ログデータの取得範囲・規模は調査中）"
+  },
+  {
+    "key": "search-415dc776febc9885ee608848",
+    "organization": "グッドスマイルカンパニー",
+    "published": "2026-11-05",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#goodsmile-online-shop-202610",
+    "primaryUrls": [
+      "https://support.goodsmile.com/hc/ja/articles/63547468806297",
+      "https://support.goodsmile.com/hc/ja/articles/63718007508761",
+      "https://support.goodsmile.com/hc/ja/articles/63867414034073",
+      "https://support.goodsmile.com/hc/ja/articles/63998546966681"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "カード全情報のおそれ2,800名／カード番号下4桁等402,466枚／注文情報5,356名（いずれもおそれ）"
+  },
+  {
+    "key": "search-bc4f0dc6dc7bcc7085e9846e",
+    "organization": "ビジネステック",
+    "published": "2026-11-05",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#busitec-ashikaga-202610",
+    "primaryUrls": [
+      "https://www.busitec.co.jp/news/20261029",
+      "https://www.busitec.co.jp/news/20261105",
+      "https://www.busitec.co.jp/news/info"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "約8,800人分"
+  },
+  {
+    "key": "search-3d7c0a1aa212809b71f1a7d6",
+    "organization": "あしたのチーム（ウェルネス・コミュニケーションズ子会社、提供元ラフール）",
+    "published": "2026-11-05",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#ashita-survey-lafool-202611",
+    "primaryUrls": [
+      "https://www.ashita-team.com/news/261104-2/",
+      "https://www.release.tdnet.info/inbs/140120261104564889.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "委託先・取引先での事故",
+    "indexQuantity": "顧客企業3社・209名に係る情報"
+  },
+  {
+    "key": "search-18513b73972c6c23abe8738e",
+    "organization": "台東区（委託先トラベルジップ）",
+    "published": "2026-11-05",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#taito-travelzip-sites-202610",
+    "primaryUrls": [
+      "https://www.city.taito.lg.jp/bunka_kanko/other/houkoku1023.html",
+      "https://www.city.taito.lg.jp/bunka_kanko/other/tsutaju.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "委託先・取引先での事故",
+    "indexQuantity": "387人・715人・52人・93人（4区分）"
+  },
+  {
+    "key": "search-12f29a1336b6c48603a59e2d",
+    "organization": "アンドエスティHD",
+    "published": "2026-11-04",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#andst-business-server-202610",
+    "primaryUrls": [
+      "https://www.andst-hd.co.jp/news/notice/entry-17234/",
+      "https://www.andst-hd.co.jp/news/notice/entry-17245/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "顧客約274万件／取引先約1万件／従業員約24,000件"
+  },
+  {
+    "key": "search-e154eba4053974d984b3e93e",
+    "organization": "ウチコミ",
+    "published": "2026-11-04",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#uchicomi-ransomware-202611",
+    "primaryUrls": [
+      "https://uchicomi.co.jp/news/647"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "ランサムウェア",
+    "indexQuantity": "会員情報142,591アカウント"
+  },
+  {
+    "key": "search-4246f1a52c7b44af557a8c56",
+    "organization": "セカンドリテイリング",
+    "published": "2026-11-04",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#second-retailing-systems-202610",
+    "primaryUrls": [
+      "https://2nd-rtl.com/news/82023/",
+      "https://2nd-rtl.com/news/82032/",
+      "https://2nd-rtl.com/news/82157/",
+      "https://2nd-rtl.com/news/82189/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "個人情報・機密情報の外部漏洩は確認されず"
+  },
+  {
+    "key": "search-9c8c5cc33c6135fe11149caf",
+    "organization": "リンクステーション",
+    "published": "2026-11-04",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#linkstation-gettiis-202610",
+    "primaryUrls": [
+      "https://www.gettiis.jp/notice/detail/40",
+      "https://www.gettiis.jp/notice/detail/42",
+      "https://www.gettiis.jp/notice/detail/47"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "会員ID317,971件ほか（項目別）"
+  },
+  {
+    "key": "search-1211fcbb3d4fc6188e5ab5b3",
+    "organization": "ヤクルト本社",
+    "published": "2026-11-04",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#yakult-website-202610",
+    "primaryUrls": [
+      "https://www.release.tdnet.info/inbs/140120261029560120.pdf",
+      "https://www.yakult.co.jp/maintenance/?id=335",
+      "https://www.yakult.co.jp/maintenance/news/pdf/20261104.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "39,505件"
+  },
+  {
+    "key": "search-6a617ab86982303bc7444ce5",
+    "organization": "ApplyNow（きちりホールディングス子会社）",
+    "published": "2026-11-04",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#applynow-202609",
+    "primaryUrls": [
+      "https://wondertable.com/blogs/news-release/%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E6%BC%8F%E3%81%88%E3%81%84%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%E3%81%A8%E3%81%8A%E8%A9%AB%E3%81%B3",
+      "https://www.kichiri.co.jp/wp-content/uploads/2026/09/2609091111.pdf",
+      "https://www.kichiri.co.jp/wp-content/uploads/2026/11/2611041111.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "委託先・取引先での事故",
+    "indexQuantity": "396,920人"
+  },
+  {
+    "key": "search-aea803c390819bbb4fd5eec4",
+    "organization": "ベーシック",
+    "published": "2026-11-04",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#basic-ferretone-202610",
+    "primaryUrls": [
+      "https://ferret-one.com/notice/20261027",
+      "https://ferret-one.com/notice/20261104",
+      "https://www.release.tdnet.info/inbs/140120261027556805.pdf",
+      "https://www.release.tdnet.info/inbs/140120261102562932.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "ログイン用メールアドレス等4,317件、顧客3社の問い合わせ等の個人情報計16,970件"
+  },
+  {
+    "key": "search-05e9776f9d2f5a130b28dbe8",
+    "organization": "アイドマ・ホールディングス（ママワークス）",
+    "published": "2026-11-04",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#mamaworks-members-202610",
+    "primaryUrls": [
+      "https://mamaworks.jp/files/notice_20261020.pdf",
+      "https://mamaworks.jp/files/notice_20261104.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "件数は公表されていない"
+  },
+  {
+    "key": "search-aab7f1a6f3bb7277023873a7",
+    "organization": "SHIPS CYCLE MARKET（外部アプリ開発元Swym）",
+    "published": "2026-11-04",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#ships-cycle-swym-202610",
+    "primaryUrls": [
+      "https://ships-cycle-market.jp/blogs/news/swym-security-notice-20261022",
+      "https://ships-cycle-market.jp/blogs/news/swym-security-notice-20261104"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "委託先・取引先での事故",
+    "indexQuantity": "開発元の調査で当店での不正な活動の証拠は見つからず"
+  },
+  {
+    "key": "search-1f15a8405a59f65965c20ad0",
+    "organization": "Studio",
+    "published": "2026-11-04",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#studio-cloud-202610",
+    "primaryUrls": [
+      "https://corp.raksul.com/wp-content/uploads/2026/10/24a0bd63e12fb3d606ed5f43576f792b.pdf",
+      "https://kosei.or.jp/news/vIyrwDf3",
+      "https://monicle.co.jp/news/mo/20261023",
+      "https://moniclefinancial.co.jp/news/20261023",
+      "https://monicleresearch.co.jp/news/20261023",
+      "https://sally-inc.jp/news/2026-10-incident",
+      "https://studio.design/ja/security/notice/2026-10-incident",
+      "https://studio.design/ja/whats-new/unauthorized-access-2026-10",
+      "https://tomo-ny.com/news/typZnqZQ",
+      "https://www.aisin.com/jp/news/2026/010729.html",
+      "https://www.city.koriyama.lg.jp/uploaded/attachment/132275.pdf",
+      "https://www.city.shima.mie.jp/kakuka/sangyoshinkobu/shoko/kigyouyuuchi/9840.html",
+      "https://www.digital.go.jp/press/a0a8f66c-b32d-4695-9372-bcd5d4280f22",
+      "https://www.marinemesse.or.jp/news/eXnelHyr",
+      "https://www.mizkan.co.jp/file.jsp?id=2021_Renewal/files/pdf/emg/news/oshirase15.pdf",
+      "https://www.pref.yamanashi.jp/release/imuka/0810/r8zaitakuiryokensyuukaiadobaizari.html",
+      "https://www.pref.yamanashi.jp/release/san-jin/0810/otonanomanabinaoshi0810.html",
+      "https://www.shinseiki.jp/news/20261019"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "件数は調査中"
+  },
+  {
+    "key": "search-1dd59a68bfbf1bfb47a7798c",
+    "organization": "セブン‐イレブン・ジャパン（委託先CBcloud）",
+    "published": "2026-11-03",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#seven-eleven-7now-pickgo-202611",
+    "primaryUrls": [
+      "https://www.sej.co.jp/company/important/185116.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "委託先・取引先での事故",
+    "indexQuantity": "164,180件・4,762件・209件（項目別の3区分）"
+  },
+  {
+    "key": "search-d5405f352f53a018bbf9e47c",
+    "organization": "デニーズジャパン",
+    "published": "2026-11-03",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#dennys-app-migration-202611",
+    "primaryUrls": [
+      "https://www.dennys.co.jp/dennys-japan/pdf/261103.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "件数調査中"
+  },
+  {
+    "key": "search-d48c8bb24471383e7e4453bd",
+    "organization": "アイスタイル（@cosme）",
+    "published": "2026-11-02",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#istyle-cosme-id-202611",
+    "primaryUrls": [
+      "https://www.istyle.co.jp/news/info/2026/11/1102.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "約300万人"
+  },
+  {
+    "key": "search-4a0ef5921a8dc54ad4db79f8",
+    "organization": "ウィルズ",
+    "published": "2026-11-02",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#wills-netmile-202611",
+    "primaryUrls": [
+      "https://www.wills-net.co.jp/pdf/ir-news/uploads/e88675137464940b8b98c8c999d7c452f63571e7.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "最大約549万人（退会者を含む）"
+  },
+  {
+    "key": "search-0eca28007c016360847c7d86",
+    "organization": "ノジマ",
+    "published": "2026-11-02",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#nojima-online-members-202611",
+    "primaryUrls": [
+      "https://www.nojima.co.jp/wp-content/uploads/2026/11/fa47750556e505f2ddb83dc080a6420f.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "約700万件"
+  },
+  {
+    "key": "search-bc1cbada256c442e4eb6e45f",
+    "organization": "ソニックムーブ",
+    "published": "2026-11-02",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#sonicmoov-comsbi-202610",
+    "primaryUrls": [
+      "https://sonicmoov.com/news/xr5qdn-cnfsn",
+      "https://www.ucc.co.jp/press/20261102.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "件数・対象社数未公表"
+  },
+  {
+    "key": "search-414f2aefea90d43a00d80ff1",
+    "organization": "フジッコ（キャンペーン応募受付の委託先）",
+    "published": "2026-11-02",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#fujicco-campaign-form-202610",
+    "primaryUrls": [
+      "https://www.fujicco.co.jp/newsrelease/archive/detail_2902.html",
+      "https://www.fujicco.co.jp/newsrelease/archive/detail_2907.html",
+      "https://www.fujicco.co.jp/upload/pr_261022.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "委託先・取引先での事故",
+    "indexQuantity": "14,594件（重複応募を除く。第2報で延べ約15,500件から修正）"
+  },
+  {
+    "key": "search-db4e8204071d470d8fe644bc",
+    "organization": "ライフカード（委託先GMOペイメントゲートウェイ）",
+    "published": "2026-11-02",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#lifecard-vpreca-gmopg-202610",
+    "primaryUrls": [
+      "https://vpc.lifecard.co.jp/news/2026/detail/important-notice2.html",
+      "https://vpc.lifecard.co.jp/vpreca_assets/pdf/important-notice3.pdf",
+      "https://vpc.lifecard.co.jp/vpreca_assets/pdf/important-notice4.pdf",
+      "https://www.gmo-pg.com/news/news/info/2026/1102.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "委託先・取引先での事故",
+    "indexQuantity": "合計69件（対象アカウント数）"
+  },
+  {
+    "key": "search-5d6665d320c7869dd46c2cb8",
+    "organization": "良品計画（オーダーカーテン業務の委託先）",
+    "published": "2026-11-02",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#ryohin-order-curtain-nanotec-202611",
+    "primaryUrls": [
+      "https://files.microcms-assets.io/assets/1abbce69114443b0af3672230990db72/fe57dc6ea8f04f4987b2d6dbbb33bde8/261102_Order%20Curtains.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "委託先・取引先での事故",
+    "indexQuantity": "19,933件（同一顧客の重複データを含む）"
+  },
+  {
+    "key": "search-24365dba61c260b58a531bf0",
+    "organization": "バリューゴルフ",
+    "published": "2026-11-02",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#valuegolf-hitoriyoyaku-202611",
+    "primaryUrls": [
+      "https://www.release.tdnet.info/inbs/140120261102563148.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "件数は公表されていない（ログイン用メールアドレス）"
+  },
+  {
+    "key": "search-03551424f4dce90b6a951c04",
+    "organization": "丸井グループ（委託先Securitize Japan）",
+    "published": "2026-11-02",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#marui-securitize-bonds-202610",
+    "primaryUrls": [
+      "https://www.0101maruigroup.co.jp/nr/o-20-0zfdye",
+      "https://www.starts-sc.com/info/20261031.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "委託先・取引先での事故",
+    "indexQuantity": "最大9,086名（うち銀行口座番号まで漏えいした可能性54名）"
+  },
+  {
+    "key": "search-de353eea4aa1d104c0318440",
+    "organization": "サントリーホールディングス",
+    "published": "2026-11-02",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#suntory-cloud-files-202611",
+    "primaryUrls": [
+      "https://www.suntory.co.jp/note/detail/261102_008203.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "約9万名ほか7区分"
+  },
+  {
+    "key": "search-3f918391c6233ff6a6b5398c",
+    "organization": "岩井コスモ証券（委託先トレードワークス）",
+    "published": "2026-11-02",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#iwaicosmo-tradeworks-202610",
+    "primaryUrls": [
+      "https://www.iwaicosmo.co.jp/news/2026/10161410.html",
+      "https://www.iwaicosmo.net/info/2_9214.html",
+      "https://www.iwaicosmo.net/info/post_499.html",
+      "https://www.release.tdnet.info/inbs/140120261102562920.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "委託先・取引先での事故",
+    "indexQuantity": "4,975名"
+  },
+  {
+    "key": "search-af23edab7898ccb0280b3152",
+    "organization": "NTTデータ（STdirectServices委託先）",
+    "published": "2026-10-31",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#nttdata-stdirect-202610",
+    "primaryUrls": [
+      "https://files.microcms-assets.io/assets/b5bb8ced8fa1487390ad071605410061/3d5fea5cb2814f86a6e7f89d5aec14a0/20261031hd.pdf",
+      "https://www.kagome.co.jp/s3-contents/notification/20261031054555.pdf",
+      "https://www.nomuraholdings.com/jp/news/topics/20261031.html",
+      "https://www.nttdata.com/global/ja/news/release/2026/103101/",
+      "https://www.rakuten-sec.co.jp/web/info/info20261031-01.html",
+      "https://www.westjr.co.jp/press/article/2026/10/31/items/261031_00_press_gaibuservice.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "委託先・取引先での事故",
+    "indexQuantity": "件数は調査中（販売会社・発行体が個別に公表）"
+  },
+  {
+    "key": "search-34491526745843cfbcfad0d2",
+    "organization": "クレディセゾン（外部委託先）",
+    "published": "2026-10-31",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#saison-smart-realestate-202610",
+    "primaryUrls": [
+      "https://www.saisoncard.co.jp/customer-support/information/20261031/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "委託先・取引先での事故",
+    "indexQuantity": "1,889名"
+  },
+  {
+    "key": "search-cd98c62feed8be9aac5f7c9b",
+    "organization": "花キューピット",
+    "published": "2026-10-30",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#hanacupid-members-202610",
+    "primaryUrls": [
+      "https://www.hana-cupid.co.jp/news/news/20261028"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "最大4,238,242件"
+  },
+  {
+    "key": "search-34e407895db9ce3d0d3fb556",
+    "organization": "松屋フーズホールディングス",
+    "published": "2026-10-30",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#matsuya-app-202610",
+    "primaryUrls": [
+      "https://www.release.tdnet.info/inbs/140120261030561172.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "アプリ会員2,000件（最大3,000件）・松弁ネット等利用者2,377,127件"
+  },
+  {
+    "key": "search-3e39e9418172f01df11260d0",
+    "organization": "ワールド（子会社ティンパンアレイ）",
+    "published": "2026-10-30",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#world-tinpanalley-202610",
+    "primaryUrls": [
+      "https://www.release.tdnet.info/inbs/140120261030560364.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "会員情報延べ約120万件"
+  },
+  {
+    "key": "search-a2b5e18d35b9ef9967a9964a",
+    "organization": "フューチャーショップ",
+    "published": "2026-10-30",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#futureshop-member-system-202610",
+    "primaryUrls": [
+      "https://www.future-shop.jp/news/2026/10/23.html",
+      "https://www.future-shop.jp/news/2026/10/25.html",
+      "https://www.lindt.jp/contents/chocolat-cafe/notice_20261023/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "1店舗の会員情報3,147,469件"
+  },
+  {
+    "key": "search-6a2e0fd0137b41f60c58f8b1",
+    "organization": "阪急阪神百貨店・H2Oリテイリング",
+    "published": "2026-10-30",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#hankyu-hanshin-h2oid-202610",
+    "primaryUrls": [
+      "https://data.swcms.net/file/h2o-retailing/ja/news/auto_20261019552921/pdfFile.pdf",
+      "https://data.swcms.net/file/h2o-retailing/ja/news/auto_20261030561547/pdfFile.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "約126万件／予約サイトの入力フォーム記載内容6,243件"
+  },
+  {
+    "key": "search-ab1c92e60789cca3db12f00c",
+    "organization": "アドベンチャー",
+    "published": "2026-10-30",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#skyticket-servers-202610",
+    "primaryUrls": [
+      "https://jp.adventurekk.com/news/apology-notice-unauthorized-access-data-leak/",
+      "https://jp.adventurekk.com/news/news-2026-unauthorized-access-notice-2/",
+      "https://jp.adventurekk.com/news/security-incident-update-3/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "顧客情報約1,464万件、カード情報最大6,140人／返金口座32,341件（流出）・カード情報の一部約93.6万件・旅行保険約11.8万件（おそれ）"
+  },
+  {
+    "key": "search-98fbcc27c859db08bdd81525",
+    "organization": "ライフネット生命・KDDI",
+    "published": "2026-10-30",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#lifenet-kddi-system-202610",
+    "primaryUrls": [
+      "https://newsroom.kddi.com/news/assets/2026/kddi_nr_s-82_4796/kddi_nr_s-82_4796_pdf_01.pdf",
+      "https://www.lifenet-seimei.co.jp/shared/pdf/202610-30-news.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "計22,541件（6区分の表）"
+  },
+  {
+    "key": "search-43e9a8f9b3e936063be46cf5",
+    "organization": "佐賀大学",
+    "published": "2026-10-30",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#saga-univ-nas-202609",
+    "primaryUrls": [
+      "https://www.saga-u.ac.jp/koho/press/2026092841520",
+      "https://www.saga-u.ac.jp/koho/press/2026103041765"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "ランサムウェア",
+    "indexQuantity": "約80,000人分（患者情報は件数調査中）"
+  },
+  {
+    "key": "search-3ce6b6121214afac56a2751e",
+    "organization": "東急不動産",
+    "published": "2026-10-30",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#tokyu-land-websites-202610",
+    "primaryUrls": [
+      "https://www.tokyu-land.co.jp/news/2026/001808.html",
+      "https://www.tokyu-land.co.jp/news/uploads/4e81382e895fcd779559705843fcb56f83846c28.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "会員登録4,079件・問い合わせ3件"
+  },
+  {
+    "key": "search-0d547b6aae8a7d6f35d68352",
+    "organization": "日本交通",
+    "published": "2026-10-30",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#nihonkotsu-202607",
+    "primaryUrls": [
+      "https://www.nihon-kotsu.co.jp/news/20260713-3334/",
+      "https://www.nihon-kotsu.co.jp/news/20260819-3385/",
+      "https://www.nihon-kotsu.co.jp/news/20261005-3432/",
+      "https://www.nihon-kotsu.co.jp/news/20261030-3479/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "マルウェア感染",
+    "indexQuantity": "漏えい又はそのおそれ 計約292,900人（6区分の合計）"
+  },
+  {
+    "key": "search-6d69b246a653c27ca565b48a",
+    "organization": "日本原子力研究開発機構",
+    "published": "2026-10-30",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#jaea-jrr3-202610",
+    "primaryUrls": [
+      "https://www.jaea.go.jp/02/press2026/p26100105/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "個人情報を含む369ファイル（当初公表175人分）"
+  },
+  {
+    "key": "search-adf8b7c64cfd038338f7b974",
+    "organization": "両毛システムズ",
+    "published": "2026-10-30",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#ryomo-systems-202608",
+    "primaryUrls": [
+      "https://www.ryomo.co.jp/news/202608_02.html",
+      "https://www.ryomo.co.jp/news/202608_03.html",
+      "https://www.ryomo.co.jp/news/202609_02.html",
+      "https://www.ryomo.co.jp/news/202610_02.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "ランサムウェア",
+    "indexQuantity": "個人情報の件数・項目を精査中"
+  },
+  {
+    "key": "search-8718b7a0324b34e262c139b1",
+    "organization": "GMOグローバルサイン",
+    "published": "2026-10-30",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#gmo-trustlogin-202609",
+    "primaryUrls": [
+      "https://news.trustlogin.com/20260916",
+      "https://news.trustlogin.com/20261007-1",
+      "https://news.trustlogin.com/20261030"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "設定不備・誤公開",
+    "indexQuantity": "2,492社・45,030人"
+  },
+  {
+    "key": "search-45282c2ad7d8461b97182dca",
+    "organization": "外務省",
+    "published": "2026-10-30",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#mofa-external-network-202610",
+    "primaryUrls": [
+      "https://www.mofa.go.jp/mofaj/press/release/pressit_000001_04395.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "約3,600件（うち省外の方約900件）"
+  },
+  {
+    "key": "search-5ae4155a9967b37384d7d56f",
+    "organization": "全日本空輸・日本航空（Amadeus旅客サービスシステム）",
+    "published": "2026-10-30",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#amadeus-pss-airlines-202610",
+    "primaryUrls": [
+      "https://www.ana.co.jp/ja/jp/special-notice/001612.html?p1=top&p2=ja&p3=global",
+      "https://www.jal.co.jp/ja-jp/news/general/2026/other/261028.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "委託先・取引先での事故",
+    "indexQuantity": "ANA約37,800名・JAL/JTA約92,000名"
+  },
+  {
+    "key": "search-8d654dc1173ded04c14850c9",
+    "organization": "コアデ",
+    "published": "2026-10-30",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#coade-hanikujiland-202610",
+    "primaryUrls": [
+      "https://hanikujiland.com/news/13"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "最大7,622名"
+  },
+  {
+    "key": "search-1a1f4500662a52767ef4a39c",
+    "organization": "東日本三菱自動車販売",
+    "published": "2026-10-30",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#east-mitsubishi-sales-email-202610",
+    "primaryUrls": [
+      "https://www.east-mitsubishi-motor-sales.com/custom/%e5%bd%93%e7%a4%be%e7%a4%be%e5%93%a1%e3%81%ae%e3%83%a1%e3%83%bc%e3%83%ab%e3%82%a2%e3%82%ab%e3%82%a6%e3%83%b3%e3%83%88%e3%81%b8%e3%81%ae%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%ab/",
+      "https://www.east-mitsubishi-motor-sales.com/custom/fuseiaccess2/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "取引客情報24,480件"
+  },
+  {
+    "key": "search-1de79945f8d437d33481c3c7",
+    "organization": "ディーエイチシー（DHC）",
+    "published": "2026-10-30",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#dhc-online-shop-202610",
+    "primaryUrls": [
+      "https://dhc-corporate.co.jp/cms_dH8vjpRq/wp-content/uploads/2026/10/0deb6f2426f1d5ab2b2b1824288b374d.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "書き換え5,096アカウント"
+  },
+  {
+    "key": "search-157d2d44291db52213a9418c",
+    "organization": "ファインズ",
+    "published": "2026-10-29",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#fines-202609",
+    "primaryUrls": [
+      "https://e-tenki.co.jp/news/%E5%BC%8A%E7%A4%BE%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%B8%E3%81%AE%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E6%83%85%E5%A0%B1%E6%BC%8F%E3%81%88%E3%81%84/",
+      "https://e-tenki.co.jp/news/reserve-system-incident/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "1,536,322件"
+  },
+  {
+    "key": "search-2073863e279e260cae6c438a",
+    "organization": "NTTソルマーレ",
+    "published": "2026-10-29",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#cmoa-members-202610",
+    "primaryUrls": [
+      "https://www.nttsolmare.com/press/2026/1016-1.html",
+      "https://www.nttsolmare.com/press/2026/1016.html",
+      "https://www.nttsolmare.com/press/2026/1021.html",
+      "https://www.nttsolmare.com/press/2026/1029.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "登録情報319件・ログ情報最大約420万件"
+  },
+  {
+    "key": "search-9fbf26b0787d9fc17a3a6d07",
+    "organization": "ELESTYLE",
+    "published": "2026-10-29",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#elestyle-merchant-data-202610",
+    "primaryUrls": [
+      "https://elestyle.jp/20261029-report"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "加盟店の登録情報7,162件"
+  },
+  {
+    "key": "search-c809eff3f0951e734c117f9b",
+    "organization": "AZOO",
+    "published": "2026-10-29",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#azoo-wasimil-202610",
+    "primaryUrls": [
+      "https://piecehotel.com/news/yt0Rbo_B",
+      "https://wasimil.com/press-release/incident-report-20261021"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "件数は調査中（一部契約施設の宿泊者の予約情報）"
+  },
+  {
+    "key": "search-017799cd03860b549c2df591",
+    "organization": "新菱冷熱工業",
+    "published": "2026-10-28",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#shinryo-sems-202610",
+    "primaryUrls": [
+      "https://www.shinryo.com/news/20261021.html",
+      "https://www.shinryo.com/news/20261028.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "ランサムウェア",
+    "indexQuantity": "個人情報・顧客データの外部流出は確認されていない（調査継続）"
+  },
+  {
+    "key": "search-e298774a706b131f5e8b4a36",
+    "organization": "ソニー生命",
+    "published": "2026-10-28",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#sonylife-web-202610",
+    "primaryUrls": [
+      "https://www.medicarelife.com/pdf/20261029.pdf",
+      "https://www.sonylife.co.jp/info/popup/261028_oshirase.pdf",
+      "https://www.sonylife.co.jp/info/popup/261028_oshirase2.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "約38.5万件"
+  },
+  {
+    "key": "search-1fe15aa99cc3e1ac9f4d77c7",
+    "organization": "電力・ガス取引監視等委員会（経済産業省）",
+    "published": "2026-10-28",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#egc-dentorinet-202610",
+    "primaryUrls": [
+      "https://www.egc.meti.go.jp/info/public/pdf/20261028ms1.pdf",
+      "https://www.meti.go.jp/press/2026/10/20261028003.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "情報流出の有無を確認中"
+  },
+  {
+    "key": "search-3bda72f2826599045f04bf66",
+    "organization": "ベネフィット・ワン（委託先フォレステック）",
+    "published": "2026-10-28",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#benefitone-tokugai-202610",
+    "primaryUrls": [
+      "https://corp.benefit-one.co.jp/company/news/news/2026/20261028/20261028.pdf",
+      "https://www.saisoncard.co.jp/customer-support/information/20261028"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "委託先・取引先での事故",
+    "indexQuantity": "29,465人"
+  },
+  {
+    "key": "search-b6970bd7ace5e473ce4e2b72",
+    "organization": "ENEOS Power",
+    "published": "2026-10-28",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#eneos-power-customer-page-202610",
+    "primaryUrls": [
+      "https://www.eneos-power.co.jp/denkigas/information/uploads/denki-important-20261027-392.pdf",
+      "https://www.eneos-power.co.jp/denkigas/information/uploads/denki-important-20261028-394.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "57名分"
+  },
+  {
+    "key": "search-7eb2aae9cade66c1d25e0afb",
+    "organization": "JFEケミカル",
+    "published": "2026-10-28",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#jfe-chemical-it-202610",
+    "primaryUrls": [
+      "https://www.jfe-chem.com/uploads/2026/10/5d39f850d21f5b45caec8589b42bacf9.pdf",
+      "https://www.jfe-chem.com/uploads/2026/10/baa6f7b08015cd87b11014e01d51141e.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "個人情報最大約23万件（取得又はそのおそれ）"
+  },
+  {
+    "key": "search-f6793fd2290f48aa004f040a",
+    "organization": "ドン・キホーテ等4社（時計修理委託先コックス）",
+    "published": "2026-10-28",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#cox-watch-repair-202610",
+    "primaryUrls": [
+      "https://www.donki.com/updata/news/info_84zw5.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "ランサムウェア",
+    "indexQuantity": "件数の公表なし"
+  },
+  {
+    "key": "search-47a7550b00bc90579d101ec0",
+    "organization": "ソニーネットワークコミュニケーションズ",
+    "published": "2026-10-27",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#sonet-member-db-202610",
+    "primaryUrls": [
+      "https://www.docomo.ne.jp/info/notice/page/261027_05_m.html",
+      "https://www.sonynetwork.co.jp/corporation/release/2026/v5e5u00000000zwj-att/20261027.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "So-net会員2,141,986件・plala（Sコース）会員443,495件"
+  },
+  {
+    "key": "search-ac9e0ef018a269fe632aac17",
+    "organization": "くふうカンパニー",
+    "published": "2026-10-27",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#kufu-machitalk-202610",
+    "primaryUrls": [
+      "https://kufu.co.jp/2026/10/05/kufu-announce/",
+      "https://kufu.co.jp/2026/10/13/kufu-announce-2/",
+      "https://kufu.co.jp/2026/10/27/kufu-announce-4/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "308名（うち1名はメールアドレス取得を確認）"
+  },
+  {
+    "key": "search-fd512551a94f8d4c62925ecf",
+    "organization": "ギフティ",
+    "published": "2026-10-27",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#giftee-egift-system-202610",
+    "primaryUrls": [
+      "https://contents.xj-storage.jp/xcontents/AS04721/9cd22cba/ef69/4403/bd9a/59025ae1c745/20261026193119181s.pdf",
+      "https://giftee.co.jp/press/news/info20261027/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "個人情報の漏えいは確認されていない"
+  },
+  {
+    "key": "search-231978515792d67cf1dbbfc5",
+    "organization": "日本貿易振興機構（ジェトロ）",
+    "published": "2026-10-27",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#jetro-evenue-202610",
+    "primaryUrls": [
+      "https://www.jetro.go.jp/news/announcement/2026/5eebe72f41bc2230.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "最大133件"
+  },
+  {
+    "key": "search-1265e20ea3fcf307a44d73aa",
+    "organization": "第一ライフグループ 第一生命保険",
+    "published": "2026-10-27",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#daiichi-hr-202609",
+    "primaryUrls": [
+      "https://www.dai-ichi-life.co.jp/company/news/pdf/2026_024.pdf",
+      "https://www.dai-ichi-life.co.jp/information/pdf/index_192.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "約12.4万人"
+  },
+  {
+    "key": "search-6563f56eb902e135ae89b4dc",
+    "organization": "大東ガス",
+    "published": "2026-10-27",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#daito-gas-202609",
+    "primaryUrls": [
+      "https://www.daitogas.co.jp/info/170",
+      "https://www.daitogas.co.jp/info/211"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "委託先・取引先での事故",
+    "indexQuantity": "約124,000件"
+  },
+  {
+    "key": "search-d586b954b0cb0b1b938a0451",
+    "organization": "MICIN",
+    "published": "2026-10-27",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#micin-curon-online-202610",
+    "primaryUrls": [
+      "https://micin.jp/news/14859/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "患者73名分の情報が閲覧、患者14アカウント・5医療機関6アカウントに不正ログイン"
+  },
+  {
+    "key": "search-f15bcd9b65a1524626af3b9a",
+    "organization": "スマートシェア",
+    "published": "2026-10-27",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#smartshare-ownly-202610",
+    "primaryUrls": [
+      "https://www.smartshare.jp/news/20261027"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "キャンペーン参加者情報14,034件"
+  },
+  {
+    "key": "search-fdfb63e062944c49bdbb973d",
+    "organization": "ブシロード",
+    "published": "2026-10-27",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#bushiroad-ournotes-contractor-202610",
+    "primaryUrls": [
+      "https://bushiroad.co.jp/media/a87298c628c65925"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "委託先・取引先での事故",
+    "indexQuantity": "クローズドβテスト応募者10,194名、関係者71名、アンケート回答5名、カスタマーサポート問い合わせ3,034名"
+  },
+  {
+    "key": "search-0f4a528070c730328079cca7",
+    "organization": "楽天グループ（Rakuten Travel Xchange）",
+    "published": "2026-10-26",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#rakuten-travel-overseas-202610",
+    "primaryUrls": [
+      "https://travel.rakuten.co.jp/info/announce/20261026.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "予約者最大約4万件・ログイン利用者最大約260万件"
+  },
+  {
+    "key": "search-365f0f0d2ab967c4f82746dd",
+    "organization": "上新電機",
+    "published": "2026-10-26",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#joshin-systems-202610",
+    "primaryUrls": [
+      "https://www.joshin.co.jp/ja/ir/news/auto_20261019552813/pdfFile.pdf",
+      "https://www.joshin.co.jp/ja/ir/news/auto_20261026556267/pdfFile.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "会員情報最大約600万件・サブスク最大約23万件・リフォーム写真最大約800件（おそれ）"
+  },
+  {
+    "key": "search-264a7b7eca66a41dcaa40e0e",
+    "organization": "台東区（委託先ミラボ）",
+    "published": "2026-10-26",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#taito-sasaeru-mirabo-202610",
+    "primaryUrls": [
+      "https://www.city.taito.lg.jp/kenkohukusi/shogai/osirase/0000000000.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "委託先・取引先での事故",
+    "indexQuantity": "メールアドレス197件、障害児者との関係、障害のカテゴリー"
+  },
+  {
+    "key": "search-7c5db1f695aab7f095fb9449",
+    "organization": "丸木医科器械",
+    "published": "2026-10-26",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#maruki-ms-core-system-202610",
+    "primaryUrls": [
+      "https://maruki-ms.co.jp/archives/8405",
+      "https://maruki-ms.co.jp/archives/8428"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "サイバー攻撃",
+    "indexQuantity": "情報流出の有無を調査中"
+  },
+  {
+    "key": "search-53615ee736f00a4ffb72981e",
+    "organization": "楽天グループ",
+    "published": "2026-10-26",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#rakuten-travel-multilingual-202610",
+    "primaryUrls": [
+      "https://travel.rakuten.co.jp/info/announce/20261026.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "ログイン利用者最大約86万件・宿泊施設従業員アカウント最大約4万件"
+  },
+  {
+    "key": "search-a3034df184503f34c4fe9d00",
+    "organization": "古河電工パワーシステムズ",
+    "published": "2026-10-26",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#furukawa-feps-web-202610",
+    "primaryUrls": [
+      "https://www.feps.co.jp/news/20261026/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "件数調査中"
+  },
+  {
+    "key": "search-0c41f1c0ce95b984aa2c9b71",
+    "organization": "バンダイロジパル",
+    "published": "2026-10-26",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#bandai-logipal-202610",
+    "primaryUrls": [
+      "https://www.bandainamco.co.jp/files/2026102620HPE794A820E4B88DE6ADA3E382A2E382AFE382BB.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "件数調査中"
+  },
+  {
+    "key": "search-9cfcc0633436cca1fedf75f5",
+    "organization": "バルテック",
+    "published": "2026-10-26",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#valtec-services-202610",
+    "primaryUrls": [
+      "https://www.webjapan.co.jp/maintenance/serviceteishi261022/",
+      "https://www.webjapan.co.jp/maintenance/serviceteishi261026/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "契約者企業情報1,213件・売上等875社分／個人情報の件数は調査中"
+  },
+  {
+    "key": "search-7bf4e164446f576a3f0e1a05",
+    "organization": "ワサビ（10月14日事案）",
+    "published": "2026-10-26",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#wasabi-switch-202610",
+    "primaryUrls": [
+      "https://incident-support.wasabi-inc.biz/news/14",
+      "https://wasabi-inc.biz/help/news/20261016-01/",
+      "https://wasabi-inc.biz/help/news/20261016-03/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "件数は調査中"
+  },
+  {
+    "key": "search-eb8b2fd6a8c1c61f75889cf2",
+    "organization": "PingCAP",
+    "published": "2026-10-26",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#pingcap-internal-202610",
+    "primaryUrls": [
+      "https://pingcap.co.jp/trust-hub/security/security-incident-investigation-report",
+      "https://pingcap.co.jp/trust-hub/security/security-update-october-2026/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "国内で最大約5万件"
+  },
+  {
+    "key": "search-a1fdfdedb7689d1a012ea6a0",
+    "organization": "フューチャーショップ",
+    "published": "2026-10-25",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#futureshop-related-service-202610",
+    "primaryUrls": [
+      "https://www.future-shop.jp/news/2026/10/21.html",
+      "https://www.future-shop.jp/news/2026/10/25.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "件数は未公表"
+  },
+  {
+    "key": "search-bdb722d575d7154ddfd88a04",
+    "organization": "ローソン",
+    "published": "2026-10-24",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#lawson-id-202610",
+    "primaryUrls": [
+      "https://www.lawson.co.jp/contents/cont07/1533174_3310.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "2,155,345件"
+  },
+  {
+    "key": "search-8e0b910fc54fda1fd893da36",
+    "organization": "チャリ・ロト",
+    "published": "2026-10-24",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#chariloto-app-202610",
+    "primaryUrls": [
+      "https://chariloto.jp/news/20261024/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "373名"
+  },
+  {
+    "key": "search-97de9c93f9d94e5baea4e9a0",
+    "organization": "静岡市",
+    "published": "2026-10-24",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#shizuoka-ekipa-documents-202610",
+    "primaryUrls": [
+      "https://www.city.shizuoka.lg.jp/s3792/s001405.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "紛失・誤廃棄",
+    "indexQuantity": "対象人数・件数は不明"
+  },
+  {
+    "key": "search-2f4382e3c7e1f2a7afb6b09c",
+    "organization": "ペイクラウドホールディングス（バリューデザイン）",
+    "published": "2026-10-23",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#valuedesign-valuecard-202610",
+    "primaryUrls": [
+      "https://ssl4.eir-parts.net/doc/8153/tdnet/2898082/00.pdf",
+      "https://www.release.tdnet.info/inbs/140120261023555340.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "1,424,748件（ID番号・PIN番号・残高情報）"
+  },
+  {
+    "key": "search-38323396c6832a97c04360dc",
+    "organization": "カプコン",
+    "published": "2026-10-23",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#capcom-id-202610",
+    "primaryUrls": [
+      "https://www.capcom.co.jp/ir/news/html/261022.html",
+      "https://www.capcom.co.jp/ir/news/html/261023.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "全世界11,774,247件"
+  },
+  {
+    "key": "search-c9c98ea35f41917df8d9b516",
+    "organization": "グリーンモンスター",
+    "published": "2026-10-23",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#greenmonster-fxnavi-202610",
+    "primaryUrls": [
+      "https://greenmonster.co.jp/topics/2356/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "約619万件のユーザー情報等"
+  },
+  {
+    "key": "search-a41c6f748817429f9b07b47e",
+    "organization": "パーク24グループ（タイムズカー・タイムズクラブ）",
+    "published": "2026-10-23",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#timescar-202609",
+    "primaryUrls": [
+      "https://corp.timescar.jp/mail/announce/faq.pdf?20261006",
+      "https://www.park24.co.jp/news/2026/09/20260928-1.html",
+      "https://www.park24.co.jp/news/2026/09/20260929-1.html",
+      "https://www.park24.co.jp/news/2026/10/20261023-1.html",
+      "https://www.timesmobi.co.jp/news/2026/09/web1.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "タイムズカー6,628,007件"
+  },
+  {
+    "key": "search-059ad230d415f76f256131bf",
+    "organization": "佐川急便",
+    "published": "2026-10-23",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#sagawa-cargo-202609",
+    "primaryUrls": [
+      "https://www2.sagawa-exp.co.jp/information/detail/419/",
+      "https://www2.sagawa-exp.co.jp/information/detail/420/",
+      "https://www2.sagawa-exp.co.jp/information/detail/421/",
+      "https://www2.sagawa-exp.co.jp/information/detail/426/",
+      "https://www2.sagawa-exp.co.jp/information/detail/430/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "最大約5,323万件（重複を含む）"
+  },
+  {
+    "key": "search-f5968b5f9a3b7caf935ea0fb",
+    "organization": "ヤマダデンキ",
+    "published": "2026-10-23",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#yamada-video-gold-202610",
+    "primaryUrls": [
+      "https://www.yamada-denki.jp/information/pdf/261023_3.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "個人情報への影響を調査中"
+  },
+  {
+    "key": "search-40aaf77d10379e243883533d",
+    "organization": "サンケイリビング新聞社",
+    "published": "2026-10-23",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#sankei-living-202610",
+    "primaryUrls": [
+      "https://oshirase.living.jp/",
+      "https://www.city.tome.miyagi.jp/koshitu/shisejoho/happyoshiryo/r8/documents/081023_houdou.pdf",
+      "https://www.pref.hiroshima.lg.jp/dayori/notice-20261023.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "調査中・全体件数未公表"
+  },
+  {
+    "key": "search-8805bb617a7b3934caa78f0d",
+    "organization": "沖縄ツーリスト",
+    "published": "2026-10-23",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#okinawa-tourist-services-202610",
+    "primaryUrls": [
+      "https://otspremium.com/news/3030"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "最大約73万人／別DBの免許証画像最大6,000件は調査中"
+  },
+  {
+    "key": "search-17f794839eb59da330678557",
+    "organization": "メドレー",
+    "published": "2026-10-23",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#medley-atlink-202610",
+    "primaryUrls": [
+      "https://at-link.net/information/%e3%82%a2%e3%83%83%e3%83%88%e3%83%aa%e3%83%b3%e3%82%af%e3%81%b8%e3%81%ae%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%ab%e9%96%a2%e3%81%99%e3%82%8b%e8%aa%bf%e6%9f%bb%e7%8a%b6%e6%b3%81/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "対象数は調査中"
+  },
+  {
+    "key": "search-b7a0076616e13aaf67595610",
+    "organization": "NEXCO東日本",
+    "published": "2026-10-23",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#nexco-east-doratora-202610",
+    "primaryUrls": [
+      "https://www.e-nexco.co.jp/news/important_info/2026/1021/rpa_00016741.html",
+      "https://www.e-nexco.co.jp/news/important_info/2026/1023/00016745.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "対象件数は未公表"
+  },
+  {
+    "key": "search-46f33af5397c2cd057d9625f",
+    "organization": "トレジャー・ファクトリー",
+    "published": "2026-10-23",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#treasurefactory-visit-purchase-202610",
+    "primaryUrls": [
+      "https://ssl4.eir-parts.net/doc/3093/tdnet/2898019/00.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "顧客746,277件／取引先・従業員等750件／端末情報1,000件"
+  },
+  {
+    "key": "search-08cfbeaab1f966dbdcbcec6f",
+    "organization": "パピレス",
+    "published": "2026-10-23",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#papyless-renta-202610",
+    "primaryUrls": [
+      "https://www.papy.co.jp/news/sc/index/article/2026/20261023.html",
+      "https://www.release.tdnet.info/inbs/140120261019552777.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "対象件数は未公表"
+  },
+  {
+    "key": "search-aa727a1a56211352fabab13e",
+    "organization": "東京都水道局",
+    "published": "2026-10-23",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#tokyo-waterworks-hdd-loss-202610",
+    "primaryUrls": [
+      "https://www.waterworks.metro.tokyo.lg.jp/information/press/r8/10/2026102301"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "紛失・誤廃棄",
+    "indexQuantity": "個人情報1,932名分（HDD4台）"
+  },
+  {
+    "key": "search-b5e0edfa878ab9ca1ba9b285",
+    "organization": "日本ピザハット",
+    "published": "2026-10-23",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#pizzahut-order-api-202610",
+    "primaryUrls": [
+      "https://corp.pizzahut.jp/info/5540"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "件数は未公表"
+  },
+  {
+    "key": "search-d19cf5ff5926acd818e07ae5",
+    "organization": "ジャパンタイムズ・ニューズ・ツー・ユーHD",
+    "published": "2026-10-23",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#japan-times-admin-server-202610",
+    "primaryUrls": [
+      "https://www.japantimes.co.jp/press/2026/10/16/notice-ransomware-incident-second-report-jp/",
+      "https://www.japantimes.co.jp/press/2026/10/23/notice-ransomware-incident-3rd-report-jp/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "ランサムウェア",
+    "indexQuantity": "対象件数は未公表"
+  },
+  {
+    "key": "search-674a79d0d120c626bd3c39ff",
+    "organization": "デジタルアーツ",
+    "published": "2026-10-23",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#digitalarts-cloud-202610",
+    "primaryUrls": [
+      "https://www.daj.jp/shared/php/downloadset/c/parts.php?page=dl&filename=daj2326_unauthorized-access_faq.pdf",
+      "https://www.daj.jp/webtopics/1354/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "対象件数は未公表"
+  },
+  {
+    "key": "search-205b1e1c1136e35b2eb9ff99",
+    "organization": "エムスリー",
+    "published": "2026-10-23",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#m3-mrkun-202610",
+    "primaryUrls": [
+      "https://corporate.m3.com/assets.ctfassets.net/1pwj74siywcy/4YBQ3JACTocGVgQmIVkSHe/c7865f094fe436292d7c81e1116a9c7f/20261015_Public_J.pdf",
+      "https://corporate.m3.com/assets.ctfassets.net/1pwj74siywcy/TYwLIgktADUIxwA5M6XFE/3bcb64e5e6857ebaf8e5a5a4efd8f25f/20261023_Public_J.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "m3.com会員等25,775名／製薬企業担当者2,260名"
+  },
+  {
+    "key": "search-a16c632ab078608ee9d6ca5a",
+    "organization": "ネットプロテクションズ",
+    "published": "2026-10-22",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#netprotections-np-reissue-202610",
+    "primaryUrls": [
+      "https://corp.netprotections.com/news/info/corporate/20261022/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "28,884件（取引単位）"
+  },
+  {
+    "key": "search-2dfbfbf66a559060d29357ee",
+    "organization": "テクノヒル（厚生労働省委託事業）",
+    "published": "2026-10-22",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#technohill-1fedu-202610",
+    "primaryUrls": [
+      "https://www.mhlw.go.jp/stf/newpage_76892.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "漏えい確認6名／最大595名（6名を含む）"
+  },
+  {
+    "key": "search-5727014a54d3813ce777cc93",
+    "organization": "日本サッカー協会",
+    "published": "2026-10-22",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#jfa-passport-202610",
+    "primaryUrls": [
+      "https://www.jfa.jp/about_jfa/news/00036934/",
+      "https://www.jfa.jp/about_jfa/news/00036942/",
+      "https://www.jfa.jp/about_jfa/news/00036946/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "調査で個人情報漏えいは未確認"
+  },
+  {
+    "key": "search-420e1c4fb392bdcea58b351c",
+    "organization": "金子農機",
+    "published": "2026-10-22",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#kaneko-202607",
+    "primaryUrls": [
+      "https://www.kanekokk.co.jp/important-information/20260820/",
+      "https://www.kanekokk.co.jp/important-information/20261022/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "ランサムウェア",
+    "indexQuantity": "影響規模の公表なし"
+  },
+  {
+    "key": "search-31e6ed7bdc1ec873af26bce4",
+    "organization": "PIECE",
+    "published": "2026-10-22",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#piece-booking-account-202610",
+    "primaryUrls": [
+      "https://piecehotel.com/news/Amv4d8iQ",
+      "https://piecehotel.com/news/XS3K43ij"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "対象人数・期間を調査中"
+  },
+  {
+    "key": "search-a7bbab21f7b4c8f0e86a404c",
+    "organization": "リクルート",
+    "published": "2026-10-21",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#recruit-carsensor-202610",
+    "primaryUrls": [
+      "https://c-match.carsensor.net/",
+      "https://www.recruit.co.jp/newsroom/pressrelease/2026/1021_149447.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "最大3,709,551件"
+  },
+  {
+    "key": "search-b179df3efa938a23dfd689b2",
+    "organization": "アップ",
+    "published": "2026-10-21",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#up-education-websites-202609",
+    "primaryUrls": [
+      "https://up-edu.com/sorry-info/pdf/notification0904.pdf",
+      "https://up-edu.com/sorry-info/status1014.php",
+      "https://up-edu.com/sorry-info/status1021.php"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "採用応募者10名・管理者3名"
+  },
+  {
+    "key": "search-0130548a6ec4383deca1d263",
+    "organization": "イオン",
+    "published": "2026-10-21",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#aeon-group-sites-202610",
+    "primaryUrls": [
+      "https://www.aeon.info/wp-content/uploads/news/important/pdf/2026/10/261021R_2.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "対象範囲・件数は調査中"
+  },
+  {
+    "key": "search-5f57d7b28e02fc10ea1271a6",
+    "organization": "ニフティ",
+    "published": "2026-10-21",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#nifty-line-applications-202610",
+    "primaryUrls": [
+      "https://www.nifty.co.jp/newsrelease/nifty202610195434.htm",
+      "https://www.nifty.co.jp/newsrelease/nifty202610215453.htm"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "最大18,000件"
+  },
+  {
+    "key": "search-fb1a2b97248d9782c6eb3a51",
+    "organization": "物語コーポレーション",
+    "published": "2026-10-20",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#yakinikuking-202610",
+    "primaryUrls": [
+      "https://www.monogatari.co.jp/news/261005_news/",
+      "https://www.monogatari.co.jp/news/261020_news/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "10,788,963件"
+  },
+  {
+    "key": "search-be16f79381bb01b9a65a80c9",
+    "organization": "アイラッシュガレージ",
+    "published": "2026-10-20",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#eyelashgarage-ec-202610",
+    "primaryUrls": [
+      "https://eyelashgarage.co.jp/information/%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%ab%e3%82%88%e3%82%8b%e3%81%8a%e5%ae%a2%e6%a7%98%e6%83%85%e5%a0%b1%e6%bc%8f%e6%b4%a9%e3%81%ab%e9%96%a2%e3%81%99%e3%82%8b%e3%81%8a%e8%a9%ab-2/",
+      "https://eyelashgarage.co.jp/information/%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%ab%e3%82%88%e3%82%8b%e3%81%8a%e5%ae%a2%e6%a7%98%e6%83%85%e5%a0%b1%e6%bc%8f%e6%b4%a9%e3%81%ab%e9%96%a2%e3%81%99%e3%82%8b%e3%81%8a%e8%a9%ab/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "49,191件"
+  },
+  {
+    "key": "search-ab22066c69db56b0dfa9561a",
+    "organization": "フジテレビジョン",
+    "published": "2026-10-20",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#fuji-promotion-system-202610",
+    "primaryUrls": [
+      "https://www.fujitv.co.jp/company/news/r20261020_4814149391.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "最大730件"
+  },
+  {
+    "key": "search-5112239137cf8e0d2a1b84d6",
+    "organization": "住宅省エネ2024キャンペーン事務局（博報堂）",
+    "published": "2026-10-20",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#housing-energy-2024-202610",
+    "primaryUrls": [
+      "https://www.mlit.go.jp/report/press/house04_hh_001366.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "23,918名（16,950事業者、速報値）"
+  },
+  {
+    "key": "search-41ee772c0e2830e098dd773e",
+    "organization": "NEC（日本電気）",
+    "published": "2026-10-20",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#nec-vendor-202610",
+    "primaryUrls": [
+      "https://jpn.nec.com/news/info/20261020.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "件数未公表"
+  },
+  {
+    "key": "search-286060e594edd1ba93cad3b0",
+    "organization": "釧路市（委託先ポータス）",
+    "published": "2026-10-20",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#kushiro-portas-202610",
+    "primaryUrls": [
+      "https://www.city.kushiro.lg.jp/kosodatekyouiku/kyouiku/1005512/1005535/1019802.html",
+      "https://www.city.kushiro.lg.jp/kosodatekyouiku/kyouiku/1008303/1019759.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "ランサムウェア",
+    "indexQuantity": "年度別のアカウント情報（児童生徒最大11,106件等）"
+  },
+  {
+    "key": "search-0912ab2659184ca7e8366b3c",
+    "organization": "アエナ",
+    "published": "2026-10-19",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#aena-ec-app-202610",
+    "primaryUrls": [
+      "https://www.aena.co.jp/news/detail/7826/",
+      "https://www.aena.co.jp/news/detail/7879/",
+      "https://www.aena.co.jp/news/detail/7904/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "最大817,215人"
+  },
+  {
+    "key": "search-9c04ba8f5ecb2b77fca0c0ba",
+    "organization": "ローソン",
+    "published": "2026-10-19",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#lawson-reservation-202610",
+    "primaryUrls": [
+      "https://www.lawson.co.jp/contents/cont07/1533174_3310.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "26件"
+  },
+  {
+    "key": "search-afe50214ff9577d3ca8617f3",
+    "organization": "東邦ホールディングス子会社エンタッチ",
+    "published": "2026-10-19",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#entouch-medical-202610",
+    "primaryUrls": [
+      "https://www.release.tdnet.info/inbs/140120261019553091.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "件数未公表"
+  },
+  {
+    "key": "search-ad24ec9615587839a1b8de5d",
+    "organization": "日本経済新聞社（開発用クラウド）",
+    "published": "2026-10-16",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#nikkei-development-cloud-202610",
+    "primaryUrls": [
+      "https://www.nikkei.co.jp/nikkeiinfo/news/information/1561.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "約183万件"
+  },
+  {
+    "key": "search-a27aa6452840fbbd16b0db35",
+    "organization": "ソースネクスト",
+    "published": "2026-10-16",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#sourcenext-members-202610",
+    "primaryUrls": [
+      "https://www.sourcenext.com/support/i/2026/1015_info/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "流出した可能性のある情報22,519,960件"
+  },
+  {
+    "key": "search-e5f8d902e25f7d45ec891b24",
+    "organization": "ヤマト運輸",
+    "published": "2026-10-16",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#yamato-atobarai-202609",
+    "primaryUrls": [
+      "https://www.yamato-hd.co.jp/important/img/info_260929_1_7.pdf",
+      "https://www.yamato-hd.co.jp/important/info_260929_1.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "顧客情報約526万件、届け先情報約5万件、加盟店情報約4,100件"
+  },
+  {
+    "key": "search-028078f7ebf7ce0d36ca3406",
+    "organization": "Eストアー",
+    "published": "2026-10-16",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#estore-202608",
+    "primaryUrls": [
+      "https://estore.jp/press/20260802/",
+      "https://estore.jp/press/20261016/",
+      "https://www.designphil.co.jp/information/news/entry-8739/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "約23,356,000人、対象店舗7,858店"
+  },
+  {
+    "key": "search-fc99cf293762e725b0bc6e43",
+    "organization": "ゴルフダイジェスト・オンライン",
+    "published": "2026-10-16",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#gdo-systems-202610",
+    "primaryUrls": [
+      "https://company.golfdigest.co.jp/brand/news/2026101301.html",
+      "https://company.golfdigest.co.jp/corp/pr/2026101601.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "従業員・委託先等1,789件／顧客情報55件のおそれ"
+  },
+  {
+    "key": "search-4a7dedea084b34e9b7944f31",
+    "organization": "三井住友DSアセットマネジメント",
+    "published": "2026-10-16",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#smd-am-direct-202610",
+    "primaryUrls": [
+      "https://direct.smd-am.co.jp/news/2026/1016"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "委託先・取引先での事故",
+    "indexQuantity": "対象人数の公表なし"
+  },
+  {
+    "key": "search-88b54d0fadf050f1419a4bcc",
+    "organization": "京王電鉄グループ",
+    "published": "2026-10-16",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#keio-group-202609",
+    "primaryUrls": [
+      "https://www.keio.co.jp/news/update/announce/nr260926v13404/",
+      "https://www.keio.co.jp/news/update/news_release/news_release2026/pdf/nr20261016_newsrelease.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "ランサムウェア",
+    "indexQuantity": "件数は調査中"
+  },
+  {
+    "key": "search-b31441f312ff5bd46de66765",
+    "organization": "工房（発車オーライネット）",
+    "published": "2026-10-16",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#kobo-hassha-orai-api-202610",
+    "primaryUrls": [
+      "https://www.chuo-bus.co.jp/%0C%E7%99%BA%E8%BB%8A%E3%82%AA%E3%83%BC%E3%83%A9%E3%82%A4%E3%83%8D%E3%83%83%E3%83%88%0D%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E3%81%8A%E5%AE%A2%E6%A7%98%E6%83%85%E5%A0%B1%E3%81%AE%E6%BC%8F%E3%81%88%E3%81%84%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%08%E3%81%8A%E8%A9%AB%E3%81%B3%09/main_info/2410",
+      "https://www.khobho.co.jp/wp-content/themes/kobo/pdf/20261015.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "委託先・取引先での事故",
+    "indexQuantity": "最大8,341件（対象5,614件）"
+  },
+  {
+    "key": "search-a914e13475a8bc1b3a5bf410",
+    "organization": "ビーケージャパンホールディングス",
+    "published": "2026-10-15",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#burgerking-app-202610",
+    "primaryUrls": [
+      "https://www.burgerking.co.jp/images/notice/2026/10/15/d4d114ca-ebd7-4f3d-94ef-c4ea7a84a139.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "約1,118万件"
+  },
+  {
+    "key": "search-24e52db1b4a4057dfe337b15",
+    "organization": "ニモカ",
+    "published": "2026-10-15",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#nimoca-202610",
+    "primaryUrls": [
+      "https://www.nimoca.jp/news/detail/109",
+      "https://www.nimoca.jp/storage/files/information/107/20261006.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "521件"
+  },
+  {
+    "key": "search-b3ebd37539ab2c26f64300e0",
+    "organization": "ムーンスター",
+    "published": "2026-10-15",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#moonstar-202610",
+    "primaryUrls": [
+      "https://www.moonstar.co.jp/information/2026/10/gg.html",
+      "https://www.moonstar.co.jp/information/2026/10/post-4.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "最大593,000人"
+  },
+  {
+    "key": "search-2b77f0523b3133cba1f2158f",
+    "organization": "リクルート",
+    "published": "2026-10-15",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#studysapuri-attachments-202610",
+    "primaryUrls": [
+      "https://studysapuri.jp/info/important/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "設定不備・誤公開",
+    "indexQuantity": "139校から送信された483ファイル"
+  },
+  {
+    "key": "search-0a7d827d19dccdc13f8bc71b",
+    "organization": "東京地下鉄",
+    "published": "2026-10-15",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#metro-metpo-202609",
+    "primaryUrls": [
+      "https://www.tokyometro.jp/info/files/3aef5fe666b10b7986117276c4907f66_1.pdf",
+      "https://www.tokyometro.jp/info/files/9172e2efa7222d15f8d4f601b6385457.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "約59,000件"
+  },
+  {
+    "key": "search-0ec6baa6a30db1d50baae3b2",
+    "organization": "スズキ二輪（スズキワールド）",
+    "published": "2026-10-14",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#suzuki-world-hp-202610",
+    "primaryUrls": [
+      "https://suzukiworld.jp/announcements/20261014.html",
+      "https://www.chu-bu.co.jp/info-20261014.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "約4,400件"
+  },
+  {
+    "key": "search-a40b6b84438c8e2f2f0eaee5",
+    "organization": "トイポ",
+    "published": "2026-10-14",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#toypo-app-202610",
+    "primaryUrls": [
+      "https://toypo.me/news/CW6ew1AB",
+      "https://toypo.notion.site/3f881a885025806aa1fce0704f26f839"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "697,209名"
+  },
+  {
+    "key": "search-ae62a0ccafcfe0b46994a88c",
+    "organization": "札幌国際大学",
+    "published": "2026-10-14",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#siu-email-202610",
+    "primaryUrls": [
+      "https://www.siu.ac.jp/news/detail.html?news=1960"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "複数アカウント（情報件数未公表）"
+  },
+  {
+    "key": "search-8edadf5ed8d53207bc037592",
+    "organization": "GMOリサーチ&AI",
+    "published": "2026-10-14",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#gmo-infoq-202610",
+    "primaryUrls": [
+      "https://gmo-research.ai/pressroom/notice/notice-20261005",
+      "https://gmo-research.ai/pressroom/notice/notice-20261014"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "894,082件"
+  },
+  {
+    "key": "search-c7ac688276f1fe8e742e39a4",
+    "organization": "ライドオンエクスプレスホールディングス",
+    "published": "2026-10-13",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#rideonexpress-202610",
+    "primaryUrls": [
+      "https://www.rideonexpresshd.co.jp/news/2026/10/3-33.html",
+      "https://www.rideonexpresshd.co.jp/news/2026/10/post-482.html",
+      "https://www.rideonexpresshd.co.jp/news/2026/10/post-484.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "ランサムウェア",
+    "indexQuantity": "最大約650万件"
+  },
+  {
+    "key": "search-e85db42a61e6adc0c06649d3",
+    "organization": "コミューン",
+    "published": "2026-10-13",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#commune-202610",
+    "primaryUrls": [
+      "https://chitose-bio.com/jp/news/12177/",
+      "https://communeinc.com/ja/news/2026oct09",
+      "https://communeinc.com/ja/news/2026oct13",
+      "https://corp.valx.jp/news/451vhhqdf29c",
+      "https://corp.wingarc.com/public/202610/news3042.html",
+      "https://global.yamaha-motor.com/jp/news/2026/1012/leakage.html",
+      "https://www.lixil.co.jp/announce/notice-info-leak.htm",
+      "https://www.lycorp.co.jp/ja/privacy-security/announcement/020892/",
+      "https://www.suzuki.co.jp/release/d/2026/1009/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "約30.7万人（推計）"
+  },
+  {
+    "key": "search-5d2fc007d953ba1355e3ff22",
+    "organization": "カインドオル",
+    "published": "2026-10-13",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#kindal-202608",
+    "primaryUrls": [
+      "https://ssl4.eir-parts.net/doc/3093/tdnet/2893776/00.pdf",
+      "https://www.kind.co.jp/notice-20260828"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "136,464人"
+  },
+  {
+    "key": "search-79aecb22ae6398ececb44ce8",
+    "organization": "ホテリエ",
+    "published": "2026-10-13",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#hotelier-202610",
+    "primaryUrls": [
+      "https://hotel.inc/news/information/20261013_01/",
+      "https://hotel.inc/wp-content/uploads/2026/10/20261007_apology_ja.pdf",
+      "https://www.daieisangyo.co.jp/news/3218"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "7,919人・8施設"
+  },
+  {
+    "key": "search-2dc86244f9983dad9a239699",
+    "organization": "あっぷらぼ",
+    "published": "2026-10-12",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#applabo-202610",
+    "primaryUrls": [
+      "https://www.applabo.co.jp/news-blog/?p=954"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "件数の公表なし"
+  },
+  {
+    "key": "search-651ba06776402cb952062d10",
+    "organization": "手間いらず",
+    "published": "2026-10-11",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#temairazu-202609",
+    "primaryUrls": [
+      "https://feriendorf.jp/tp_detail.php?id=101",
+      "https://hana-hotel.com/news/infotmation/695.html",
+      "https://nikken-hotelmgt.co.jp/ueno/2026/09/29/news_2026_09/",
+      "https://www.espacionagoya.com/information/news/information-4482/",
+      "https://www.ghi.gr.jp/information/news/post-215.html",
+      "https://www.gyokuhokan.jp/news/detail.html?id=2303",
+      "https://www.hol-onic.co.jp/news/%E3%80%90%E9%87%8D%E8%A6%81%E3%80%91%E5%BD%93%E7%A4%BE%E9%81%8B%E5%96%B6%E6%96%BD%E8%A8%AD%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E4%BA%88%E7%B4%84%E7%AE%A1%E7%90%86%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0/",
+      "https://www.hotel-crystal.co.jp/news/7830/",
+      "https://www.kur-hotel.co.jp/news/attention2/",
+      "https://www.temairazu.co.jp/pdf/1206/news-update",
+      "https://www.temairazu.co.jp/pdf/1210/news-update",
+      "https://www.temairazu.co.jp/pdf/1212/ir-news",
+      "https://www.yumotokan.co.jp/blog/2026/10/01/%E6%89%8B%E9%96%93%E3%81%84%E3%82%89%E3%81%9A%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%81%AB%E3%82%88%E3%82%8B%E5%80%8B%E4%BA%BA%E6%83%85%E5%A0%B1%E6%BC%8F%E6%B4%A9%E3%81%AE%E5%8F%AF%E8%83%BD%E6%80%A7/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "最大約445万人"
+  },
+  {
+    "key": "search-395881e26fec559f3574491d",
+    "organization": "ブックオフグループホールディングス",
+    "published": "2026-10-09",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#bookoff-202610",
+    "primaryUrls": [
+      "https://ssl4.eir-parts.net/doc/9278/tdnet/2893077/00.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "最大約643万件（会員番号）"
+  },
+  {
+    "key": "search-6689bc188050edaebff9dbd5",
+    "organization": "ディップ（バイトル・バイトルNEXT）",
+    "published": "2026-10-09",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#dip-baitoru-202610",
+    "primaryUrls": [
+      "https://www.dip-net.co.jp/news/2192"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "最大3,885,771件"
+  },
+  {
+    "key": "search-116b0c022d7e5ce73c72b49e",
+    "organization": "RIZAPグループ・REXT／REXT Holdings",
+    "published": "2026-10-09",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#rext-202608",
+    "primaryUrls": [
+      "https://www.rizapgroup.com/news/detail?topics_id=1567"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "ランサムウェア",
+    "indexQuantity": "公開310ファイル・おそれ1,044,906件"
+  },
+  {
+    "key": "search-d76a75cb8019ec17d2f315c4",
+    "organization": "穴吹ハウジングサービス",
+    "published": "2026-10-09",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#anabuki-ransom-202602",
+    "primaryUrls": [
+      "https://www.anabuki-housing.co.jp/news/content.php?news_id=530",
+      "https://www.anabuki-housing.co.jp/news/content.php?news_id=538"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "ランサムウェア",
+    "indexQuantity": "207,773件"
+  },
+  {
+    "key": "search-c43cf23c7bfa98c04b8ec471",
+    "organization": "ユーザベース",
+    "published": "2026-10-09",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#newspicks-202610",
+    "primaryUrls": [
+      "https://corp.newspicks.com/info/20261008",
+      "https://corp.newspicks.com/info/20261009"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "メール最大32.3万件・カード一部最大36.2万件"
+  },
+  {
+    "key": "search-da6dee5b645145e828275e0c",
+    "organization": "エネコム",
+    "published": "2026-10-09",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#enecom-202610",
+    "primaryUrls": [
+      "https://www.enecom.co.jp/information/3920/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "件数は調査中"
+  },
+  {
+    "key": "search-4dcf1392e5a4393963f301de",
+    "organization": "ココナラ",
+    "published": "2026-10-09",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#coconala-202610",
+    "primaryUrls": [
+      "https://coconala.co.jp/news-20261009/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "履歴書449件・職務経歴書1,845件"
+  },
+  {
+    "key": "search-4e6ec522f661c41fa0021f55",
+    "organization": "リゾートトラスト",
+    "published": "2026-10-09",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#resorttrust-202610",
+    "primaryUrls": [
+      "https://www.resorttrust.co.jp/wp_api/wp-content/uploads/2026/10/20261009.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "会員情報約26,000件・予約者情報約36,000件"
+  },
+  {
+    "key": "search-e23f12d71bf31943b4a77157",
+    "organization": "らしんばん",
+    "published": "2026-10-09",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#lashinbang-202609",
+    "primaryUrls": [
+      "https://www.lashinbang.com/info/26357/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "件数の公表なし"
+  },
+  {
+    "key": "search-2c8febb37f7adca52e6adca1",
+    "organization": "アドベンチャー",
+    "published": "2026-10-09",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#skyticket-business-202610",
+    "primaryUrls": [
+      "https://jp.adventurekk.com/news/apology-notice-unauthorized-access-data-leak/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "17,780件（重複あり）"
+  },
+  {
+    "key": "search-670b7b640c6c36afa75e037c",
+    "organization": "アドベンチャー",
+    "published": "2026-10-09",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#skyticket-bus-202610",
+    "primaryUrls": [
+      "https://jp.adventurekk.com/news/apology-notice-unauthorized-access-data-leak/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "設定不備・誤公開",
+    "indexQuantity": "約12,000予約"
+  },
+  {
+    "key": "search-56ff8608b83c8d02b7cc4b9a",
+    "organization": "スカラコミュニケーションズ",
+    "published": "2026-10-08",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#scala-iask-202610",
+    "primaryUrls": [
+      "https://scala-com.jp/news/2026/10-1/",
+      "https://ssl4.eir-parts.net/doc/8601/tdnet/2891437/00.pdf",
+      "https://www.citizen.co.jp/release/news/detail/2026/20261006.html",
+      "https://www.orixlife.co.jp/b3cd698c38a74ebea491976d56455ecd/77eb698f1d9543a39440e414940f9f4d/n261008.pdf",
+      "https://www.shikokubank.co.jp/info/post_195.html",
+      "https://www.sompo-japan.co.jp/-/media/SJNK/files/news/2026/20261007_1.pdf?la=ja-JP"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "最大延べ713,126件"
+  },
+  {
+    "key": "search-7bc7b12ee6abacf1414a0d2a",
+    "organization": "ハイホー",
+    "published": "2026-10-08",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#hiho-202610",
+    "primaryUrls": [
+      "https://bizimo.ne.jp/%E9%87%8D%E8%A6%81%E3%81%AA%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B%E3%81%8A%E5%AE%A2%E6%A7%98%E6%83%85%E5%A0%B1%E3%81%B8%E3%81%AE%E7%AC%AC%E4%B8%89%E8%80%85%E3%81%AB%E3%82%88%E3%82%8B%E3%82%A2%E3%82%AF/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "38,509契約"
+  },
+  {
+    "key": "search-f1e21d3f92abe0edc90daec2",
+    "organization": "エイチ・アイ・エス（タイ現地法人）",
+    "published": "2026-10-07",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#his-thailand-202610",
+    "primaryUrls": [
+      "https://www.his.co.jp/assets/20261007.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "最大627人"
+  },
+  {
+    "key": "search-bf9e226c98af00387d8e320d",
+    "organization": "戸田建設",
+    "published": "2026-10-07",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#toda-202610",
+    "primaryUrls": [
+      "https://www.toda.co.jp/news/2026/20261007_006350.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "メール最大7,200件・取引最大6,000件"
+  },
+  {
+    "key": "search-f0c3991d966aaf7d2eed5c2b",
+    "organization": "埼玉県",
+    "published": "2026-10-07",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#shibusawa-mix-202610",
+    "primaryUrls": [
+      "https://www.pref.saitama.lg.jp/a0803/news/page/news2026100702.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "約2,200人の一覧・うち3人の詳細"
+  },
+  {
+    "key": "search-59b377c812b75e8063a22443",
+    "organization": "ミスターマックス",
+    "published": "2026-10-06",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#mrmax-202610",
+    "primaryUrls": [
+      "https://www.mrmax.co.jp/info/incident_20261006/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "最大1,735,154人"
+  },
+  {
+    "key": "search-4527a50ea81b6a93eb8c6293",
+    "organization": "大起水産",
+    "published": "2026-10-06",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#daiki-202609",
+    "primaryUrls": [
+      "https://www.daiki-suisan.co.jp/files/optionallink/00000164_file.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "174,933人"
+  },
+  {
+    "key": "search-8c5368bf79c995cd6bf34c00",
+    "organization": "旭化成セラピューティクス",
+    "published": "2026-10-06",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#pharma-digital-202610",
+    "primaryUrls": [
+      "https://www.asahi-kasei.co.jp/pharma/oshirase_20261006.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "医療従事者約514,000人等"
+  },
+  {
+    "key": "search-883f7b0434f29696a56e16e6",
+    "organization": "さいたま市民医療センター",
+    "published": "2026-10-06",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#scmc-surgical-images-loss-202610",
+    "primaryUrls": [
+      "https://www.scmc.or.jp/contents/wp-content/uploads/2026/10/5763ad0a659a6fd25698aef32192d6f9.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "紛失・誤廃棄",
+    "indexQuantity": "画像200枚程度"
+  },
+  {
+    "key": "search-ef5d408717dc69ea028f830f",
+    "organization": "エバーグリーン・マーケティング",
+    "published": "2026-10-06",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#evergreen-marketing-email-202607",
+    "primaryUrls": [
+      "https://www.egmkt.co.jp/newsroom/news/2026/10630/",
+      "https://www.egmkt.co.jp/newsroom/news/2026/10982/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "代理店等取引先関係者237件・法人顧客763件"
+  },
+  {
+    "key": "search-ec57e9c55da9cbb58f092fcb",
+    "organization": "楽天シンフォニー",
+    "published": "2026-10-06",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#rakuten-drive-profile-202610",
+    "primaryUrls": [
+      "https://support.rakuten-drive.com/hc/ja/articles/62934949147929--%E9%87%8D%E8%A6%81-%E6%A5%BD%E5%A4%A9%E3%83%89%E3%83%A9%E3%82%A4%E3%83%96-%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AE%E7%99%BA%E7%94%9F%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "687アカウント"
+  },
+  {
+    "key": "search-0ec14bec92d1ea76185865e0",
+    "organization": "楽天シンフォニー",
+    "published": "2026-10-06",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#rakuten-drive-credentials-202610",
+    "primaryUrls": [
+      "https://support.rakuten-drive.com/hc/ja/articles/62934949147929--%E9%87%8D%E8%A6%81-%E6%A5%BD%E5%A4%A9%E3%83%89%E3%83%A9%E3%82%A4%E3%83%96-%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AE%E7%99%BA%E7%94%9F%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "313アカウント"
+  },
+  {
+    "key": "search-f72ae523647f38264355b31f",
+    "organization": "楽天シンフォニー",
+    "published": "2026-10-06",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#rakuten-drive-stored-data-202610",
+    "primaryUrls": [
+      "https://support.rakuten-drive.com/hc/ja/articles/62934949147929--%E9%87%8D%E8%A6%81-%E6%A5%BD%E5%A4%A9%E3%83%89%E3%83%A9%E3%82%A4%E3%83%96-%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AE%E7%99%BA%E7%94%9F%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "15,382アカウント"
+  },
+  {
+    "key": "search-a76b27762e6463c2e7c651a8",
+    "organization": "アクティブ",
+    "published": "2026-10-06",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#active-202610",
+    "primaryUrls": [
+      "https://www.active-pro.jp/news/4303/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "最大54,916件"
+  },
+  {
+    "key": "search-665ae8b5ab891de169e47575",
+    "organization": "ホワイトエッセンス",
+    "published": "2026-10-05",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#whiteessence-202608",
+    "primaryUrls": [
+      "https://www.whiteessence.com/news/news/20261005/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "約105万アカウント"
+  },
+  {
+    "key": "search-e8db998e9bc12f724091dedf",
+    "organization": "セイコーマート",
+    "published": "2026-10-05",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#seicomart-202609",
+    "primaryUrls": [
+      "https://online.seicomart.co.jp/delivery/cms/preview.php?pre_no=119",
+      "https://online.seicomart.co.jp/delivery/cms/preview.php?pre_no=122"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "574,647人"
+  },
+  {
+    "key": "search-d2618aedca147dba56809970",
+    "organization": "ソフツー",
+    "published": "2026-10-05",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#softsu-202606",
+    "primaryUrls": [
+      "https://www.softsu.co.jp/newslist/infomation-260622/",
+      "https://www.softsu.co.jp/newslist/infomation-261005/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "159,850電話番号"
+  },
+  {
+    "key": "search-2d1d6498ebd8720250685cb5",
+    "organization": "i-plug",
+    "published": "2026-10-05",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#offerbox-202610",
+    "primaryUrls": [
+      "https://i-plug.co.jp/news/11334/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "設定不備・誤公開",
+    "indexQuantity": "理論上最大314,009人"
+  },
+  {
+    "key": "search-7fb055276b3384789ed267a4",
+    "organization": "日本経済新聞社（Google Workspace）",
+    "published": "2026-10-04",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#nikkei-google-202607",
+    "primaryUrls": [
+      "https://www.nikkei.co.jp/nikkeiinfo/news/information/1547.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "1,646人分"
+  },
+  {
+    "key": "search-3fb3e608b65d154646e9deca",
+    "organization": "日本経済新聞社（Microsoft 365）",
+    "published": "2026-10-04",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#nikkei-m365-202609",
+    "primaryUrls": [
+      "https://www.nikkei.co.jp/nikkeiinfo/news/information/1554.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "漏えい件数は調査中"
+  },
+  {
+    "key": "search-91d06d20299d0620ea4d9915",
+    "organization": "エスケーロジ",
+    "published": "2026-10-03",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#sk-logi-server-202609",
+    "primaryUrls": [
+      "https://www.sklg.co.jp/news/%e5%bd%93%e7%a4%be%e3%82%b5%e3%83%bc%e3%83%90%e3%83%bc%e3%81%b8%e3%81%ae%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%ab%e3%82%88%e3%82%8b%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b%e3%81%a8/",
+      "https://www.sklg.co.jp/news/%e5%bd%93%e7%a4%be%e3%82%b5%e3%83%bc%e3%83%90%e3%83%bc%e3%81%b8%e3%81%ae%e4%b8%8d%e6%ad%a3%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%ab%e3%82%88%e3%82%8b%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "ランサムウェア",
+    "indexQuantity": "件数は未公表"
+  },
+  {
+    "key": "search-40f90535308cc60db2a73f5d",
+    "organization": "リクルート（スタディサプリ）",
+    "published": "2026-10-03",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#studysapuri-202609",
+    "primaryUrls": [
+      "https://studysapuri.jp/info/important/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "3,687メールアドレス"
+  },
+  {
+    "key": "search-065e7b54f78567a0003e6ad1",
+    "organization": "独立行政法人 エネルギー・金属鉱物資源機構",
+    "published": "2026-10-02",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#jogmec-202609",
+    "primaryUrls": [
+      "https://www.jogmec.go.jp/news/information/information_00706.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "職員等約1,100件・外部約7,400件"
+  },
+  {
+    "key": "search-bc5b37254cae853fb1cd6e3d",
+    "organization": "アフラック生命保険",
+    "published": "2026-10-01",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#aflac-202606",
+    "primaryUrls": [
+      "https://www.aflac.co.jp/info/yorisou_faq.html",
+      "https://www.aflac.co.jp/static/corp/profile/news/2026/2026073100.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "契約者約440万人・代理店約4万店"
+  },
+  {
+    "key": "search-355c6d9777bd68040bd1c72e",
+    "organization": "ニッポンレンタカーサービス（9月19～21日事案）",
+    "published": "2026-10-01",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#nipponrentacar-app-202610",
+    "primaryUrls": [
+      "https://www.nipponrentacar.co.jp/info/202610_2.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "55名"
+  },
+  {
+    "key": "search-f472910d98759b3afc209982",
+    "organization": "VOISING",
+    "published": "2026-09-30",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#voising-202608",
+    "primaryUrls": [
+      "https://voising-official.com/news/1015"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "約17万件"
+  },
+  {
+    "key": "search-1f8cb76e22d6b149e033b54f",
+    "organization": "八王子学園八王子中学校・高等学校",
+    "published": "2026-09-30",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#hachioji-school-202607",
+    "primaryUrls": [
+      "https://www.hachioji.ed.jp/information/information-junr/5111/",
+      "https://www.hachioji.ed.jp/information/urgent/4997/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "ランサムウェア",
+    "indexQuantity": "件数は調査中"
+  },
+  {
+    "key": "search-44efd4e31ac0ff7012b7a71d",
+    "organization": "大阪市・児童いきいき放課後事業運営受託者",
+    "published": "2026-09-30",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#osaka-ikiiki-support-scam-202609",
+    "primaryUrls": [
+      "https://www.city.osaka.lg.jp/hodoshiryo/kodomo/0000688056.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "最大2,272名"
+  },
+  {
+    "key": "search-87b2fe8a90ab19f681108b90",
+    "organization": "名張近鉄ガス",
+    "published": "2026-09-30",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#nabari-kintetsu-gas-202609",
+    "primaryUrls": [
+      "https://www.kintetsugas.co.jp/news/p_release/260930pr/index.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "委託先・取引先での事故",
+    "indexQuantity": "約6,800件"
+  },
+  {
+    "key": "search-ddb4f68b862a05c507381216",
+    "organization": "ジー・プラン",
+    "published": "2026-09-30",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#gpoint-202609",
+    "primaryUrls": [
+      "https://www.g-plan.net/news/details/20260930.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "会員識別子最大約70,000件"
+  },
+  {
+    "key": "search-058eb66a7d0500fd22b6f584",
+    "organization": "ベネフィット・ワン",
+    "published": "2026-09-30",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#benefitone-survey-202609",
+    "primaryUrls": [
+      "https://corp.benefit-one.co.jp/company/news/news/2026/20260930/20260930.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "設定不備・誤公開",
+    "indexQuantity": "13,460人・2,322団体"
+  },
+  {
+    "key": "search-ab2d6a1b33c2aabc9c9f993f",
+    "organization": "岡山県",
+    "published": "2026-09-29",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#okayama-seminar-form-202609",
+    "primaryUrls": [
+      "https://www.pref.okayama.jp/site/presssystem/1058909.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "設定不備・誤公開",
+    "indexQuantity": "申込者26人"
+  },
+  {
+    "key": "search-a44d8c0294639fa8749f43db",
+    "organization": "TOPPAN／損害保険ジャパン",
+    "published": "2026-09-29",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#toppan-sompo-missend-202609",
+    "primaryUrls": [
+      "https://www.holdings.toppan.com/ja/info/toppan_info20260929.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "誤送信・誤送付",
+    "indexQuantity": "177,426名（同一人の重複を含む可能性）"
+  },
+  {
+    "key": "search-f8fda6ce44f14a12f143449e",
+    "organization": "イープラス",
+    "published": "2026-09-29",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#eplus-202609",
+    "primaryUrls": [
+      "https://support-qa.eplus.jp/hc/ja/articles/62711500727961-%E5%BC%8A%E7%A4%BE%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%AB%E5%AF%BE%E3%81%99%E3%82%8B%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AE%E7%99%BA-%E3%81%8A%E3%82%88%E3%81%B3%E5%80%8B-%E6%83%85%E5%A0%B1-%E6%BC%8F%E3%81%88%E3%81%84%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%81%8A%E8%A9%AB%E3%81%B3%E3%81%A8%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "1,463件"
+  },
+  {
+    "key": "search-4a99c64df3cceae08e2d599e",
+    "organization": "さいたま市民医療センター",
+    "published": "2026-09-28",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#scmc-staff-page-files-202609",
+    "primaryUrls": [
+      "https://www.scmc.or.jp/contents/wp-content/uploads/2026/09/fca6d831f95463684a073652fd3b9560.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "設定不備・誤公開",
+    "indexQuantity": "患者写真2枚／職員2名"
+  },
+  {
+    "key": "search-147fb88e2b2ef3ae57a47af6",
+    "organization": "りそな銀行",
+    "published": "2026-09-28",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#resona-comfiche-loss-202609",
+    "primaryUrls": [
+      "https://www.resona-gr.co.jp/holdings/news/newsrelease_c/2026/files/20260928_1t.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "紛失・誤廃棄",
+    "indexQuantity": "約9,000名"
+  },
+  {
+    "key": "search-bae3e72a1fe7260fb6dc4797",
+    "organization": "あいの風とやま鉄道",
+    "published": "2026-09-28",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#ainokaze-202609",
+    "primaryUrls": [
+      "https://ainokaze.co.jp/24166"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "1,409人"
+  },
+  {
+    "key": "search-838bf20454896a8496137b37",
+    "organization": "集英社",
+    "published": "2026-09-28",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#shueisha-hapicomu-202609",
+    "primaryUrls": [
+      "https://www.shueisha.co.jp/wp-content/uploads/2026/09/Shueisha20260928-1.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "ブロガー2,835件等"
+  },
+  {
+    "key": "search-c9d0cc63085831e8b1bc1509",
+    "organization": "三井不動産",
+    "published": "2026-09-28",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#mitsuifudosan-202608",
+    "primaryUrls": [
+      "https://www.mitsuifudosan.co.jp/corporate/news/2026/0928_03/download/sonota/20260928_03.pdf",
+      "https://www.mitsuifudosan.co.jp/letter/260901/download/260901.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "役職員等最大19,000件・社外関係者最大36,000件"
+  },
+  {
+    "key": "search-9b76a7de581f18ae6c7a9357",
+    "organization": "ニッポンレンタカーサービス",
+    "published": "2026-09-26",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#nipponrentacar-202609",
+    "primaryUrls": [
+      "https://www.nipponrentacar.co.jp/info/202609.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "41人"
+  },
+  {
+    "key": "search-c8e9b7d2d339d1501f733f2c",
+    "organization": "ニチレイ",
+    "published": "2026-09-25",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#nichirei-202607",
+    "primaryUrls": [
+      "https://corporate.kyusai.co.jp/news/detail.php?p=16759",
+      "https://www.nichirei.co.jp/news/2026/524.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "ランサムウェア",
+    "indexQuantity": "配送先3,308件・取引先6,849件等"
+  },
+  {
+    "key": "search-f3c5d5fe8ccc5c221ee7714a",
+    "organization": "LEGOLAND Japan",
+    "published": "2026-09-25",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#amadeus-legoland-202609",
+    "primaryUrls": [
+      "https://www.legoland.jp/operation/news/news-release/news20260925/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "委託先・取引先での事故",
+    "indexQuantity": "1,557予約"
+  },
+  {
+    "key": "search-f3149d0eddd9536fe44f72ce",
+    "organization": "EPARKリラク＆エステ",
+    "published": "2026-09-24",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#epark-peakmanager-202607",
+    "primaryUrls": [
+      "https://www.epark-relax.co.jp/news/225",
+      "https://www.epark-relax.co.jp/news/231"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "精査後約2,218万レコード"
+  },
+  {
+    "key": "search-5b5f82754fc71147f8616d1e",
+    "organization": "生活協同組合コープやまぐち",
+    "published": "2026-09-24",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#coopyamaguchi-202608",
+    "primaryUrls": [
+      "https://www.yamaguti-coop.or.jp/line-miniapp-incident-report2/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "区分別69,586・143,126・365・4,218件"
+  },
+  {
+    "key": "search-573b467648d8c7b49bc1dafb",
+    "organization": "くふうZaim",
+    "published": "2026-09-22",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#kufu-zaim-202609",
+    "primaryUrls": [
+      "https://kufu.co.jp/2026/09/22/zaim-announce/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "14人分の情報改変"
+  },
+  {
+    "key": "search-52193ac6a18c772d5c219b52",
+    "organization": "GMOインターネット",
+    "published": "2026-09-20",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#conoha-wing-202609",
+    "primaryUrls": [
+      "https://www.conoha.jp/wing/news/?ap=2015054834&btn_id=wing-news--news_wing-news"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "影響対象426アカウント"
+  },
+  {
+    "key": "search-8effab30b8419889e5ac378b",
+    "organization": "RIZAP（APORITOオンラインストア）",
+    "published": "2026-09-18",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#aporito-skimming-202608",
+    "primaryUrls": [
+      "https://www.rizapgroup.com/news/detail?topics_id=1555"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "件数の公表なし"
+  },
+  {
+    "key": "search-f8462ce8cb9f4d35ebfa68e0",
+    "organization": "教育産業",
+    "published": "2026-09-18",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#kyoiku-sangyo-202608",
+    "primaryUrls": [
+      "https://ksg.co.jp/topics/entry-60.html",
+      "https://ksg.co.jp/topics/entry-62.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "人数の公表なし"
+  },
+  {
+    "key": "search-b58acf6300ec80fe2e57fc7d",
+    "organization": "JGC Digital（アザス・するーぷ）",
+    "published": "2026-09-18",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#jgc-digital-202609",
+    "primaryUrls": [
+      "https://jgc-digital.com/topics/topics-3049/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "アザス約4万・するーぷ約2万アカウント"
+  },
+  {
+    "key": "search-7f8ed078f98897bd99b7d3c8",
+    "organization": "リクリエ（Tabiq）",
+    "published": "2026-09-17",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#tabiq-s3-202605",
+    "primaryUrls": [
+      "https://reqrea.co.jp/news/cuylx1hp8us/",
+      "https://reqrea.co.jp/news/zb7qsrkz-vjv/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "設定不備・誤公開",
+    "indexQuantity": "1,060,338人"
+  },
+  {
+    "key": "search-5eb339e761dfff931b5e8a81",
+    "organization": "愛知県（精神保健福祉センター）",
+    "published": "2026-09-17",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#aichi-mhwc-documents-loss-202609",
+    "primaryUrls": [
+      "https://www.pref.aichi.jp/press-release/20260917.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "紛失・誤廃棄",
+    "indexQuantity": "申請書類233件（申請者172名）"
+  },
+  {
+    "key": "search-ef1d27d5f98f9942dd6b9e7a",
+    "organization": "ちばぎん商店",
+    "published": "2026-09-17",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#chibaginshop-202609",
+    "primaryUrls": [
+      "https://shop.c-value.jp/view/news/20260917153001"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "個人約192先・法人約722先等"
+  },
+  {
+    "key": "search-b0f1b64304e0995ef6361696",
+    "organization": "アイスタイル（@cosme）",
+    "published": "2026-09-16",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#istyle-filetransfer-202609",
+    "primaryUrls": [
+      "https://www.istyle.co.jp/news/info/2026/09/20260916-3.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "設定不備・誤公開",
+    "indexQuantity": "10,997人"
+  },
+  {
+    "key": "search-1eca9367e11bd14a6d93232c",
+    "organization": "ムラウチドットコム",
+    "published": "2026-09-15",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#murauchi-202607",
+    "primaryUrls": [
+      "https://murauchi.com/static-pages/privacy/弊社における不正アクセスによるお客様情報漏えいに関するお詫びとご報告（第二報）.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "7,716,811件"
+  },
+  {
+    "key": "search-7b145ad7117609057afe2ca7",
+    "organization": "小松製作所（横断点検）",
+    "published": "2026-09-15",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#komatsu-systems-202609",
+    "primaryUrls": [
+      "https://www.komatsu.jp/ja/newsroom/2026/20260915"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "設定不備・誤公開",
+    "indexQuantity": "ポータル214,916名ほか4システム（重複あり）"
+  },
+  {
+    "key": "search-cf970fe328c319d4f6f6aee9",
+    "organization": "LEAN BODY",
+    "published": "2026-09-15",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#leanbody-202608",
+    "primaryUrls": [
+      "https://lean-body.co.jp/news/JlBWMCs7"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "約44万アカウント"
+  },
+  {
+    "key": "search-4fa3c3046848f80e4e2aedb2",
+    "organization": "デジタル庁",
+    "published": "2026-09-11",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#digitalagency-gss-202606",
+    "primaryUrls": [
+      "https://www.digital.go.jp/news/2026-0911-01"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "約246,000件"
+  },
+  {
+    "key": "search-281ee796660d467d2db4e887",
+    "organization": "さくらインターネット",
+    "published": "2026-09-10",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#sakura-202608",
+    "primaryUrls": [
+      "https://www.sakura.ad.jp/corporate/information/newsreleases/2026/09/10/1968225692/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "1,360,563アカウント"
+  },
+  {
+    "key": "search-df4fa5c8822ca08262d9df3a",
+    "organization": "扶桑電通",
+    "published": "2026-09-10",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#fusodentsu-202607",
+    "primaryUrls": [
+      "https://www.fusodentsu.co.jp/news/news_cp_20260910.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "26,489件"
+  },
+  {
+    "key": "search-e3c100fc04cbece37a104312",
+    "organization": "商船三井クルーズ",
+    "published": "2026-09-10",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#mol-cruises-media-loss-202609",
+    "primaryUrls": [
+      "https://www.mitsuioceancruises.com/news/20260910.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "紛失・誤廃棄",
+    "indexQuantity": "対象件数は調査中"
+  },
+  {
+    "key": "search-14df792ac66f724735a8f7f7",
+    "organization": "ファイブフォックス",
+    "published": "2026-09-08",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#fivefoxes-202607",
+    "primaryUrls": [
+      "https://www.fivefoxes.co.jp/2026/07/post-20.html",
+      "https://www.fivefoxes.co.jp/2026/09/post-23.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "サイバー攻撃",
+    "indexQuantity": "顧客59,504件・問い合わせ顧客8,403件・従業員計5,278件（おそれ）"
+  },
+  {
+    "key": "search-95c2bee772aa0163ee862644",
+    "organization": "チャーム",
+    "published": "2026-09-02",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#charm-202608",
+    "primaryUrls": [
+      "https://charm.co.jp/honten/info/notice/20260813.html",
+      "https://charm.co.jp/honten/info/notice/20260820.html",
+      "https://www.charm.co.jp/honten/info/notice/20260901.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "確認約37万件・おそれ約2万件"
+  },
+  {
+    "key": "search-f135e2fabd3b516667ba475e",
+    "organization": "イエローハット",
+    "published": "2026-08-28",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#yellowhat-202608",
+    "primaryUrls": [
+      "https://www.yellowhat.jp/information/yellowhat/202608.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "最大1,801,499人"
+  },
+  {
+    "key": "search-ffb2eb9a336b89706842705a",
+    "organization": "ハンズホールディングス",
+    "published": "2026-08-25",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#hands-holdings-202606",
+    "primaryUrls": [
+      "https://www.hands-holdings.co.jp/news/news20260622/",
+      "https://www.hands-holdings.co.jp/news/news20260825/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "ランサムウェア",
+    "indexQuantity": "件数の公表なし"
+  },
+  {
+    "key": "search-5471a08e40e798d7c0c4b72f",
+    "organization": "KDDI",
+    "published": "2026-08-24",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#kddi-isp-202606",
+    "primaryUrls": [
+      "https://www.cpi.ad.jp/news/support-info/260824/",
+      "https://www.ppc.go.jp/files/pdf/260819_alert_mailservice.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "12,231,954人"
+  },
+  {
+    "key": "search-d947f2c88dd7c582473f58e3",
+    "organization": "フェースグループ",
+    "published": "2026-08-21",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#faith-202606",
+    "primaryUrls": [
+      "https://www.faith-gr.co.jp/news/2026/system-failure_20260821.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "ランサムウェア",
+    "indexQuantity": "件数の公表なし"
+  },
+  {
+    "key": "search-743d000882859607cdbe8d4a",
+    "organization": "コタ",
+    "published": "2026-08-20",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#cota-202603",
+    "primaryUrls": [
+      "https://ssl4.eir-parts.net/doc/4923/tdnet/2876404/00.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "区分別件数は公式発表参照"
+  },
+  {
+    "key": "search-a83e0b891bc69cde4801db2f",
+    "organization": "サイバーエージェント（ドットマネー・ドットギフト）",
+    "published": "2026-08-20",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#dotmoney-202606",
+    "primaryUrls": [
+      "https://ameblo.jp/dotmoney/entry-12974161885.html",
+      "https://www.pointtown.com/information/391"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "影響人数の公表なし"
+  },
+  {
+    "key": "search-46a84a9c76c6028e0d272622",
+    "organization": "加賀ソルネット（アカデミコナビ）",
+    "published": "2026-08-17",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#kagasolnet-final-202608",
+    "primaryUrls": [
+      "https://www.solnet.ne.jp/news/20260817"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "165,587名"
+  },
+  {
+    "key": "search-92e53117c54712afb35ea477",
+    "organization": "OCS（OCS FAMILY LINK SERVICE）",
+    "published": "2026-08-12",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#ocs-202607",
+    "primaryUrls": [
+      "https://www.ocs.co.jp/5315428"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "件数の公表なし"
+  },
+  {
+    "key": "search-58e2f985e723e8337f7f2237",
+    "organization": "徳島県（住基ネット機器更改）",
+    "published": "2026-08-10",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#tokushima-hdd-202606",
+    "primaryUrls": [
+      "https://www.pref.tokushima.lg.jp/kenseijoho/hodoteikyoshiryo/7315616/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "紛失・誤廃棄",
+    "indexQuantity": "延べ約46万件"
+  },
+  {
+    "key": "search-520728976b4d44b83140bee0",
+    "organization": "東芝テック（ShopCraft）",
+    "published": "2026-08-03",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#toshibatec-shopcraft-202603",
+    "primaryUrls": [
+      "https://www.toshibatec.co.jp/news/info/20260803-01.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "設定不備・誤公開",
+    "indexQuantity": "382,123名"
+  },
+  {
+    "key": "search-c596f5984f1bff55c58fcf04",
+    "organization": "LINEヤフー",
+    "published": "2026-07-31",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#linegame-adid-202604",
+    "primaryUrls": [
+      "https://www.lycorp.co.jp/ja/privacy-security/announcement/020632"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "設定不備・誤公開",
+    "indexQuantity": "国内ユニークユーザー約574万人"
+  },
+  {
+    "key": "search-494dd35ebbeaa5769f45195f",
+    "organization": "ソリッドアドバンス",
+    "published": "2026-07-31",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#solid-202607",
+    "primaryUrls": [
+      "https://www.solid-adv.co.jp/20260731-01/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "マルウェア感染",
+    "indexQuantity": "件数の公表なし"
+  },
+  {
+    "key": "search-13232ab040cca397d3267c5c",
+    "organization": "アスクル",
+    "published": "2026-07-30",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#askul-202510-followup-202607",
+    "primaryUrls": [
+      "https://www.askul.co.jp/shopnews/news_260730_rw_notification.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "ランサムウェア",
+    "indexQuantity": "追加約60万件"
+  },
+  {
+    "key": "search-39668e71b406e8fb18785345",
+    "organization": "精電舎電子工業",
+    "published": "2026-07-21",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#sedeco-202604",
+    "primaryUrls": [
+      "https://www.sedeco.co.jp/news/detail/?dispmid=567&itemid=111"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "ランサムウェア",
+    "indexQuantity": "個人情報の件数は公表なし"
+  },
+  {
+    "key": "search-15762e408375b32e1c922d8c",
+    "organization": "環境開発工業",
+    "published": "2026-07-21",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#kklp-202607",
+    "primaryUrls": [
+      "https://www.kklp.co.jp/3834"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "件数の公表なし"
+  },
+  {
+    "key": "search-b46fbaa068284dac7273d2e6",
+    "organization": "アサヒグループホールディングス",
+    "published": "2026-07-17",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#asahi-202509",
+    "primaryUrls": [
+      "https://www.asahigroup-holdings.com/newsroom/detail/20260717-0101.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "ランサムウェア",
+    "indexQuantity": "相談室152.5万件・取引先37.8万件等"
+  },
+  {
+    "key": "search-283f7b751fb7b6908094cfae",
+    "organization": "ノストラム",
+    "published": "2026-07-08",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#nostrum-202604",
+    "primaryUrls": [
+      "https://nostrum.co.jp/incident.html",
+      "https://www.fukuoka-u.ac.jp/news/26/07/08175927.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "ランサムウェア",
+    "indexQuantity": "件数の公表なし"
+  },
+  {
+    "key": "search-d035c824501ed06b2c53e9fe",
+    "organization": "マルタケ",
+    "published": "2026-06-24",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#marutake-202604",
+    "primaryUrls": [
+      "https://www.kk-marutake.co.jp/2026/06/24/6737"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "ランサムウェア",
+    "indexQuantity": "影響人数の公表なし"
+  },
+  {
+    "key": "search-b31555d8fc413fe6221834cd",
+    "organization": "アイコムソフト",
+    "published": "2026-06-22",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#icomsoft-202605",
+    "primaryUrls": [
+      "https://www.icomsoft.co.jp/news/info-news/entry-306.html",
+      "https://www.icomsoft.co.jp/news/info-news/entry-307.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "件数の公表なし"
+  },
+  {
+    "key": "search-1b8bdb86b7a66cf4b7e435f7",
+    "organization": "２りんかんイエローハット",
+    "published": "2026-06-19",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#2rinkan-202604",
+    "primaryUrls": [
+      "https://2rinkan.jp/annai/20260423/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "3,179,454人"
+  },
+  {
+    "key": "search-f78dd117504f0d8a6aeea05b",
+    "organization": "大阪有機化学工業",
+    "published": "2026-06-17",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#ooc-202606",
+    "primaryUrls": [
+      "https://www.ooc.co.jp/news/pdf/20260617.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "件数の公表なし"
+  },
+  {
+    "key": "search-6ccd03c2f0bb8d7c97125bf9",
+    "organization": "小松製作所",
+    "published": "2026-06-16",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#komatsu-202606",
+    "primaryUrls": [
+      "https://www.komatsu.jp/ja/newsroom/2026/20260616_3"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "設定不備・誤公開",
+    "indexQuantity": "139,302人"
+  },
+  {
+    "key": "search-6810db26765014b7a43915b6",
+    "organization": "日本テレネット",
+    "published": "2026-06-12",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#nippon-telenet-202603",
+    "primaryUrls": [
+      "https://mobilityplatform.jp/information/20260527/",
+      "https://www.nippon-tele.net/release/20260612_4675/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "ランサムウェア",
+    "indexQuantity": "CSS60.2万件・BPO40.4万件等"
+  },
+  {
+    "key": "search-ec7bd81e766d3295fe185e46",
+    "organization": "九州電力送配電",
+    "published": "2026-06-08",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#kyuden-media-202605",
+    "primaryUrls": [
+      "https://www.kyuden.co.jp/td/press/2026/260608.html"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "紛失・誤廃棄",
+    "indexQuantity": "最大1,090万口分"
+  },
+  {
+    "key": "search-a72250d9ae7c43f151c6a73b",
+    "organization": "松沢書店（楽譜ナビ・注文くん）",
+    "published": "2026-06-05",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#matsuzawa-202605",
+    "primaryUrls": [
+      "https://www.corp.musenet.co.jp/pages/23?detail=1&b_id=106&r_id=37"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "ランサムウェア",
+    "indexQuantity": "件数の公表なし"
+  },
+  {
+    "key": "search-64179a2f16d732538f1ea865",
+    "organization": "旭精機工業",
+    "published": "2026-06-01",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#asahiseiki-202604",
+    "primaryUrls": [
+      "https://www.asahiseiki-mfg.co.jp/info/pdf/20260601.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "件数の公表なし"
+  },
+  {
+    "key": "search-0d92364e4c64284c1b7ec982",
+    "organization": "CPI（KDDIウェブコミュニケーションズ）",
+    "published": "2026-05-28",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#cpi-ddos-202605",
+    "primaryUrls": [
+      "https://www.cpi.ad.jp/support/maintenance/incident/2026-05-28/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "DDoS攻撃",
+    "indexQuantity": "一部シェアードプラン"
+  },
+  {
+    "key": "search-5ab33ed85463a6e6ea43c638",
+    "organization": "ユニバーサルミュージック",
+    "published": "2026-05-18",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#umj-202510",
+    "primaryUrls": [
+      "https://www.universal-music.co.jp/press-releases/2026-05-18/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス",
+    "indexQuantity": "3,105,585件"
+  },
+  {
+    "key": "search-59ef124410c202bcc2103933",
+    "organization": "アイサンテクノロジー",
+    "published": "2026-05-15",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#aisan-202605",
+    "primaryUrls": [
+      "https://www.aisantec.co.jp/information/4188/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "Webサイトの改ざん",
+    "indexQuantity": "件数の公表なし"
+  },
+  {
+    "key": "search-6ccdef4e3ff32d68247d0264",
+    "organization": "メディカ出版",
+    "published": "2026-05-13",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#medica-ransom-202603",
+    "primaryUrls": [
+      "https://www.medica.co.jp/news/information/3544/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "ランサムウェア",
+    "indexQuantity": "約641,000人分（重複の可能性あり）"
+  },
+  {
+    "key": "search-55ccb2260b8e9749b759dec6",
+    "organization": "エネサンスホールディングス",
+    "published": "2026-05-11",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#enessance-202510",
+    "primaryUrls": [
+      "https://www.enessance.co.jp/news/%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0%e9%9a%9c%e5%ae%b3%e3%81%ab%e9%96%a2%e3%81%99%e3%82%8b%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b%ef%bc%88%e7%ac%ac4%e5%a0%b1%ef%bc%89/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "ランサムウェア",
+    "indexQuantity": "約365,000件"
+  },
+  {
+    "key": "search-2951d8b953251fb47a9b58ee",
+    "organization": "B＆G財団",
+    "published": "2026-04-27",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#bgf-202604",
+    "primaryUrls": [
+      "https://www.bgf.or.jp/info/information-20260427/"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "マルウェア感染",
+    "indexQuantity": "件数の公表なし"
+  },
+  {
+    "key": "search-74651d69bfe25d53967d8d13",
+    "organization": "摂南大学（経済学部オリジナルサイト）",
+    "published": "2026-04-10",
+    "inventory": "Legal Agent",
+    "discovery": "https://legalagent.co.jp/legal-lab/security-incidents/#setsunan-202604",
+    "primaryUrls": [
+      "https://www.setsunan.ac.jp/faculty/economics/files/info_20260410.pdf"
+    ],
+    "dateBasis": "索引記載日（公表・発生・報道の別は未照合）",
+    "identityBasis": "索引の組織欄",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "Webサイトの改ざん",
+    "indexQuantity": "件数の公表なし"
+  },
+  {
+    "key": "search-6127b7a02034ec81d1667c13",
+    "organization": "組織未特定（歴史索引との照合待ち）",
+    "published": "2021-10",
+    "inventory": "デジタル社会の事件簿",
+    "discovery": "https://www.c-a-c.jp/about/case_files.html#year-2021-row-0",
+    "primaryUrls": [],
+    "dateBasis": "歴史索引の記載年月・公表日と発生日は未確認",
+    "identityBasis": "当事者名の特定待ち",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "不正アクセス事件"
+  },
+  {
+    "key": "search-69e35a7b2cc25188f65e1c47",
+    "organization": "組織未特定（歴史索引との照合待ち）",
+    "published": "2021-07",
+    "inventory": "デジタル社会の事件簿",
+    "discovery": "https://www.c-a-c.jp/about/case_files.html#year-2021-row-1",
+    "primaryUrls": [],
+    "dateBasis": "歴史索引の記載年月・公表日と発生日は未確認",
+    "identityBasis": "当事者名の特定待ち",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "なりすまし事件・不正アクセス事件"
+  },
+  {
+    "key": "search-b79d619d926d3d4548b801b3",
+    "organization": "組織未特定（歴史索引との照合待ち）",
+    "published": "2021-03",
+    "inventory": "デジタル社会の事件簿",
+    "discovery": "https://www.c-a-c.jp/about/case_files.html#year-2021-row-2",
+    "primaryUrls": [],
+    "dateBasis": "歴史索引の記載年月・公表日と発生日は未確認",
+    "identityBasis": "当事者名の特定待ち",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "情報流出事件・不正アクセス事件"
+  },
+  {
+    "key": "search-3c37dc5ea9e269803bd1c878",
+    "organization": "組織未特定（歴史索引との照合待ち）",
+    "published": "2020-09",
+    "inventory": "デジタル社会の事件簿",
+    "discovery": "https://www.c-a-c.jp/about/case_files.html#year-2020-row-0",
+    "primaryUrls": [],
+    "dateBasis": "歴史索引の記載年月・公表日と発生日は未確認",
+    "identityBasis": "当事者名の特定待ち",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "なりすまし事件・不正アクセス事件"
+  },
+  {
+    "key": "search-11aecdd2f8acb97e6831156c",
+    "organization": "組織未特定（歴史索引との照合待ち）",
+    "published": "2020",
+    "inventory": "デジタル社会の事件簿",
+    "discovery": "https://www.c-a-c.jp/about/case_files.html#year-2020-row-1",
+    "primaryUrls": [],
+    "dateBasis": "歴史索引の記載年月・公表日と発生日は未確認",
+    "identityBasis": "当事者名の特定待ち",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "なりすまし事件"
+  },
+  {
+    "key": "search-23d8bef8509e7840d51d9646",
+    "organization": "組織未特定（歴史索引との照合待ち）",
+    "published": "2020",
+    "inventory": "デジタル社会の事件簿",
+    "discovery": "https://www.c-a-c.jp/about/case_files.html#year-2020-row-2",
+    "primaryUrls": [],
+    "dateBasis": "歴史索引の記載年月・公表日と発生日は未確認",
+    "identityBasis": "当事者名の特定待ち",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "虚偽事件・なりすまし事件・不正アクセス事件"
+  },
+  {
+    "key": "search-dc8e94a8a2b467cf682c8c60",
+    "organization": "組織未特定（歴史索引との照合待ち）",
+    "published": "2017-03",
+    "inventory": "デジタル社会の事件簿",
+    "discovery": "https://www.c-a-c.jp/about/case_files.html#year-2017-row-0",
+    "primaryUrls": [],
+    "dateBasis": "歴史索引の記載年月・公表日と発生日は未確認",
+    "identityBasis": "当事者名の特定待ち",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "情報流出事件"
+  },
+  {
+    "key": "search-8a27560a31c2bfacfa7adf86",
+    "organization": "組織未特定（歴史索引との照合待ち）",
+    "published": "2011-11",
+    "inventory": "デジタル社会の事件簿",
+    "discovery": "https://www.c-a-c.jp/about/case_files.html#year-2011-row-0",
+    "primaryUrls": [],
+    "dateBasis": "歴史索引の記載年月・公表日と発生日は未確認",
+    "identityBasis": "当事者名の特定待ち",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "パスワードによる攻撃事件・不正アクセス事件"
+  },
+  {
+    "key": "search-25e03ecfbf58828d843b6aaa",
+    "organization": "組織未特定（歴史索引との照合待ち）",
+    "published": "2011-09",
+    "inventory": "デジタル社会の事件簿",
+    "discovery": "https://www.c-a-c.jp/about/case_files.html#year-2011-row-1",
+    "primaryUrls": [],
+    "dateBasis": "歴史索引の記載年月・公表日と発生日は未確認",
+    "identityBasis": "当事者名の特定待ち",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "情報流出事件・不正アクセス事件"
+  },
+  {
+    "key": "search-8392f5f7f7ae33026dcfc45e",
+    "organization": "組織未特定（歴史索引との照合待ち）",
+    "published": "2011-05",
+    "inventory": "デジタル社会の事件簿",
+    "discovery": "https://www.c-a-c.jp/about/case_files.html#year-2011-row-2",
+    "primaryUrls": [],
+    "dateBasis": "歴史索引の記載年月・公表日と発生日は未確認",
+    "identityBasis": "当事者名の特定待ち",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "情報流出事件・不正アクセス事件"
+  },
+  {
+    "key": "search-3bdc6286fe67ae898bcb7ac7",
+    "organization": "組織未特定（歴史索引との照合待ち）",
+    "published": "2011-04",
+    "inventory": "デジタル社会の事件簿",
+    "discovery": "https://www.c-a-c.jp/about/case_files.html#year-2011-row-3",
+    "primaryUrls": [],
+    "dateBasis": "歴史索引の記載年月・公表日と発生日は未確認",
+    "identityBasis": "当事者名の特定待ち",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "情報流出事件"
+  },
+  {
+    "key": "search-afc486f19be13efe93454b9c",
+    "organization": "組織未特定（歴史索引との照合待ち）",
+    "published": "2010-10",
+    "inventory": "デジタル社会の事件簿",
+    "discovery": "https://www.c-a-c.jp/about/case_files.html#year-2010-row-1",
+    "primaryUrls": [],
+    "dateBasis": "歴史索引の記載年月・公表日と発生日は未確認",
+    "identityBasis": "当事者名の特定待ち",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "情報流出事件"
+  },
+  {
+    "key": "search-a33b5c7ced6978b69febad95",
+    "organization": "組織未特定（歴史索引との照合待ち）",
+    "published": "2009-07",
+    "inventory": "デジタル社会の事件簿",
+    "discovery": "https://www.c-a-c.jp/about/case_files.html#year-2009-row-0",
+    "primaryUrls": [],
+    "dateBasis": "歴史索引の記載年月・公表日と発生日は未確認",
+    "identityBasis": "当事者名の特定待ち",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "情報流出事件・なりすまし事件"
+  },
+  {
+    "key": "search-966955b0bc275be825369823",
+    "organization": "組織未特定（歴史索引との照合待ち）",
+    "published": "2005-04",
+    "inventory": "デジタル社会の事件簿",
+    "discovery": "https://www.c-a-c.jp/about/case_files.html#year-2005-row-1",
+    "primaryUrls": [],
+    "dateBasis": "歴史索引の記載年月・公表日と発生日は未確認",
+    "identityBasis": "当事者名の特定待ち",
+    "result": "追加索引発見・一次資料本文の確認待ち",
+    "indexCause": "情報改ざん事件・不正アクセス事件"
+  },
+  {
+    "key": "web-820c402f31143a55f60f",
+    "organization": "早稲田大学",
+    "published": "2026-11-09",
+    "inventory": "追加ウェブ検索・当事者公表候補",
+    "discovery": "https://www.waseda.jp/top/news/topic/124183",
+    "primaryUrls": [
+      "https://www.waseda.jp/top/news/topic/124183"
+    ],
+    "dateBasis": "検索で見つかった公表候補・日付の詳細は精査待ち",
+    "result": "一次資料本文・詳細の確認待ち"
+  },
+  {
+    "key": "web-63c02eb1521170b93b08",
+    "organization": "株式会社NTTデータ",
+    "published": "2026-11-09",
+    "inventory": "追加ウェブ検索・当事者公表候補",
+    "discovery": "https://www.nttdata.com/global/ja/news/release/2026/110900/",
+    "primaryUrls": [
+      "https://www.nttdata.com/global/ja/news/release/2026/110900/"
+    ],
+    "dateBasis": "検索で見つかった公表候補・日付の詳細は精査待ち",
+    "result": "一次資料本文・詳細の確認待ち"
+  },
+  {
+    "key": "web-5617f7cadc9e3d7d88f8",
+    "organization": "株式会社キングプリンターズ",
+    "published": "2026-11-09",
+    "inventory": "追加ウェブ検索・当事者公表候補",
+    "discovery": "https://kingprinters.com/news/2026/oshirase_20261109",
+    "primaryUrls": [
+      "https://kingprinters.com/news/2026/oshirase_20261109"
+    ],
+    "dateBasis": "検索で見つかった公表候補・日付の詳細は精査待ち",
+    "result": "一次資料本文・詳細の確認待ち"
+  },
+  {
+    "key": "web-05182f6745c02f6230c0",
+    "organization": "株式会社小学館",
+    "published": "2026-11-09",
+    "inventory": "追加ウェブ検索・当事者公表候補",
+    "discovery": "https://kyoiku.sho.jp/news/470901/",
+    "primaryUrls": [
+      "https://kyoiku.sho.jp/news/470901/"
+    ],
+    "dateBasis": "検索で見つかった公表候補・日付の詳細は精査待ち",
+    "result": "一次資料本文・詳細の確認待ち"
+  },
+  {
+    "key": "web-4bc201c55c366e8ac684",
+    "organization": "川口市",
+    "published": "2026-11-09",
+    "inventory": "追加ウェブ検索・当事者公表候補",
+    "discovery": "https://www.city.kawaguchi.lg.jp/juyo/53115.html",
+    "primaryUrls": [
+      "https://www.city.kawaguchi.lg.jp/juyo/53115.html"
+    ],
+    "dateBasis": "検索で見つかった公表候補・日付の詳細は精査待ち",
+    "result": "一次資料本文・詳細の確認待ち"
+  },
+  {
+    "key": "web-339c6ee47c0f64b44702",
+    "organization": "公益社団法人商事法務研究会",
+    "published": "",
+    "inventory": "追加ウェブ検索・当事者公表候補",
+    "discovery": "https://www.shojihomu.or.jp/hougaku/notice/details/116",
+    "primaryUrls": [
+      "https://www.shojihomu.or.jp/hougaku/notice/details/116"
+    ],
+    "dateBasis": "検索で見つかった公表候補・日付の詳細は精査待ち",
+    "result": "一次資料本文・詳細の確認待ち"
+  },
+  {
+    "key": "web-cff688ca7c94f15785ce",
+    "organization": "ダイトーエムイー",
+    "published": "",
+    "inventory": "追加ウェブ検索・当事者公表候補",
+    "discovery": "https://www.daito-me.com/news/cate2-2/不正アクセスに関するお詫びとご報告/",
+    "primaryUrls": [
+      "https://www.daito-me.com/news/cate2-2/不正アクセスに関するお詫びとご報告/"
+    ],
+    "dateBasis": "検索で見つかった公表候補・日付の詳細は精査待ち",
+    "result": "一次資料本文・詳細の確認待ち"
+  },
+  {
+    "key": "web-93bbf6c452af58a2ee63",
+    "organization": "IBS Japan株式会社",
+    "published": "",
+    "inventory": "追加ウェブ検索・当事者公表候補",
+    "discovery": "https://www.ibsjapan.co.jp/news/detail/155",
+    "primaryUrls": [
+      "https://www.ibsjapan.co.jp/news/detail/155"
+    ],
+    "dateBasis": "検索で見つかった公表候補・日付の詳細は精査待ち",
+    "result": "一次資料本文・詳細の確認待ち"
+  },
+  {
+    "key": "web-a211e4994bd19c69e2cf",
+    "organization": "トビタテ！留学JAPAN",
+    "published": "",
+    "inventory": "追加ウェブ検索・当事者公表候補",
+    "discovery": "https://tobitate-mext.jasso.go.jp/news/569.html",
+    "primaryUrls": [
+      "https://tobitate-mext.jasso.go.jp/news/569.html"
+    ],
+    "dateBasis": "検索で見つかった公表候補・日付の詳細は精査待ち",
+    "result": "一次資料本文・詳細の確認待ち"
+  },
+  {
+    "key": "web-74690bb367d39767fdc0",
+    "organization": "富士フイルムイメージングシステムズ株式会社",
+    "published": "",
+    "inventory": "追加ウェブ検索・当事者公表候補",
+    "discovery": "https://www.fujifilm.com/ffis/ja/news/116",
+    "primaryUrls": [
+      "https://www.fujifilm.com/ffis/ja/news/116"
+    ],
+    "dateBasis": "検索で見つかった公表候補・日付の詳細は精査待ち",
+    "result": "一次資料本文・詳細の確認待ち"
+  },
+  {
+    "key": "web-1fe33ce3668679d3405c",
+    "organization": "新潟食料農業大学",
+    "published": "",
+    "inventory": "追加ウェブ検索・当事者公表候補",
+    "discovery": "https://nafu.ac.jp/news/news/entry-6918.html",
+    "primaryUrls": [
+      "https://nafu.ac.jp/news/news/entry-6918.html"
+    ],
+    "dateBasis": "検索で見つかった公表候補・日付の詳細は精査待ち",
+    "result": "一次資料本文・詳細の確認待ち"
+  },
+  {
+    "key": "web-0925b956a7b1ec72de3b",
+    "organization": "パナソニックホールディングス",
+    "published": "2022-05-30",
+    "inventory": "追加ウェブ検索・当事者公表候補",
+    "discovery": "https://holdings.panasonic/jp/corporate/technology/information/20220530.html",
+    "primaryUrls": [
+      "https://holdings.panasonic/jp/corporate/technology/information/20220530.html"
+    ],
+    "dateBasis": "検索で見つかった公表候補・日付の詳細は精査待ち",
+    "result": "一次資料本文・詳細の確認待ち"
+  },
+  {
+    "key": "web-c27d7a806f9b3d5cb559",
+    "organization": "株式会社アットキャド",
+    "published": "",
+    "inventory": "追加ウェブ検索・当事者公表候補",
+    "discovery": "https://www.at-cad.co.jp/news/221004.html",
+    "primaryUrls": [
+      "https://www.at-cad.co.jp/news/221004.html"
+    ],
+    "dateBasis": "検索で見つかった公表候補・日付の詳細は精査待ち",
+    "result": "一次資料本文・詳細の確認待ち"
+  },
+  {
+    "key": "web-bf1395049bbf8932b5ed",
+    "organization": "沖縄県立看護大学",
+    "published": "",
+    "inventory": "追加ウェブ検索・当事者公表候補",
+    "discovery": "https://www.okinawa-nurs.ac.jp/wp-content/uploads/2023/05/kouhyou_incident.pdf",
+    "primaryUrls": [
+      "https://www.okinawa-nurs.ac.jp/wp-content/uploads/2023/05/kouhyou_incident.pdf"
+    ],
+    "dateBasis": "検索で見つかった公表候補・日付の詳細は精査待ち",
+    "result": "一次資料本文・詳細の確認待ち"
+  },
+  {
+    "key": "web-2341e65cdaccb3e18d09",
+    "organization": "KAERU株式会社",
+    "published": "2026-10-30",
+    "inventory": "追加ウェブ検索・当事者公表候補",
+    "discovery": "https://kaeru-inc.co.jp/news/20261030-studio-incident",
+    "primaryUrls": [
+      "https://kaeru-inc.co.jp/news/20261030-studio-incident"
+    ],
+    "dateBasis": "検索で見つかった公表候補・日付の詳細は精査待ち",
+    "result": "一次資料本文・詳細の確認待ち"
+  },
+  {
+    "key": "web-34aea8b84b9d014bb5ca",
+    "organization": "組織未特定（Getchu.com公表資料の照合待ち）",
+    "published": "2026-11-04",
+    "inventory": "追加ウェブ検索・当事者公表候補",
+    "discovery": "https://www.getchu.com/getchu/news20261104.html",
+    "primaryUrls": [
+      "https://www.getchu.com/getchu/news20261104.html"
+    ],
+    "dateBasis": "検索で見つかった公表候補・日付の詳細は精査待ち",
+    "result": "一次資料本文・詳細の確認待ち"
+  }
+]

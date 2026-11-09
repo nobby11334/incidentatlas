@@ -12,6 +12,10 @@ ledger_path=R/'dist/reconciliation.json';ledger=json.loads(ledger_path.read_text
 for update in json.loads((R/'sources/reviewed-updates.json').read_text()):
  key='reviewed-'+update['id'];urls=[u for _,u in update['sources']]
  bykey[key]=dict(key=key,organization=update['org'],published=update['published'],inventory='個別一次資料探索',discovery=urls[0],primaryUrls=urls,recordIds=[update['id']],result='一次資料を個別参照した項目あり')
+seed_path=R/'sources/discovery-seeds.json'
+if seed_path.exists():
+ for seed in json.loads(seed_path.read_text()):
+  if seed['key'] not in bykey:bykey[seed['key']]=seed
 ledger['records']=list(bykey.values());ledger_path.write_text(json.dumps(ledger,ensure_ascii=False,separators=(',',':')))
 manifest_path=R/'dist/source-manifest.json';manifest=json.loads(manifest_path.read_text());rows=ledger['records']
 manifest['discovered']=manifest['accounted']=len(rows)

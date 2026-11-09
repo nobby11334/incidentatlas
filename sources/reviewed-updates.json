@@ -427,5 +427,345 @@
       "https://github.com/piyokango/SecurityIncidentArchive/blob/main/2026/11/05_%E6%A3%AE%E6%B0%B8%E4%B9%B3%E6%A5%AD%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE.md"
     ],
     "reviewStage": "curated"
+  },
+  {
+    "id": "nitori-20261109",
+    "org": "株式会社ニトリホールディングス",
+    "title": "管理システムへの不正アクセスと個人情報流出の可能性",
+    "published": "2026-11-09",
+    "publicationKind": "当事者公表",
+    "date": null,
+    "asof": "2026-11-09",
+    "checked": "2026-11-10",
+    "sector": "小売・EC",
+    "type": "外部攻撃",
+    "method": "不正アクセス",
+    "entry": "詳細は調査中または未公表",
+    "scope": "個人会員・購入者・法人会員・ECモール注文情報",
+    "cia": [],
+    "confirmed": null,
+    "potential": 37620000,
+    "reportedCount": null,
+    "unit": "件",
+    "status": "最大3,762万件の流出可能性・調査中",
+    "data": "氏名・連絡先・会員情報・法人の担当者情報・注文データ等。項目の組合せは対象者によって異なる。",
+    "impact": "アクセス遮断と調査。ログインパスワード・クレジットカード情報は対象外。",
+    "note": "3,762万は最大件数で、確定流出人数ではない。11月6日に判明、10月中旬〜下旬のアクセス可能性も調査中。被害額は未収録。",
+    "sources": [
+      [
+        "当事者公表",
+        "https://www.nitorihd.co.jp/news/items/2b702dbe4d438f7fef74945d68e5bd27_3.pdf"
+      ]
+    ],
+    "anonymous": false,
+    "recordKind": "当事者公表記録",
+    "collectionBatch": "daily-primary-20261110",
+    "verification": "一次資料を個別確認した項目あり",
+    "publicQuantities": [],
+    "discoverySources": [],
+    "dateLabel": "",
+    "reviewStage": "curated"
+  },
+  {
+    "id": "giken-20261109",
+    "org": "株式会社技研製作所",
+    "title": "業務用サーバへのランサムウェアを伴う不正アクセス",
+    "published": "2026-11-09",
+    "publicationKind": "当事者公表",
+    "date": null,
+    "asof": "2026-11-09",
+    "checked": "2026-11-10",
+    "sector": "製造",
+    "type": "外部攻撃",
+    "method": "ランサムウェアを含む不正アクセス",
+    "entry": "詳細は調査中または未公表",
+    "scope": "顧客・指定工場担当者とグループ従業員",
+    "cia": [],
+    "confirmed": null,
+    "potential": 3200,
+    "reportedCount": null,
+    "unit": "人",
+    "status": "約3,200名の情報漏えいのおそれ・外部送信痕跡は未確認",
+    "data": "個人情報の対象範囲を通知。クレジットカード・口座情報・マイナンバーは含まれない。",
+    "impact": "対象サーバ1台。11月5日に異常を確認し翌6日に外部接続を遮断。",
+    "note": "対象人数は公表概数。外部送信の痕跡がないことを漏えいゼロの確定とは扱わない。被害額は未収録。",
+    "sources": [
+      [
+        "当事者公表",
+        "https://www.giken.com/ja/news/notices/notice_20261109/"
+      ]
+    ],
+    "anonymous": false,
+    "recordKind": "当事者公表記録",
+    "collectionBatch": "daily-primary-20261110",
+    "verification": "一次資料を個別確認した項目あり",
+    "publicQuantities": [],
+    "discoverySources": [],
+    "dateLabel": "",
+    "reviewStage": "curated"
+  },
+  {
+    "id": "kanagawa-mns-20261109",
+    "org": "神奈川大学",
+    "title": "MNS認証基盤への不正アクセスとアカウント情報漏えいの可能性",
+    "published": "2026-11-09",
+    "publicationKind": "当事者公表",
+    "date": null,
+    "asof": "2026-11-09",
+    "checked": "2026-11-10",
+    "sector": "教育・研究",
+    "type": "外部攻撃",
+    "method": "不正アクセス",
+    "entry": "詳細は調査中または未公表",
+    "scope": "詳細は原資料参照",
+    "cia": [],
+    "confirmed": null,
+    "potential": null,
+    "reportedCount": null,
+    "unit": "件",
+    "status": "MNSアカウント情報の漏えい可能性",
+    "data": "MNSの氏名・ID・パスワード・メールアドレス。jindai.jpのパスワードは対象外。",
+    "impact": "対象サーバの学外通信を遮断し、認証基盤更新とパスワード変更を予定。",
+    "note": "10月25日の通信記録に侵入の形跡。調査実施日・発生日の同定は未了。人数・金額は未収録。",
+    "sources": [
+      [
+        "当事者公表",
+        "https://www.kanagawa-u.ac.jp/current_menu/news/article0101_04968"
+      ]
+    ],
+    "anonymous": false,
+    "recordKind": "当事者公表記録",
+    "collectionBatch": "daily-primary-20261110",
+    "verification": "一次資料を個別確認した項目あり",
+    "publicQuantities": [],
+    "discoverySources": [],
+    "dateLabel": "",
+    "reviewStage": "curated"
+  },
+  {
+    "id": "yamagata-web-20221216",
+    "org": "山形大学",
+    "title": "研究室ホームページサーバへの不正アクセスと改ざん",
+    "published": "2022-12-16",
+    "publicationKind": "当事者公表",
+    "date": null,
+    "asof": "2022-12-16",
+    "checked": "2026-11-10",
+    "sector": "教育・研究",
+    "type": "外部攻撃",
+    "method": "CMS管理者の認証情報詐取・改ざんと不正プログラム設置",
+    "entry": "詳細は調査中または未公表",
+    "scope": "同一サーバ159サイトのうち個人情報を持つ5サイト",
+    "cia": [],
+    "confirmed": null,
+    "potential": 1059,
+    "reportedCount": null,
+    "unit": "人",
+    "status": "1,059人分の個人情報漏えい可能性を排除できず",
+    "data": "アカウント・氏名等。159や5はサイト数で人数ではない。",
+    "impact": "10月26日に外部通報を受けネットワーク遮断。別サーバへ移行して再開。",
+    "note": "被害額は本資料では確認できず未収録。",
+    "sources": [
+      [
+        "当事者公表",
+        "https://www.yamagata-u.ac.jp/jp/information/info/202212161/"
+      ]
+    ],
+    "anonymous": false,
+    "recordKind": "当事者公表記録",
+    "collectionBatch": "daily-primary-20261110",
+    "verification": "一次資料を個別確認した項目あり",
+    "publicQuantities": [],
+    "discoverySources": [],
+    "dateLabel": "",
+    "reviewStage": "curated"
+  },
+  {
+    "id": "digita-20220225",
+    "org": "株式会社デジタ",
+    "title": "印刷通販デジタへの不正アクセスによる個人情報流出",
+    "published": "2022-02-25",
+    "publicationKind": "当事者公表",
+    "date": null,
+    "asof": "2022-05-26",
+    "checked": "2026-11-10",
+    "sector": "印刷・EC",
+    "type": "外部攻撃",
+    "method": "不正アクセス",
+    "entry": "詳細は調査中または未公表",
+    "scope": "詳細は原資料参照",
+    "cia": [],
+    "confirmed": 36173,
+    "potential": null,
+    "reportedCount": null,
+    "unit": "件",
+    "status": "最終報告時の累計流出36,173件",
+    "data": "メールアドレスや発送完了メールに記載された氏名・住所・電話番号等。対象によって情報項目が異なる。",
+    "impact": "調査・遮断、対象者への通知とお詫びの品の送付。",
+    "note": "初報21,042件、4月続報26,473件、最終報告36,173件を別々に足さない。500円の品の総額を実際の被害額と断定しない。発生日は未同定。",
+    "sources": [
+      [
+        "当事者公表",
+        "https://www.digita.co.jp/news/64"
+      ]
+    ],
+    "anonymous": false,
+    "recordKind": "当事者公表記録",
+    "collectionBatch": "daily-primary-20261110",
+    "verification": "一次資料を個別確認した項目あり",
+    "publicQuantities": [],
+    "discoverySources": [],
+    "dateLabel": "",
+    "reviewStage": "curated"
+  },
+  {
+    "id": "eiken-career-20220801",
+    "org": "公益財団法人日本英語検定協会",
+    "title": "キャリタス資格検定の不正アクセスによる情報流出の可能性",
+    "published": "2022-08-01",
+    "publicationKind": "当事者公表",
+    "date": null,
+    "asof": "2022-08-01",
+    "checked": "2026-11-10",
+    "sector": "教育・研究",
+    "type": "外部攻撃",
+    "method": "委託先のWebアプリケーションへのSQLインジェクション",
+    "entry": "株式会社ディスコが運営する申込サービス",
+    "scope": "詳細は原資料参照",
+    "cia": [],
+    "confirmed": null,
+    "potential": null,
+    "reportedCount": null,
+    "unit": "件",
+    "status": "委託先からの情報流出の可能性を公表",
+    "data": "キャリタス資格検定を利用した個人申込者の情報。今回参照箇所では数量未確認。",
+    "impact": "",
+    "note": "攻撃対象は申込サービスの提供元。協会サイトへの直接侵入と区別。2022年5月15日〜16日の不正アクセスを公表。",
+    "sources": [
+      [
+        "当事者公表",
+        "https://www.eiken.or.jp/eiken/info/2022/0801_1.html"
+      ]
+    ],
+    "anonymous": false,
+    "recordKind": "当事者公表記録",
+    "collectionBatch": "daily-primary-20261110",
+    "verification": "一次資料を個別確認した項目あり",
+    "publicQuantities": [],
+    "discoverySources": [],
+    "dateLabel": "",
+    "reviewStage": "curated",
+    "relatedOrganizations": [
+      "株式会社ディスコ"
+    ]
+  },
+  {
+    "id": "ntt-vitality-20261109",
+    "org": "株式会社NTTデータ",
+    "title": "住友生命Vitality申込サービスの不正アクセスによる個人情報漏えい",
+    "published": "2026-11-09",
+    "publicationKind": "当事者公表",
+    "date": null,
+    "asof": "2026-11-09",
+    "checked": "2026-11-10",
+    "sector": "IT・情報サービス",
+    "type": "外部攻撃",
+    "method": "受託したサービスへの不正アクセス",
+    "entry": "住友生命から構築・運用を受託したサービス",
+    "scope": "住友生命Vitality体験版・企業型、Vitalityスマート等の申込利用者",
+    "cia": [],
+    "confirmed": 80000,
+    "potential": null,
+    "reportedCount": null,
+    "unit": "人",
+    "status": "約8万名の情報漏えいを公表",
+    "data": "氏名・住所・電話番号・生年月日・メールアドレス・一部マスキング済みクレジットカード番号のいずれか。",
+    "impact": "11月2日に不正アクセスを確認し、3日に外部アクセスを遮断してサービス停止。",
+    "note": "公表概数の約8万名。STdirectServicesの委託先SaaS事案とはサービスと原因系統が異なるため分離。被害額は未収録。",
+    "sources": [
+      [
+        "当事者公表",
+        "https://www.nttdata.com/global/ja/news/release/2026/110900/"
+      ]
+    ],
+    "anonymous": false,
+    "recordKind": "当事者公表記録",
+    "collectionBatch": "daily-primary-20261110",
+    "verification": "一次資料を個別確認した項目あり",
+    "publicQuantities": [],
+    "discoverySources": [],
+    "dateLabel": "",
+    "reviewStage": "curated",
+    "relatedOrganizations": [
+      "住友生命保険相互会社"
+    ]
+  },
+  {
+    "id": "oct26-5e128745a0b2",
+    "org": "株式会社NTTデータ",
+    "title": "STdirectServicesの委託先SaaSへの不正アクセスとサービス停止",
+    "published": "2026-10-31",
+    "publicationKind": "公表索引日（初報・続報の別は未分離）",
+    "date": null,
+    "asof": "2026-11-07",
+    "checked": "2026-11-10",
+    "sector": "業種未分類",
+    "type": "外部攻撃",
+    "method": "不正アクセス",
+    "entry": "委託先Securitize JapanのSaaS認証機能",
+    "scope": "委託先・外部サービス",
+    "cia": [
+      "機密性"
+    ],
+    "confirmed": null,
+    "potential": null,
+    "reportedCount": null,
+    "unit": "件",
+    "status": "公表本文確認・規模未分離",
+    "data": "原文に登場する情報項目：氏名、住所、電話番号、メールアドレス、生年月日。対象／対象外の別は各出典参照。",
+    "impact": "当事者の公表本文を取得。業務影響・復旧状況の詳細は原資料参照。",
+    "note": "一次資料の本文取得と項目の機械照合を実施。日付は月次索引の公表記録日で初報とは限りません。数量は本文に同値がある項目のみ採用し、実流出確認・対象範囲・内数を未分離のものは確認済み欄へ算入していません。関連する提供元事故や他の影響先との重複は未統合。 2026-11-10にサービス名を本文で確認。11月9日公表の住友生命Vitality受託サービスの事案と区別。",
+    "sources": [
+      [
+        "当事者公表資料",
+        "https://www.nttdata.com/global/ja/news/release/2026/110200/"
+      ],
+      [
+        "当事者公表資料",
+        "https://www.nttdata.com/global/ja/news/release/2026/103101/"
+      ]
+    ],
+    "anonymous": false,
+    "recordKind": "当事者公表記録",
+    "collectionBatch": "2026-10-reconciliation",
+    "verification": "一次資料の機械照合・詳細精査前",
+    "publicQuantities": [
+      {
+        "value": 111,
+        "unit": "名",
+        "label": "人数（対象・内数は未分離）",
+        "certainty": "確認状況は原資料参照",
+        "sourceValue": "111名",
+        "kind": "scope"
+      },
+      {
+        "value": 2678,
+        "unit": "名",
+        "label": "人数（対象・内数は未分離）",
+        "certainty": "確認状況は原資料参照",
+        "sourceValue": "2,678名",
+        "kind": "scope"
+      }
+    ],
+    "relatedIncidentGroups": [
+      "securitize-2026"
+    ],
+    "discoverySources": [
+      "https://radineer.asia/cyber/cases/f767cdeede0e9ec309ae/",
+      "https://incidents.seory.co.jp/incidents/20261031-dac272/"
+    ],
+    "relatedOrganizations": [
+      "Securitize Japan株式会社"
+    ]
   }
 ]
