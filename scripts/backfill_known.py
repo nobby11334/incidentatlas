@@ -16,7 +16,7 @@ for name,value in [('inventory.json',items),('details.json',items),('details-com
 manifest=read(ROOT/'dist/source-manifest.json')
 if manifest.get('sourceSnapshots') and not (P/'source-snapshots.json').exists():(P/'source-snapshots.json').write_text(json.dumps(manifest['sourceSnapshots']))
 targets=sorted({u for r in ledger for u in r.get('primaryUrls',[])})
-(P/'fetch-urls.json').write_text(json.dumps(targets));baseline=read(ROOT/'dist/data.json');(P/'baseline.json').write_text(json.dumps(baseline,ensure_ascii=False))
+(P/'fetch-urls.json').write_text(json.dumps(targets));(P/'ledger-baseline.json').write_text(json.dumps(read(ROOT/'dist/reconciliation.json'),ensure_ascii=False));baseline=read(ROOT/'dist/data.json');(P/'baseline.json').write_text(json.dumps(baseline,ensure_ascii=False))
 print('Known unresolved publications',sum(not r.get('recordIds') for r in ledger),'primary URLs to retry',len(targets),flush=True)
 try:subprocess.run(['python','scripts/fetch_primary_sources.py'],cwd=ROOT,env={**os.environ,'INCIDENT_FETCH_URLS':str(P/'fetch-urls.json')},timeout=720,check=True)
 except subprocess.TimeoutExpired:print('Retrieval budget reached; retaining completed checkpoints and all unresolved candidates.',flush=True)
@@ -34,3 +34,5 @@ subprocess.run(['python','scripts/verify_sources.py',str(P/'baseline.json')],cwd
 subprocess.run(['python','scripts/merge_publications.py'],cwd=ROOT,check=True)
 subprocess.run(['python','scripts/verify_duplicates.py'],cwd=ROOT,check=True)
 new=read(ROOT/'dist/data.json');print('Added public records',len(new)-len(baseline),flush=True)
+
+subprocess.run(['python','scripts/prepare_backfill_commit.py'],cwd=ROOT,check=True)
