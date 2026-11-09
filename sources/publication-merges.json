@@ -11,7 +11,12 @@
     "evidence": [
       "https://www.e-design.net/company/news/2026/2026_11_05.html",
       "https://www.e-design.net/docomo/information/2026/2026_11_05.html"
-    ]
+    ],
+    "discoveryKeys": [
+      "search-7a162b61b01df7db7f550f59",
+      "search-af50963b6e61b84c27899387"
+    ],
+    "discoveryReason": "2026-11-10に索引のマイページ・74件の記載を当事者11月5日公表と照合。索引の組織欄への見出し混入・件数接頭辞による別名を統合。"
   },
   {
     "canonicalId": "oct26-9626ce11d8bd",

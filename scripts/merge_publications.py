@@ -57,6 +57,14 @@ def apply():
   if ids:
    if not row.get('recordIds'):row['result']='既存公表記録とURL照合（別表記を統合）'
    row['recordIds']=sorted(ids)
+ # Explicitly reviewed index aliases retain their discovery rows, linked to the canonical record.
+ for rule in rules:
+  canonical=byid.get(rule['canonicalId'])
+  if not canonical:continue
+  for row in ledger['records']:
+   if row['key'] in rule.get('discoveryKeys',[]):
+    row['recordIds']=[canonical['id']];row['result']='索引の別名・再掲を当事者公表に個別照合';row['reviewNote']=rule.get('discoveryReason','')
+    canonical['discoverySources']=list(dict.fromkeys(canonical.get('discoverySources',[])+[row['discovery']]))
  # Deduplicate unresolved index copies only by an explicit shared source URL and organization.
  pending={};pendingAliases=0
  for row in ledger['records']:

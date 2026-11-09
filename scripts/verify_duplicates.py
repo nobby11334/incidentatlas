@@ -19,3 +19,8 @@ for r in ledger:
   target=bykey[r['duplicateOfKey']];assert not target.get('duplicateOfKey')
   assert any(a['key']==r['key'] for a in target.get('discoveryAliases',[]))
 print('Duplicate source identities and retained provenance verified:',len(data),'public records')
+
+for rule in read(R/"sources/publication-merges.json"):
+ for key in rule.get("discoveryKeys",[]):
+  row=bykey.get(key)
+  if row:assert row.get("recordIds")==[rule["canonicalId"]],"Reviewed index copy reappeared"
